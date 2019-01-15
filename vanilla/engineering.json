@@ -35,9 +35,9 @@
           "cost": 0,
           "description": "要成为能够远航宇宙的文明，需要有基础工业建设。",
           "feature_unlocks": [
-            "\u003cb\u003eBuilding\u003c/b\u003e: 合金铸造厂",
-            "\u003cb\u003eBuilding\u003c/b\u003e: 民用工业",
-            "\u003cb\u003eBuilding\u003c/b\u003e: 资源仓库"
+            "\u003cb\u003e建筑\u003c/b\u003e: 合金铸造厂",
+            "\u003cb\u003e建筑\u003c/b\u003e: 民用工业",
+            "\u003cb\u003e建筑\u003c/b\u003e: 资源仓库"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -75,7 +75,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
               ],
               "potential": [],
               "children": [
@@ -105,7 +105,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                   ],
                   "potential": [],
                   "children": [
@@ -135,7 +135,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                       ],
                       "potential": [],
                       "children": [],
@@ -153,7 +153,7 @@
                   "cost": 2500,
                   "description": "优化矿物开采工艺可使我们的效率达到新的水平。",
                   "feature_unlocks": [
-                    "\u003cb\u003eBuilding\u003c/b\u003e: 矿物处理站",
+                    "\u003cb\u003e建筑\u003c/b\u003e: 矿物处理站",
                     "\u003cb\u003eEdict\u003c/b\u003e: 生产指标"
                   ],
                   "is_dangerous": false,
@@ -171,8 +171,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: 微粒稳定化\u003cbr/\u003e    •   Has Technology: 不稳定材料生产厂\u003cbr/\u003e    •   Has the has_market_access country flag",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   拥有 科技: 微粒稳定化\u003cbr/\u003e    •   拥有 科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 the has_market_access country flag",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                   ],
                   "potential": [],
                   "children": [
@@ -185,7 +185,7 @@
                       "cost": 6000,
                       "description": "对半精炼的矿物进行二级处理，可使矿物的存储和运输更为高效。",
                       "feature_unlocks": [
-                        "\u003cb\u003eBuilding\u003c/b\u003e: 矿物处理中心"
+                        "\u003cb\u003e建筑\u003c/b\u003e: 矿物处理中心"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -207,7 +207,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                       ],
                       "potential": [],
                       "children": [
@@ -277,7 +277,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
               ],
               "potential": [],
               "children": [
@@ -290,8 +290,8 @@
                   "cost": 3000,
                   "description": "这些机器人工作单位适合做低廉的劳务工作。它们肯干，遵循声音指令，但无法胜任更高级的工作。",
                   "feature_unlocks": [
-                    "\u003cb\u003eFeature : \u003c/b\u003e机器人劳力",
-                    "\u003cb\u003eBuilding\u003c/b\u003e: 机器人组建厂"
+                    "\u003cb\u003e特征 : \u003c/b\u003e机器人劳力",
+                    "\u003cb\u003e建筑\u003c/b\u003e: 机器人组建厂"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -308,13 +308,13 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔机器人劳工",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 唯心主义 Ethic\u003cbr/\u003e    •   Has 极端唯心主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 唯物主义 Ethic\u003cbr/\u003e    •   Has 极端唯物主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔机器人劳工",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 唯心主义 道德\u003cbr/\u003e    •   拥有 极端唯心主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 唯物主义 道德\u003cbr/\u003e    •   拥有 极端唯物主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                   ],
                   "potential": [
-                    "Does NOT have 格式塔意识 Ethic"
+                    "没有 格式塔意识 道德"
                   ],
                   "children": [
                     {
@@ -326,7 +326,7 @@
                       "cost": 4000,
                       "description": "通过可重写的组装模板创造定制的合成人工人设计。",
                       "feature_unlocks": [
-                        "\u003cb\u003eFeature : \u003c/b\u003e机器改造",
+                        "\u003cb\u003e特征 : \u003c/b\u003e机器改造",
                         "机器人修正点数 +2"
                       ],
                       "is_dangerous": false,
@@ -344,11 +344,11 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔机器人劳工",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔机器人劳工",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                       ],
                       "potential": [
-                        "Does NOT have 格式塔意识 Ethic"
+                        "没有 格式塔意识 道德"
                       ],
                       "children": [
                         {
@@ -382,12 +382,12 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔机器人劳工",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Government Civic: 机械主义者",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   Skill level is greater than 2"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔机器人劳工",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 政体: 机械主义者",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   等级大于 2"
                           ],
                           "potential": [
-                            "Does NOT have 格式塔意识 Ethic"
+                            "没有 格式塔意识 道德"
                           ],
                           "children": [
                             {
@@ -421,13 +421,13 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔机器人劳工",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Government Civic: 机械主义者",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Has 虚弱肉身 Ascension Perk",
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：工业"
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔机器人劳工",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 政体: 机械主义者",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 虚弱肉身 Ascension Perk",
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：工业"
                               ],
                               "potential": [
-                                "Does NOT have 格式塔意识 Ethic"
+                                "没有 格式塔意识 道德"
                               ],
                               "children": [],
                               "is_event": false
@@ -447,8 +447,8 @@
                       "cost": 6000,
                       "description": "升级版机器人人员，这些单位拥有和大多有机生物相同的行为能力。它们的神经处理器也有很大的提升。",
                       "feature_unlocks": [
-                        "\u003cb\u003eArmy\u003c/b\u003e: 机器人军团",
-                        "\u003cb\u003eFeature : \u003c/b\u003e智能人劳力"
+                        "\u003cb\u003e陆军\u003c/b\u003e: 机器人军团",
+                        "\u003cb\u003e特征 : \u003c/b\u003e智能人劳力"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -470,14 +470,14 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔机器人劳工",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 唯心主义 Ethic\u003cbr/\u003e    •   Has 极端唯心主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 唯物主义 Ethic\u003cbr/\u003e    •   Has 极端唯物主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Government Civic: 机械主义者",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   Skill level is greater than 2"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔机器人劳工",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 唯心主义 道德\u003cbr/\u003e    •   拥有 极端唯心主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 唯物主义 道德\u003cbr/\u003e    •   拥有 极端唯物主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 政体: 机械主义者",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   等级大于 2"
                       ],
                       "potential": [
-                        "Does NOT have 格式塔意识 Ethic"
+                        "没有 格式塔意识 道德"
                       ],
                       "children": [
                         {
@@ -489,7 +489,7 @@
                           "cost": 20000,
                           "description": "高级机器人，比绝大多数有机生物更强，更快，更耐用。神经处理器有很大提高，拥有独立运作的能力。",
                           "feature_unlocks": [
-                            "\u003cb\u003eFeature : \u003c/b\u003e合成人劳力",
+                            "\u003cb\u003e特征 : \u003c/b\u003e合成人劳力",
                             "机器人产出 +10%"
                           ],
                           "is_dangerous": true,
@@ -517,15 +517,15 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔机器人劳工",
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 唯心主义 Ethic\u003cbr/\u003e    •   Has 极端唯心主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 唯物主义 Ethic\u003cbr/\u003e    •   Has 极端唯物主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Government Civic: 机械主义者",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Has 虚弱肉身 Ascension Perk",
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：工业"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔机器人劳工",
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 唯心主义 道德\u003cbr/\u003e    •   拥有 极端唯心主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 唯物主义 道德\u003cbr/\u003e    •   拥有 极端唯物主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 政体: 机械主义者",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 虚弱肉身 Ascension Perk",
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：工业"
                           ],
                           "potential": [
-                            "Does NOT have 格式塔意识 Ethic"
+                            "没有 格式塔意识 道德"
                           ],
                           "children": [
                             {
@@ -537,7 +537,7 @@
                               "cost": 24000,
                               "description": "合成人被赋予人格之后，终能与其他的人们平等地进行社会交流。有一些合成人甚至能够担任领袖角色。",
                               "feature_unlocks": [
-                                "\u003cb\u003eFeature : \u003c/b\u003e合成人领袖"
+                                "\u003cb\u003e特征 : \u003c/b\u003e合成人领袖"
                               ],
                               "is_dangerous": false,
                               "is_rare": false,
@@ -554,12 +554,12 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔机器人劳工",
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy 取缔人工智能",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   Skill level is greater than 3"
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔机器人劳工",
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政策 取缔人工智能",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   等级大于 3"
                               ],
                               "potential": [
-                                "Does NOT have 格式塔意识 Ethic"
+                                "没有 格式塔意识 道德"
                               ],
                               "children": [],
                               "is_event": false
@@ -582,7 +582,7 @@
                   "cost": 4000,
                   "description": "组装模板的标准化让子人口的分工更加明确。",
                   "feature_unlocks": [
-                    "\u003cb\u003eFeature : \u003c/b\u003e机器改造",
+                    "\u003cb\u003e特征 : \u003c/b\u003e机器改造",
                     "机械修正点数 +1"
                   ],
                   "is_dangerous": false,
@@ -600,10 +600,10 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                   ],
                   "potential": [
-                    "Has 机械智能 Authority"
+                    "拥有 机械智能 Authority"
                   ],
                   "children": [
                     {
@@ -637,10 +637,10 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   Skill level is greater than 2"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业\u003cbr/\u003e    •   等级大于 2"
                       ],
                       "potential": [
-                        "Has 机械智能 Authority"
+                        "拥有 机械智能 Authority"
                       ],
                       "children": [
                         {
@@ -674,10 +674,10 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：工业"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：工业"
                           ],
                           "potential": [
-                            "Has 机械智能 Authority"
+                            "拥有 机械智能 Authority"
                           ],
                           "children": [],
                           "is_event": false
@@ -700,7 +700,7 @@
               "cost": 3000,
               "description": "有了提前编写过的纳米电路，很多消费品能够快速地在化工厂中组装。",
               "feature_unlocks": [
-                "\u003cb\u003eBuilding\u003c/b\u003e: 民用化工厂"
+                "\u003cb\u003e建筑\u003c/b\u003e: 民用化工厂"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -717,11 +717,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: 稀有水晶开采\u003cbr/\u003e    •   Has Technology: 稀有水晶生产\u003cbr/\u003e    •   Has the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   拥有 科技: 稀有水晶开采\u003cbr/\u003e    •   拥有 科技: 稀有水晶生产\u003cbr/\u003e    •   拥有 the has_market_access country flag",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
               ],
               "potential": [
-                "One must be true\n    •   Does NOT have 格式塔意识 Ethic\n    •   Has Government Civic: 失控机械侍从"
+                "至少有一个\n    •   没有 格式塔意识 道德\n    •   拥有 政体: 失控机械侍从"
               ],
               "children": [
                 {
@@ -733,7 +733,7 @@
                   "cost": 8000,
                   "description": "对物件的图样进行储存后，可以在这里复制生产已储存的物件。",
                   "feature_unlocks": [
-                    "\u003cb\u003eBuilding\u003c/b\u003e: 民用复制厂"
+                    "\u003cb\u003e建筑\u003c/b\u003e: 民用复制厂"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -755,10 +755,10 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
                   ],
                   "potential": [
-                    "One must be true\n    •   Does NOT have 格式塔意识 Ethic\n    •   Has Government Civic: 失控机械侍从"
+                    "至少有一个\n    •   没有 格式塔意识 道德\n    •   拥有 政体: 失控机械侍从"
                   ],
                   "children": [],
                   "is_event": false
@@ -775,7 +775,7 @@
               "cost": 3000,
               "description": "全息影像铸模可以瞬间改变自身形态，从而提升合金的生产速度。",
               "feature_unlocks": [
-                "\u003cb\u003eBuilding\u003c/b\u003e: 合金巨型熔炉"
+                "\u003cb\u003e建筑\u003c/b\u003e: 合金巨型熔炉"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -792,8 +792,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: 微粒稳定化\u003cbr/\u003e    •   Has Technology: 不稳定材料生产厂\u003cbr/\u003e    •   Has the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   拥有 科技: 微粒稳定化\u003cbr/\u003e    •   拥有 科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 the has_market_access country flag",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
               ],
               "potential": [],
               "children": [
@@ -806,7 +806,7 @@
                   "cost": 8000,
                   "description": "纳米分离器乃是合金制造业改革性的新一步。不仅对铸模时间进行大幅缩小，更能够对生产质量进行总体提升。",
                   "feature_unlocks": [
-                    "\u003cb\u003eBuilding\u003c/b\u003e: 合金纳米制造厂"
+                    "\u003cb\u003e建筑\u003c/b\u003e: 合金纳米制造厂"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -828,7 +828,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
                   ],
                   "potential": [],
                   "children": [],
@@ -846,7 +846,7 @@
               "cost": 4000,
               "description": "结晶化的过程复杂且困难，但只要有专门的生产工厂，我们就可以生产人造水晶。",
               "feature_unlocks": [
-                "\u003cb\u003eBuilding\u003c/b\u003e: 合成水晶厂"
+                "\u003cb\u003e建筑\u003c/b\u003e: 合成水晶厂"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -863,8 +863,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit 水晶洞穴\u003cbr/\u003e\t\t    •   Has deposit 水晶森林\u003cbr/\u003e\t\t    •   Has deposit 水晶礁石\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +1\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +2\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +3\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +4\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +5",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit 水晶洞穴\u003cbr/\u003e\t\t    •   拥有 deposit 水晶森林\u003cbr/\u003e\t\t    •   拥有 deposit 水晶礁石\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +1\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +2\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +3\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +4\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +5",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
               ],
               "potential": [],
               "children": [],
@@ -879,7 +879,7 @@
               "cost": 4000,
               "description": "外星气体可以人工生产，但是较为困难，需要先进的精炼设备。",
               "feature_unlocks": [
-                "\u003cb\u003eBuilding\u003c/b\u003e: 异星天然气精炼厂"
+                "\u003cb\u003e建筑\u003c/b\u003e: 异星天然气精炼厂"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -896,8 +896,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit 冒泡的沼泽\u003cbr/\u003e\t\t    •   Has deposit 冒烟的泥潭\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +1\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +2\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +3\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +4\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +5",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit 冒泡的沼泽\u003cbr/\u003e\t\t    •   拥有 deposit 冒烟的泥潭\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +1\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +2\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +3\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +4\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +5",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
               ],
               "potential": [],
               "children": [],
@@ -939,7 +939,7 @@
               "description": "在矿物开采站中加入精炼厂这一部门后，将会大幅提升采矿生产率。",
               "feature_unlocks": [
                 "开采站产出 +10%",
-                "\u003cb\u003eStarbase Building\u003c/b\u003e: 星云精炼厂"
+                "\u003cb\u003eStarbase 建筑\u003c/b\u003e: 星云精炼厂"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -956,7 +956,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
               ],
               "potential": [],
               "children": [
@@ -986,7 +986,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                   ],
                   "potential": [],
                   "children": [
@@ -1016,7 +1016,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                       ],
                       "potential": [],
                       "children": [
@@ -1046,7 +1046,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                           ],
                           "potential": [],
                           "children": [
@@ -1076,7 +1076,7 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                               ],
                               "potential": [],
                               "children": [],
@@ -1103,7 +1103,7 @@
               "cost": 2500,
               "description": "贝塞里安矿最早似乎出自单一矿源，但千年前，开始出现与星系各处。此类矿物成鹅卵石大小，群状分布，并且高度易燃。",
               "feature_unlocks": [
-                "\u003cb\u003eBuilding\u003c/b\u003e: 贝塞里安发电站"
+                "\u003cb\u003e建筑\u003c/b\u003e: 贝塞里安发电站"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1120,8 +1120,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) No Owned Planet\u003cbr/\u003e    •   Has deposit 发现贝塞里安石\u003cbr/\u003e£minerals£ +2"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) No Owned Planet\u003cbr/\u003e    •   拥有 deposit 发现贝塞里安石\u003cbr/\u003e£minerals£ +2"
               ],
               "potential": [],
               "children": [],
@@ -1137,7 +1137,7 @@
               "description": "在不损坏甚至是摧毁它们的前提下开采这些水晶，是一件对精密性要求很高的工作，需要极度精密的先进设备。",
               "feature_unlocks": [
                 "\u003cb\u003eReveals Ressource\u003c/b\u003e: 稀有水晶",
-                "\u003cb\u003eBuilding\u003c/b\u003e: 水晶矿"
+                "\u003cb\u003e建筑\u003c/b\u003e: 水晶矿"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1154,8 +1154,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit 水晶洞穴\u003cbr/\u003e\t\t    •   Has deposit 水晶森林\u003cbr/\u003e\t\t    •   Has deposit 水晶礁石\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +1\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +2\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +3\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +4\u003cbr/\u003e\t\t    •   Has deposit £rare_crystals£  +5"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit 水晶洞穴\u003cbr/\u003e\t\t    •   拥有 deposit 水晶森林\u003cbr/\u003e\t\t    •   拥有 deposit 水晶礁石\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +1\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +2\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +3\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +4\u003cbr/\u003e\t\t    •   拥有 deposit £rare_crystals£  +5"
               ],
               "potential": [],
               "children": [],
@@ -1171,7 +1171,7 @@
               "description": "异星天然气十分珍贵，但以传统方式进行采集是不可取的。只有发展了特殊收集技术，才能对其进行收集。",
               "feature_unlocks": [
                 "\u003cb\u003eReveals Ressource\u003c/b\u003e: 异星天然气",
-                "\u003cb\u003eBuilding\u003c/b\u003e: 气体采集井"
+                "\u003cb\u003e建筑\u003c/b\u003e: 气体采集井"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1188,8 +1188,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit 冒泡的沼泽\u003cbr/\u003e\t\t    •   Has deposit 冒烟的泥潭\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +1\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +2\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +3\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +4\u003cbr/\u003e\t\t    •   Has deposit £exotic_gases£  +5"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit 冒泡的沼泽\u003cbr/\u003e\t\t    •   拥有 deposit 冒烟的泥潭\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +1\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +2\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +3\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +4\u003cbr/\u003e\t\t    •   拥有 deposit £exotic_gases£  +5"
               ],
               "potential": [],
               "children": [],
@@ -1204,7 +1204,7 @@
               "cost": 4000,
               "description": "我们需要收集的易爆微粒性质十分不稳定，采集工作也危险重重。为了不在该过程中引起连环爆炸，需要使用力场对微粒进行稳定化。",
               "feature_unlocks": [
-                "\u003cb\u003eBuilding\u003c/b\u003e: 微粒收割陷阱",
+                "\u003cb\u003e建筑\u003c/b\u003e: 微粒收割陷阱",
                 "\u003cb\u003eReveals Ressource\u003c/b\u003e: 易爆微粒"
               ],
               "is_dangerous": false,
@@ -1222,8 +1222,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit 灰尘洞穴\u003cbr/\u003e\t\t    •   Has deposit 灰尘沙漠\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£  +1\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£  +2\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£  +3\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£  +4\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£  +5"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit 灰尘洞穴\u003cbr/\u003e\t\t    •   拥有 deposit 灰尘沙漠\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   至少有一个\u003cbr/\u003e\t\t    •   拥有 deposit £volatile_motes£  +1\u003cbr/\u003e\t\t    •   拥有 deposit £volatile_motes£  +2\u003cbr/\u003e\t\t    •   拥有 deposit £volatile_motes£  +3\u003cbr/\u003e\t\t    •   拥有 deposit £volatile_motes£  +4\u003cbr/\u003e\t\t    •   拥有 deposit £volatile_motes£  +5"
               ],
               "potential": [],
               "children": [],
@@ -1287,7 +1287,7 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 10",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 15",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 20",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
           ],
           "potential": [],
           "children": [
@@ -1317,8 +1317,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 军国主义 Ethic\u003cbr/\u003e    •   Has 极端军国主义 Ethic"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 军国主义 道德\u003cbr/\u003e    •   拥有 极端军国主义 道德"
               ],
               "potential": [],
               "children": [
@@ -1348,8 +1348,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：工业\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 军国主义 Ethic\u003cbr/\u003e    •   Has 极端军国主义 Ethic"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：工业\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 军国主义 道德\u003cbr/\u003e    •   拥有 极端军国主义 道德"
                   ],
                   "potential": [],
                   "children": [
@@ -1419,7 +1419,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 30",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 35",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 40",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
               ],
               "potential": [],
               "children": [
@@ -1453,7 +1453,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 30",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 35",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 40",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
                   ],
                   "potential": [],
                   "children": [],
@@ -1484,7 +1484,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
           ],
           "potential": [],
           "children": [
@@ -1497,9 +1497,9 @@
               "cost": 8000,
               "description": "有了最先进的建筑，全息影像以及美化技术，我们将建造一个真正的未来家园。",
               "feature_unlocks": [
-                "\u003cb\u003eBuilding\u003c/b\u003e: 有机生物乐土",
-                "\u003cb\u003eBuilding\u003c/b\u003e: 乐土园",
-                "\u003cb\u003eBuilding\u003c/b\u003e: 乌托邦公共住房"
+                "\u003cb\u003e建筑\u003c/b\u003e: 有机生物乐土",
+                "\u003cb\u003e建筑\u003c/b\u003e: 乐土园",
+                "\u003cb\u003e建筑\u003c/b\u003e: 乌托邦公共住房"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1516,11 +1516,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: 稀有水晶开采\u003cbr/\u003e    •   Has Technology: 稀有水晶生产\u003cbr/\u003e    •   Has the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   拥有 科技: 稀有水晶开采\u003cbr/\u003e    •   拥有 科技: 稀有水晶生产\u003cbr/\u003e    •   拥有 the has_market_access country flag",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [
-                "One must be true\n    •   Does NOT have 格式塔意识 Ethic\n    •   Has Government Civic: 失控机械侍从"
+                "至少有一个\n    •   没有 格式塔意识 道德\n    •   拥有 政体: 失控机械侍从"
               ],
               "children": [],
               "is_event": false
@@ -1535,7 +1535,7 @@
               "description": "在指向性重力科技的帮助下，星球地表的建筑可以达到前所未有的高度，而不必担心结构崩塌。通天塔指日可待！",
               "feature_unlocks": [
                 "城市区划住房：+1",
-                "\u003cb\u003eBuilding\u003c/b\u003e: 拓展养殖场"
+                "\u003cb\u003e建筑\u003c/b\u003e: 拓展养殖场"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1552,8 +1552,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has Government Civic: 田园牧歌",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 政体: 田园牧歌",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：工业"
               ],
               "potential": [],
               "children": [],
@@ -1572,7 +1572,7 @@
           "description": "配有显微设备的复制机能够让我们复制出带有更多复杂细节的子人口。",
           "feature_unlocks": [
             "人口组建速度 +10%",
-            "\u003cb\u003eBuilding\u003c/b\u003e: 升级版无人机库"
+            "\u003cb\u003e建筑\u003c/b\u003e: 升级版无人机库"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -1582,10 +1582,10 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is 专长：工业"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：工业"
           ],
           "potential": [
-            "Has 机械智能 Authority"
+            "拥有 机械智能 Authority"
           ],
           "children": [
             {
@@ -1614,10 +1614,10 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is 专长：工业"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：工业"
               ],
               "potential": [
-                "Has 机械智能 Authority"
+                "拥有 机械智能 Authority"
               ],
               "children": [],
               "is_event": false
@@ -1676,7 +1676,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
               ],
               "potential": [],
               "children": [
@@ -1708,7 +1708,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
                   ],
                   "potential": [],
                   "children": [
@@ -1740,7 +1740,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
                       ],
                       "potential": [],
                       "children": [
@@ -1772,7 +1772,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：材料科学"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：材料科学"
                           ],
                           "potential": [],
                           "children": [],
@@ -1873,9 +1873,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
               ],
               "potential": [],
               "children": [
@@ -1905,9 +1905,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                   ],
                   "potential": [],
                   "children": [
@@ -1937,9 +1937,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                       ],
                       "potential": [],
                       "children": [
@@ -1969,9 +1969,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                           ],
                           "potential": [],
                           "children": [],
@@ -2069,9 +2069,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                   ],
                   "potential": [],
                   "children": [
@@ -2101,9 +2101,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                       ],
                       "potential": [],
                       "children": [],
@@ -2141,9 +2141,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
               ],
               "potential": [],
               "children": [
@@ -2173,9 +2173,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                   ],
                   "potential": [],
                   "children": [
@@ -2205,9 +2205,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                       ],
                       "potential": [],
                       "children": [],
@@ -2269,9 +2269,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
               ],
               "potential": [],
               "children": [
@@ -2301,9 +2301,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                   ],
                   "potential": [],
                   "children": [],
@@ -2362,9 +2362,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：动力学",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Technology: 离子推进器",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Technology: 等离子推进器"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：动力学",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 科技: 离子推进器",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 科技: 等离子推进器"
               ],
               "potential": [],
               "children": [
@@ -2399,7 +2399,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：动力学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：动力学"
                   ],
                   "potential": [],
                   "children": [],
@@ -2434,8 +2434,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：动力学",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Technology: 驱逐舰"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：动力学",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 科技: 驱逐舰"
               ],
               "potential": [],
               "children": [
@@ -2465,8 +2465,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：动力学",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Technology: 巡洋舰"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：动力学",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 科技: 巡洋舰"
                   ],
                   "potential": [],
                   "children": [
@@ -2496,8 +2496,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：动力学",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Technology: 战列舰"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：动力学",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 科技: 战列舰"
                       ],
                       "potential": [],
                       "children": [
@@ -2527,7 +2527,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Is of country type: 失落帝国\u003cbr/\u003e    •   Is of country type: 觉醒帝国"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   Is of country type: 失落帝国\u003cbr/\u003e    •   Is of country type: 觉醒帝国"
                           ],
                           "potential": [],
                           "children": [],
@@ -2597,9 +2597,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
               ],
               "potential": [],
               "children": [
@@ -2631,9 +2631,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                   ],
                   "potential": [],
                   "children": [
@@ -2665,9 +2665,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                       ],
                       "potential": [],
                       "children": [
@@ -2697,9 +2697,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                           ],
                           "potential": [],
                           "children": [
@@ -2734,9 +2734,9 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                               ],
                               "potential": [],
                               "children": [],
@@ -2776,9 +2776,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                           ],
                           "potential": [],
                           "children": [
@@ -2813,9 +2813,9 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                               ],
                               "potential": [],
                               "children": [],
@@ -2852,9 +2852,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                           ],
                           "potential": [],
                           "children": [],
@@ -2952,10 +2952,10 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) Does NOT have Technology: 物质加速炮",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 没有 科技: 物质加速炮",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                   ],
                   "potential": [],
                   "children": [
@@ -2985,9 +2985,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                       ],
                       "potential": [],
                       "children": [
@@ -3017,9 +3017,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has 极端军国主义 Ethic",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：动力学"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：动力学"
                           ],
                           "potential": [],
                           "children": [],
@@ -3086,12 +3086,12 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) NOT Number of years since game start is greater than 10",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   Has Technology: 驱逐舰",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   拥有 科技: 驱逐舰",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 15",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Number of years since game start is greater than 20",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Number of years since game start is greater than 30",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
               ],
               "potential": [],
               "children": [
@@ -3121,8 +3121,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                   ],
                   "potential": [],
                   "children": [
@@ -3152,9 +3152,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                       ],
                       "potential": [],
                       "children": [],
@@ -3191,12 +3191,12 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) NOT Number of years since game start is greater than 20",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   Has Technology: 巡洋舰",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   拥有 科技: 巡洋舰",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 30",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Number of years since game start is greater than 35",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Number of years since game start is greater than 40",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                   ],
                   "potential": [],
                   "children": [
@@ -3228,12 +3228,12 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) NOT Number of years since game start is greater than 50",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   Has Technology: 战列舰",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   拥有 科技: 战列舰",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 60",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Number of years since game start is greater than 65",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Number of years since game start is greater than 70",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                       ],
                       "potential": [],
                       "children": [
@@ -3268,15 +3268,15 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) NOT Number of years since game start is greater than 100",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   Has Technology: 泰坦",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   拥有 科技: 泰坦",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 130",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Number of years since game start is greater than 140",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Number of years since game start is greater than 150",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                           ],
                           "potential": [
-                            "Has DLC Apocalypse"
+                            "拥有 DLC Apocalypse"
                           ],
                           "children": [
                             {
@@ -3305,9 +3305,9 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                               ],
                               "potential": [],
                               "children": [
@@ -3337,9 +3337,9 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                                   ],
                                   "potential": [],
                                   "children": [],
@@ -3357,7 +3357,7 @@
                               "cost": 48000,
                               "description": "随着巨构工程模糊了现实与幻想之间的界限，搭载可一击摧毁整颗恒星的武器的巨像级战斗舰成为了可能。",
                               "feature_unlocks": [
-                                "\u003cb\u003eStarbase Building\u003c/b\u003e: 巨像组装厂"
+                                "\u003cb\u003eStarbase 建筑\u003c/b\u003e: 巨像组装厂"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -3375,7 +3375,7 @@
                               ],
                               "weight_modifiers": [],
                               "potential": [
-                                "Has DLC Apocalypse"
+                                "拥有 DLC Apocalypse"
                               ],
                               "children": [
                                 {
@@ -3404,12 +3404,12 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 和平主义 Ethic\u003cbr/\u003e    •   Has 极端和平主义 Ethic"
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 和平主义 道德\u003cbr/\u003e    •   拥有 极端和平主义 道德"
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
-                                    "Has the 巨像项目 country flag"
+                                    "拥有 DLC Apocalypse",
+                                    "拥有 the 巨像项目 country flag"
                                   ],
                                   "children": [],
                                   "is_event": false
@@ -3440,14 +3440,14 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 唯物主义 Ethic\u003cbr/\u003e    •   Has 极端唯物主义 Ethic"
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 唯物主义 道德\u003cbr/\u003e    •   拥有 极端唯物主义 道德"
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
-                                    "Has the 巨像项目 country flag",
-                                    "All must be false\n    •   Has 唯心主义 Ethic\n    •   Has 极端唯心主义 Ethic",
-                                    "All must be false\n    •   Has 和平主义 Ethic\n    •   Has 极端和平主义 Ethic"
+                                    "拥有 DLC Apocalypse",
+                                    "拥有 the 巨像项目 country flag",
+                                    "一个都不能有\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德",
+                                    "一个都不能有\n    •   拥有 和平主义 道德\n    •   拥有 极端和平主义 道德"
                                   ],
                                   "children": [],
                                   "is_event": false
@@ -3478,13 +3478,13 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：灵能"
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：灵能"
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
-                                    "Has the 巨像项目 country flag",
-                                    "One must be true\n    •   Has 唯心主义 Ethic\n    •   Has 极端唯心主义 Ethic",
-                                    "One must be true\n    •   All must be true\n\t    •   Does NOT have DLC Utopia\n\t    •   Has Technology: 心灵感应\n    •   All must be true\n\t    •   Has DLC Utopia\n\t    •   Has 唯心超脱 Ascension Perk"
+                                    "拥有 DLC Apocalypse",
+                                    "拥有 the 巨像项目 country flag",
+                                    "至少有一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德",
+                                    "至少有一个\n    •   All must be true\n\t    •   没有 DLC Utopia\n\t    •   拥有 科技: 心灵感应\n    •   All must be true\n\t    •   拥有 DLC Utopia\n\t    •   拥有 唯心超脱 Ascension Perk"
                                   ],
                                   "children": [],
                                   "is_event": false
@@ -3515,12 +3515,12 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术"
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术"
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
-                                    "Has the 巨像项目 country flag",
-                                    "All must be false\n    •   Has 和平主义 Ethic\n    •   Has 极端和平主义 Ethic"
+                                    "拥有 DLC Apocalypse",
+                                    "拥有 the 巨像项目 country flag",
+                                    "一个都不能有\n    •   拥有 和平主义 道德\n    •   拥有 极端和平主义 道德"
                                   ],
                                   "children": [],
                                   "is_event": false
@@ -3551,12 +3551,12 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术"
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术"
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
-                                    "Has the 巨像项目 country flag",
-                                    "Has Government Civic: 迫切同化者"
+                                    "拥有 DLC Apocalypse",
+                                    "拥有 the 巨像项目 country flag",
+                                    "拥有 政体: 迫切同化者"
                                   ],
                                   "children": [],
                                   "is_event": false
@@ -3594,7 +3594,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                           ],
                           "potential": [],
                           "children": [],
@@ -3626,8 +3626,8 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                           ],
                           "potential": [],
                           "children": [
@@ -3657,9 +3657,9 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                               ],
                               "potential": [],
                               "children": [],
@@ -3677,7 +3677,7 @@
                           "cost": 48000,
                           "description": "为了完成这一建构计划，我们必须首先了解与其相关的最基本的工程学和物资储备技术。",
                           "feature_unlocks": [
-                            "\u003cb\u003eFeature : \u003c/b\u003e巨构建筑复原",
+                            "\u003cb\u003e特征 : \u003c/b\u003e巨构建筑复原",
                             "资源储存上限 +20000"
                           ],
                           "is_dangerous": false,
@@ -3705,10 +3705,10 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 狂热",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has 虚空之子 Ascension Perk",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has 建筑奇才 Ascension Perk",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e20.0\u003c/b\u003e) Has any Megastructure"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 狂热",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 虚空之子 Ascension Perk",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 建筑奇才 Ascension Perk",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e20.0\u003c/b\u003e) 拥有 any Megastructure"
                           ],
                           "potential": [],
                           "children": [],
@@ -3744,7 +3744,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                       ],
                       "potential": [],
                       "children": [],
@@ -3776,8 +3776,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                       ],
                       "potential": [],
                       "children": [
@@ -3807,9 +3807,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                           ],
                           "potential": [],
                           "children": [],
@@ -3848,7 +3848,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                   ],
                   "potential": [],
                   "children": [],
@@ -3884,7 +3884,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
               ],
               "potential": [],
               "children": [],
@@ -3916,7 +3916,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
               ],
               "potential": [],
               "children": [
@@ -3946,8 +3946,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                   ],
                   "potential": [],
                   "children": [],
@@ -4007,7 +4007,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
               ],
               "potential": [],
               "children": [
@@ -4037,7 +4037,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                   ],
                   "potential": [],
                   "children": [
@@ -4067,7 +4067,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                       ],
                       "potential": [],
                       "children": [
@@ -4167,13 +4167,13 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) NOT Number of years since game start is greater than 20",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   Has Technology: 星球据点",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   拥有 科技: 星球据点",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 30",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Number of years since game start is greater than 35",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Number of years since game start is greater than 40",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) Number of 星港 is greater than or equal to 3",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
               ],
               "potential": [],
               "children": [
@@ -4295,8 +4295,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                   ],
                   "potential": [],
                   "children": [
@@ -4332,8 +4332,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 专长：太空技术\u003cbr/\u003e    •   Research Leader (Engineering): \u003cbr/\u003e\t    •   Is 策展人",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has 军国主义 Ethic\u003cbr/\u003e    •   Has 极端军国主义 Ethic"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 一个都不能有\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 专长：太空技术\u003cbr/\u003e    •   科学家（工程）: \u003cbr/\u003e\t    •   Is 策展人",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 军国主义 道德\u003cbr/\u003e    •   拥有 极端军国主义 道德"
                       ],
                       "potential": [],
                       "children": [],
@@ -4369,13 +4369,13 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) NOT Number of years since game start is greater than 50",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   Has Technology: 星际堡垒",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   拥有 科技: 星际堡垒",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 60",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Number of years since game start is greater than 65",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Number of years since game start is greater than 70",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) Number of 星际要塞 is greater than or equal to 3",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                   ],
                   "potential": [],
                   "children": [
@@ -4406,13 +4406,13 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) NOT Number of years since game start is greater than 70",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   Has Technology: 卫城",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Any Neighbor Country\u003cbr/\u003e    •   拥有 科技: 卫城",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 90",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Number of years since game start is greater than 95",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Number of years since game start is greater than 100",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) Number of 星际堡垒 is greater than or equal to 3",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has 霸权传统 Tradition",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：太空技术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 Tradition",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（工程）: \u003cbr/\u003e    •   Is 专长：太空技术"
                       ],
                       "potential": [],
                       "children": [],
@@ -4457,7 +4457,7 @@
           "cost": 6000,
           "description": "量产这种强大的纳米机器需要非常先进的设施。",
           "feature_unlocks": [
-            "\u003cb\u003eBuilding\u003c/b\u003e: 纳米变形器"
+            "\u003cb\u003e建筑\u003c/b\u003e: 纳米变形器"
           ],
           "is_dangerous": false,
           "is_rare": true,
@@ -4467,11 +4467,11 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) No System within borders\u003cbr/\u003e    •   Any Planet\u003cbr/\u003e\t    •   Has £nanites£ 纳米机器人 greater than 0",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：材料科学"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) No System within borders\u003cbr/\u003e    •   Any Planet\u003cbr/\u003e\t    •   拥有 £nanites£ 纳米机器人 greater than 0",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（物理）: \u003cbr/\u003e    •   Is 专长：材料科学"
           ],
           "potential": [
-            "Has DLC Distant Stars Story Pack"
+            "拥有 DLC Distant Stars Story Pack"
           ],
           "children": [],
           "is_event": false
@@ -4519,7 +4519,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "Has 格式塔意识 Ethic"
+            "拥有 格式塔意识 道德"
           ],
           "children": [],
           "is_event": false,
@@ -4580,8 +4580,8 @@
           "cost": 2000,
           "description": "袭击另一个世界是一项大胆的计划。在能够召集星际部队之前，我们必须克服巨大的后勤方面的问题。",
           "feature_unlocks": [
-            "\u003cb\u003eArmy\u003c/b\u003e: 突击军团",
-            "\u003cb\u003eArmy\u003c/b\u003e: 猎手军团"
+            "\u003cb\u003e陆军\u003c/b\u003e: 突击军团",
+            "\u003cb\u003e陆军\u003c/b\u003e: 猎手军团"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -4613,8 +4613,8 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "Has the encountered_first_lgate country flag",
-            "Does NOT have the completed_lcluster_chain country flag"
+            "拥有 the encountered_first_lgate country flag",
+            "没有 the completed_lcluster_chain country flag"
           ],
           "children": [],
           "is_event": false
