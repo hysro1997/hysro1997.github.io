@@ -54,8 +54,8 @@
               "cost": 2000,
               "description": "通过电脑来模拟各种环境与气候条件，可以使产量预测变得更为精确。",
               "feature_unlocks": [
-                "来自£job_farmer 农夫的£food£ 食物  +10%",
-                "\u003cb\u003e法令\u003c/b\u003e: 农业补贴"
+                "\u003cb\u003e道德\u003c/b\u003e: 农业补贴",
+                "来自£job_farmer 农夫的£food£ 食物  +10%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -72,10 +72,10 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of 农业区划 is greater than 0",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 和平主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端和平主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 和平主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端和平主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [],
               "children": [
@@ -105,9 +105,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 Technology: 微粒稳定化\u003cbr/\u003e    •   拥有 Technology: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 the has_market_access country flag",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of 农业区划 is greater than 0",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：生物学"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 微粒稳定化\u003cbr/\u003e    •   拥有科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Engineering): \u003cbr/\u003e    •   Is 专长：生物学"
                   ],
                   "potential": [],
                   "children": [
@@ -142,8 +142,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of 农业区划 is greater than 0",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：生物学"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Engineering): \u003cbr/\u003e    •   Is 专长：生物学"
                       ],
                       "potential": [],
                       "children": [],
@@ -183,10 +183,10 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of 农业区划 is greater than 0",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 和平主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端和平主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 和平主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端和平主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
                   ],
                   "potential": [],
                   "children": [
@@ -221,10 +221,10 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of 农业区划 is greater than 0",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 和平主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端和平主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 和平主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端和平主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
                       ],
                       "potential": [],
                       "children": [
@@ -254,13 +254,13 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of 农业区划 is greater than 0",
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 和平主义 道德",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端和平主义 道德"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 和平主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端和平主义 道德"
                           ],
                           "potential": [
-                            "没有 机械智能 Authority"
+                            "不是 拥有 机械智能 权力"
                           ],
                           "children": [],
                           "is_event": false
@@ -313,7 +313,7 @@
               "cost": 2000,
               "description": "水培技术可以通过创建具有独特环境的农场进一步开发，模拟不同的生态系统。这使得产出的食品含有较高的营养。",
               "feature_unlocks": [
-                "\u003cb\u003e太空基地 建筑\u003c/b\u003e: 水培舱",
+                "\u003cb\u003e太空港建筑\u003c/b\u003e: 水培舱",
                 "\u003cb\u003e建筑\u003c/b\u003e: 水培农场"
               ],
               "is_dangerous": false,
@@ -331,8 +331,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of 农业区划 is greater than 0",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Engineering): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [],
               "children": [],
@@ -360,12 +360,12 @@
           "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 传统",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
           ],
           "potential": [
-            "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+            "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
           ],
           "children": [
             {
@@ -394,12 +394,12 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 传统",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [
-                "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者"
+                "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者"
               ],
               "children": [
                 {
@@ -411,7 +411,7 @@
                   "cost": 6000,
                   "description": "基因库加上可用的基因组，就可以进行克隆了。",
                   "feature_unlocks": [
-                    "\u003cb\u003eArmy\u003c/b\u003e: 克隆军团"
+                    "\u003cb\u003e陆军\u003c/b\u003e: 克隆军团"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -428,14 +428,14 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 灵感迸发",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 4",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is lower than 2"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 灵感迸发",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 4",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 少于 2"
                   ],
                   "potential": [
-                    "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者"
+                    "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者"
                   ],
                   "children": [],
                   "is_event": false
@@ -469,12 +469,12 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 霸权传统 传统",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [
-                "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者"
+                "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者"
               ],
               "children": [
                 {
@@ -486,7 +486,7 @@
                   "cost": 10000,
                   "description": "应该鼓励生育计划，以免浪费宝贵的基因传承。",
                   "feature_unlocks": [
-                    "\u003cb\u003ePolicy\u003c/b\u003e: 血统优先"
+                    "\u003cb\u003e政策\u003c/b\u003e: 血统优先"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -503,14 +503,14 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 平等主义 道德\u003cbr/\u003e    •   拥有 极端平等主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 拥有 威权主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 极端威权主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 灵感迸发"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 平等主义 道德\u003cbr/\u003e    •   有 极端平等主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 有 威权主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 极端威权主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 灵感迸发"
                   ],
                   "potential": [
-                    "没有 机械智能 Authority"
+                    "不是 拥有 机械智能 权力"
                   ],
                   "children": [
                     {
@@ -522,7 +522,7 @@
                       "cost": 24000,
                       "description": "我们不留漏洞、不计成本，通过严格管理基因库来造就完美的未来接班人。",
                       "feature_unlocks": [
-                        "\u003cb\u003ePolicy\u003c/b\u003e: 提升能力"
+                        "\u003cb\u003e政策\u003c/b\u003e: 提升能力"
                       ],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -539,14 +539,14 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 平等主义 道德\u003cbr/\u003e    •   拥有 极端平等主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 拥有 威权主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 极端威权主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 灵感迸发"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 平等主义 道德\u003cbr/\u003e    •   有 极端平等主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 有 威权主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 极端威权主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 灵感迸发"
                       ],
                       "potential": [
-                        "没有 机械智能 Authority"
+                        "不是 拥有 机械智能 权力"
                       ],
                       "children": [],
                       "is_event": false
@@ -596,9 +596,9 @@
               "cost": 8000,
               "description": "制造基因编辑工具并广泛使用肯定会对我们的发展有积极的影响。",
               "feature_unlocks": [
-                "\u003cb\u003e特征 : \u003c/b\u003e自我修正",
+                "\u003cb\u003eFeature : \u003c/b\u003e自我修正",
                 "基因修正点数：+1",
-                "\u003cb\u003e特征 : \u003c/b\u003e基因修正"
+                "\u003cb\u003eFeature : \u003c/b\u003e基因修正"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -615,12 +615,12 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 亲外主义 道德\u003cbr/\u003e    •   拥有 极端亲外主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 亲外主义 道德\u003cbr/\u003e    •   有 极端亲外主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [
-                "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
               ],
               "children": [
                 {
@@ -632,7 +632,7 @@
                   "cost": 12000,
                   "description": "通过改变腺体的生物学特性，我们能按照自己的需求改变种群对环境的适应性。",
                   "feature_unlocks": [
-                    "\u003cb\u003e特征 : \u003c/b\u003e宜居性修正"
+                    "\u003cb\u003eFeature : \u003c/b\u003e宜居性修正"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -649,11 +649,11 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
                   ],
                   "potential": [
-                    "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                    "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
                   ],
                   "children": [],
                   "is_event": false
@@ -684,12 +684,12 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 灵感迸发"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 灵感迸发"
                   ],
                   "potential": [
-                    "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                    "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
                   ],
                   "children": [],
                   "is_event": false
@@ -703,7 +703,7 @@
                   "cost": 16000,
                   "description": "核苷酸净化技术允许我们进行特别理想的遗传性状的隔离和细化。",
                   "feature_unlocks": [
-                    "\u003cb\u003eArmy\u003c/b\u003e: 基因战士军团"
+                    "\u003cb\u003e陆军\u003c/b\u003e: 基因战士军团"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -720,17 +720,17 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 DLC Utopia",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 灵感迸发",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 4",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) NOT 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 3"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 有 DLC Utopia",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 灵感迸发",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 4",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 不是 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 3"
                   ],
                   "potential": [
-                    "没有 机械智能 Authority"
+                    "不是 拥有 机械智能 权力"
                   ],
                   "children": [],
                   "is_event": false
@@ -747,7 +747,7 @@
               "cost": 5000,
               "description": "先进的基因甲基化技术让我们可以显著改变任意基因组。",
               "feature_unlocks": [
-                "\u003cb\u003e特征 : \u003c/b\u003e提升"
+                "\u003cb\u003eFeature : \u003c/b\u003e提升"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -764,15 +764,15 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有 极端排外主义 道德",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 拥有 排外主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 亲外主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端亲外主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 the found_presapients country flag\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   Any Pop\u003cbr/\u003e\t\t    •   Pop is NOT Sapient"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 有 极端排外主义 道德",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 有 排外主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 亲外主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端亲外主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有 found_presapients 帝国标记\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   任何 Pop\u003cbr/\u003e\t\t    •   Pop 不贤明"
               ],
               "potential": [
-                "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
               ],
               "children": [
                 {
@@ -784,7 +784,7 @@
                   "cost": 16000,
                   "description": "我们对于形态基因领域的研究本是用于药用，但随着我们愈发深入的理解，与有机体在潜意识层面的直接连接已经成为了可能。",
                   "feature_unlocks": [
-                    "\u003cb\u003eArmy\u003c/b\u003e: 异星人军团"
+                    "\u003cb\u003e陆军\u003c/b\u003e: 异星人军团"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -801,18 +801,18 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 机械智能 Authority",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 Authority",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 狂热",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 灵感迸发",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 4",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) NOT 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 2"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 机械智能 权力",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 蜂巢思维 权力",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 狂热",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 灵感迸发",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 4",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 不是 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 2"
                   ],
                   "potential": [
-                    "没有 机械智能 Authority"
+                    "不是 拥有 机械智能 权力"
                   ],
                   "children": [],
                   "is_event": false
@@ -829,7 +829,7 @@
               "cost": 5000,
               "description": "深层组织植入物是传感工程和娱乐体验两方面结合所产生的最新发明。“身之所至，无需触感！”",
               "feature_unlocks": [
-                "\u003cb\u003e特征 : \u003c/b\u003e化学极乐"
+                "\u003cb\u003eFeature : \u003c/b\u003e化学极乐"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -846,11 +846,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 平等主义 道德\u003cbr/\u003e    •   拥有 极端平等主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   有 平等主义 道德\u003cbr/\u003e    •   有 极端平等主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [],
               "is_event": false
@@ -878,11 +878,11 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) Is AI",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 5",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 10",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 15",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 20",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 5 年",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 10 年",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 15 年",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 20 年",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
           ],
           "potential": [],
           "children": [
@@ -912,11 +912,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 5",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 10",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 15",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 20",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 5 年",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 10 年",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 15 年",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 20 年",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [],
               "children": [
@@ -946,11 +946,11 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 25",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 30",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 35",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Number of years since game start is greater than 40",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 25 年",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 30 年",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 35 年",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 游戏开始后 多于 40 年",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
                   ],
                   "potential": [],
                   "children": [],
@@ -1011,9 +1011,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
               ],
               "potential": [],
               "children": [
@@ -1044,9 +1044,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
                   ],
                   "potential": [],
                   "children": [],
@@ -1077,9 +1077,9 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
           ],
           "potential": [],
           "children": [
@@ -1109,9 +1109,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
               ],
               "potential": [],
               "children": [
@@ -1141,9 +1141,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
                   ],
                   "potential": [],
                   "children": [
@@ -1173,9 +1173,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
                       ],
                       "potential": [],
                       "children": [
@@ -1205,9 +1205,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
                           ],
                           "potential": [],
                           "children": [
@@ -1276,9 +1276,9 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
           ],
           "potential": [],
           "children": [
@@ -1309,9 +1309,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
               ],
               "potential": [],
               "children": [
@@ -1400,9 +1400,9 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
           ],
           "potential": [],
           "children": [
@@ -1432,9 +1432,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
               ],
               "potential": [],
               "children": [
@@ -1464,9 +1464,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
                   ],
                   "potential": [],
                   "children": [
@@ -1496,9 +1496,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
                       ],
                       "potential": [],
                       "children": [
@@ -1553,8 +1553,8 @@
           "cost": 5000,
           "description": "要是命令没有强大的约束力，多么完善的知识体系都是没用的。",
           "feature_unlocks": [
-            "\u003cb\u003e太空基地 建筑\u003c/b\u003e: 舰队后勤办公室",
-            "\u003cb\u003e太空基地 建筑\u003c/b\u003e: 舰队学院"
+            "\u003cb\u003e太空港建筑\u003c/b\u003e: 舰队后勤办公室",
+            "\u003cb\u003e太空港建筑\u003c/b\u003e: 舰队学院"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -1564,9 +1564,9 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
           ],
           "potential": [],
           "children": [
@@ -1597,9 +1597,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
               ],
               "potential": [],
               "children": [
@@ -1612,8 +1612,8 @@
                   "cost": 12000,
                   "description": "重组指挥系统并决定人员之间的相互依赖性，使舰队的响应更加迅速高效。",
                   "feature_unlocks": [
-                    "\u003cb\u003e太空基地 建筑\u003c/b\u003e: 指挥中心",
-                    "舰船射速 +5%"
+                    "舰船射速 +5%",
+                    "\u003cb\u003e太空港建筑\u003c/b\u003e: 指挥中心"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -1630,9 +1630,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 极端军国主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 有 军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 有 极端军国主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论"
                   ],
                   "potential": [],
                   "children": [],
@@ -1653,8 +1653,8 @@
           "cost": 0,
           "description": "计算得出建立一个行星殖民地所需的资源和设备后，我们勇敢的先驱者将驾驶“方舟”外出探索，相信他们会在远方的行星上建立新的家园。",
           "feature_unlocks": [
-            "\u003cb\u003eShip Size\u003c/b\u003e: 殖民船",
-            "\u003cb\u003eShip Size\u003c/b\u003e: 私有殖民船"
+            "\u003cb\u003e舰船大小\u003c/b\u003e: 私有殖民船",
+            "\u003cb\u003e舰船大小\u003c/b\u003e: 殖民船"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -1692,11 +1692,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者"
               ],
               "potential": [
-                "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
               ],
               "children": [
                 {
@@ -1725,11 +1725,11 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者"
                   ],
                   "potential": [
-                    "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                    "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
                   ],
                   "children": [
                     {
@@ -1758,11 +1758,11 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者"
                       ],
                       "potential": [
-                        "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                        "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
                       ],
                       "children": [
                         {
@@ -1791,11 +1791,11 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 政体: 失控机械侍从\u003cbr/\u003e    •   拥有 政体: 迫切同化者"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.7\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者"
                           ],
                           "potential": [
-                            "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                            "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
                           ],
                           "children": [],
                           "is_event": false
@@ -1829,11 +1829,11 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：殖民学说\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Any Owned Planet\u003cbr/\u003e    •   Is 死寂星球"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：殖民学说\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 任何拥有的星球\u003cbr/\u003e    •   是 死寂星球"
                       ],
                       "potential": [
-                        "至少有一个\n    •   没有 机械智能 Authority\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                        "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
                       ],
                       "children": [],
                       "is_event": false
@@ -1876,10 +1876,10 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 和谐传统 传统",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [
                 {
@@ -1913,12 +1913,12 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 Technology: 异星天然气收集\u003cbr/\u003e    •   拥有 Technology: 外星气体精炼\u003cbr/\u003e    •   拥有 the has_market_access country flag",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 异星天然气收集\u003cbr/\u003e    •   拥有科技: 外星气体精炼\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 和谐传统 传统",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
                   ],
                   "potential": [
-                    "没有 格式塔意识 道德"
+                    "不是 有 格式塔意识 道德"
                   ],
                   "children": [],
                   "is_event": false,
@@ -1955,9 +1955,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£茂密丛林",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£茂密丛林",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -1990,9 +1990,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£流沙盆地",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£流沙盆地",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2025,9 +2025,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£深坑",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£深坑",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2060,9 +2060,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£巨型冰川",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£巨型冰川",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2095,9 +2095,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£剧毒沼泽",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£剧毒沼泽",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2130,9 +2130,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£有毒海藻",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£有毒海藻",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2165,9 +2165,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£活火山",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£活火山",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2182,8 +2182,8 @@
               "cost": 6000,
               "description": "没有简单的可以改变星球表面宏观尺度上的构造的办法-只能用更大的铲子-或者完全安排好的钻头。",
               "feature_unlocks": [
-                "\u003cb\u003e法令\u003c/b\u003e: 环境改造气体",
-                "\u003cb\u003e特征 : \u003c/b\u003e环境改造"
+                "\u003cb\u003e道德\u003c/b\u003e: 环境改造气体",
+                "\u003cb\u003eFeature : \u003c/b\u003e环境改造"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2201,7 +2201,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说"
               ],
               "potential": [],
               "children": [
@@ -2214,7 +2214,7 @@
                   "cost": 10000,
                   "description": "按照行星的环境来度身订造大型环境改造计划，那么环境改造的过程就不会造成太大的动乱。",
                   "feature_unlocks": [
-                    "\u003cb\u003e特征 : \u003c/b\u003e异星整合"
+                    "\u003cb\u003eFeature : \u003c/b\u003e异星整合"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2232,7 +2232,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说"
                   ],
                   "potential": [],
                   "children": [],
@@ -2263,7 +2263,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说"
                   ],
                   "potential": [],
                   "children": [],
@@ -2299,9 +2299,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£高耸山脉",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2 个"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£高耸山脉",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2334,9 +2334,9 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 扩张传统 传统",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 拥有 自然支配 飞升",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit £blocker£危险野生动物",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 £blocker£危险野生动物",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [],
               "children": [],
@@ -2364,11 +2364,11 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 2",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 3",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 4",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数少于 1"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 2",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 3",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 4",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数 少于 1"
           ],
           "potential": [],
           "children": [
@@ -2399,12 +2399,12 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 政体: 狂热净化\u003cbr/\u003e    •   拥有 政体: 吞噬蜂群\u003cbr/\u003e    •   拥有 政体: 绝对灭绝者",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 2",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 3",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 4",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数少于 1"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   拥有政体: 狂热净化\u003cbr/\u003e    •   拥有政体: 吞噬蜂群\u003cbr/\u003e    •   拥有政体: 绝对灭绝者",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 2",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 3",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 4",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数 少于 1"
               ],
               "potential": [],
               "children": [
@@ -2435,12 +2435,12 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 政体: 狂热净化\u003cbr/\u003e    •   拥有 政体: 吞噬蜂群\u003cbr/\u003e    •   拥有 政体: 绝对灭绝者",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 2",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 3",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 4",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：军事理论",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数少于 1"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   拥有政体: 狂热净化\u003cbr/\u003e    •   拥有政体: 吞噬蜂群\u003cbr/\u003e    •   拥有政体: 绝对灭绝者",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 2",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 3",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 4",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：军事理论",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数 少于 1"
                   ],
                   "potential": [],
                   "children": [],
@@ -2475,11 +2475,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 2",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 3",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数大于 4",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数少于 1"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 2",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 3",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 可外交帝国数 多于 4",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数 少于 1"
               ],
               "potential": [],
               "children": [],
@@ -2537,10 +2537,10 @@
           "tier": 0,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
           ],
           "potential": [
-            "拥有 蜂巢思维 Authority"
+            "拥有 蜂巢思维 权力"
           ],
           "children": [
             {
@@ -2569,7 +2569,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [],
               "children": [
@@ -2604,7 +2604,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                   ],
                   "potential": [],
                   "children": [],
@@ -2626,12 +2626,12 @@
           "cost": 0,
           "description": "一旦殖民地建立完毕，开拓者变成了公民，就需要一个强大的地方政府提供生活稳定性而不是殖民地更注重的灵活性。",
           "feature_unlocks": [
-            "\u003cb\u003e建筑\u003c/b\u003e: 护卫哨所",
             "\u003cb\u003e建筑\u003c/b\u003e: 行政",
-            "\u003cb\u003e建筑\u003c/b\u003e: 行星行政",
             "\u003cb\u003e建筑\u003c/b\u003e: 警署",
+            "\u003cb\u003e建筑\u003c/b\u003e: 护卫哨所",
+            "\u003cb\u003e建筑\u003c/b\u003e: 维护站",
             "\u003cb\u003e建筑\u003c/b\u003e: 蜂巢核心",
-            "\u003cb\u003e建筑\u003c/b\u003e: 维护站"
+            "\u003cb\u003e建筑\u003c/b\u003e: 行星行政"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -2652,9 +2652,9 @@
               "cost": 2000,
               "description": "远古时期的蛮族帝国，历史上的逐鹿群雄，如今团结成为一个庞大的帝国。我们绝不会，也永远不会，死亡。",
               "feature_unlocks": [
-                "\u003cb\u003e特征 : \u003c/b\u003e额外法令（运动）",
-                "每月凝聚力 +2",
-                "\u003cb\u003e法令\u003c/b\u003e: 和平节日"
+                "\u003cb\u003e道德\u003c/b\u003e: 和平节日",
+                "\u003cb\u003eFeature : \u003c/b\u003e额外法令（运动）",
+                "每月凝聚力 +2"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2671,7 +2671,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 和平主义 道德\u003cbr/\u003e    •   拥有 极端和平主义 道德"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   有 和平主义 道德\u003cbr/\u003e    •   有 极端和平主义 道德"
               ],
               "potential": [],
               "children": [
@@ -2684,10 +2684,10 @@
                   "cost": 5000,
                   "description": "为每一种情况制定不同的管理策略，以满足每一个殖民地的需要。",
                   "feature_unlocks": [
-                    "\u003cb\u003e建筑\u003c/b\u003e: 行星处理器",
-                    "\u003cb\u003e建筑\u003c/b\u003e: 行星都城",
+                    "\u003cb\u003e建筑\u003c/b\u003e: 蜂巢枢纽",
                     "\u003cb\u003e建筑\u003c/b\u003e: 审判堂",
-                    "\u003cb\u003e建筑\u003c/b\u003e: 蜂巢枢纽"
+                    "\u003cb\u003e建筑\u003c/b\u003e: 行星都城",
+                    "\u003cb\u003e建筑\u003c/b\u003e: 行星处理器"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2704,7 +2704,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说"
                   ],
                   "potential": [],
                   "children": [
@@ -2734,14 +2734,14 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数少于 5",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 5",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 6",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 7",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数 少于 5",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 5",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 6",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 7",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                       ],
                       "potential": [
-                        "拥有 格式塔意识 道德"
+                        "有 格式塔意识 道德"
                       ],
                       "children": [
                         {
@@ -2771,14 +2771,14 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数少于 7",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 8",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 9",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 10",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数 少于 7",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 8",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 9",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 10",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                           ],
                           "potential": [
-                            "拥有 格式塔意识 道德"
+                            "有 格式塔意识 道德"
                           ],
                           "children": [],
                           "is_event": false
@@ -2796,7 +2796,7 @@
                       "description": "帝国生生不息。我们构筑成为帝国的躯体，但左膀无需知道右臂在做什么。",
                       "feature_unlocks": [
                         "派系影响力收入 +1",
-                        "\u003cb\u003e太空基地 建筑\u003c/b\u003e: 深空黑牢"
+                        "\u003cb\u003e太空港建筑\u003c/b\u003e: 深空黑牢"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2813,15 +2813,15 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数少于 5",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 5",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 6",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 7",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 威权主义 道德\u003cbr/\u003e    •   拥有 极端威权主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数 少于 5",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 5",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 6",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 7",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 威权主义 道德\u003cbr/\u003e    •   有 极端威权主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                       ],
                       "potential": [
-                        "没有 格式塔意识 道德"
+                        "不是 有 格式塔意识 道德"
                       ],
                       "children": [],
                       "is_event": false
@@ -2863,7 +2863,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                       ],
                       "potential": [],
                       "children": [],
@@ -2878,9 +2878,9 @@
                       "cost": 12000,
                       "description": "星际帝国的管理需求很多也很复杂。我们会应付自如的。",
                       "feature_unlocks": [
-                        "\u003cb\u003e建筑\u003c/b\u003e: 星系首都大厦",
                         "民政槽位 +1",
-                        "\u003cb\u003e建筑\u003c/b\u003e: 首要枢纽"
+                        "\u003cb\u003e建筑\u003c/b\u003e: 首要枢纽",
+                        "\u003cb\u003e建筑\u003c/b\u003e: 星系首都大厦"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2897,7 +2897,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                       ],
                       "potential": [],
                       "children": [],
@@ -2930,15 +2930,15 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数少于 7",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 8",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 9",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 10",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   拥有 威权主义 道德\u003cbr/\u003e    •   拥有 极端威权主义 道德",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数 少于 7",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 8",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 9",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 10",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 威权主义 道德\u003cbr/\u003e    •   有 极端威权主义 道德",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                       ],
                       "potential": [
-                        "没有 格式塔意识 道德"
+                        "不是 有 格式塔意识 道德"
                       ],
                       "children": [],
                       "is_event": false
@@ -2974,12 +2974,12 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数少于 2"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 可外交帝国数 少于 2"
                       ],
                       "potential": [
-                        "没有 格式塔意识 道德"
+                        "不是 有 格式塔意识 道德"
                       ],
                       "children": [],
                       "is_event": false,
@@ -3015,11 +3015,11 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数少于 2",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 2",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 3",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 4",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 拥有的星球数 少于 2",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 2",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 3",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 4",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                   ],
                   "potential": [],
                   "children": [
@@ -3049,11 +3049,11 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 2",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 3",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 4",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 2",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 3",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 4",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说"
                       ],
                       "potential": [],
                       "children": [
@@ -3066,7 +3066,7 @@
                           "cost": 5000,
                           "description": "有机生命常使用毫无逻辑和规律可言的战术，我们通常难以有效应对。自适应战术和更灵活的战争形体应该可以提供决定性的优势。",
                           "feature_unlocks": [
-                            "\u003cb\u003eArmy\u003c/b\u003e: 战甲军团"
+                            "\u003cb\u003e陆军\u003c/b\u003e: 战甲军团"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3083,10 +3083,10 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学"
                           ],
                           "potential": [
-                            "拥有 机械智能 Authority"
+                            "拥有 机械智能 权力"
                           ],
                           "children": [
                             {
@@ -3098,7 +3098,7 @@
                               "cost": 20000,
                               "description": "经过百万年坚持不懈的进化，有机生命有时也会进化出漂亮的解决方案，这可以应用到机械设计中。",
                               "feature_unlocks": [
-                                "\u003cb\u003eArmy\u003c/b\u003e: 巨型战体"
+                                "\u003cb\u003e陆军\u003c/b\u003e: 巨型战体"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -3115,13 +3115,13 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 灵感迸发",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 4",
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) NOT 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 3"
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：生物学\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 灵感迸发",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 4",
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) 不是 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 3"
                               ],
                               "potential": [
-                                "拥有 机械智能 Authority"
+                                "拥有 机械智能 权力"
                               ],
                               "children": [],
                               "is_event": false
@@ -3155,11 +3155,11 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 2",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 3",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数多于 4",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：殖民学说"
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 2",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 3",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有的星球数 多于 4",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：殖民学说"
                           ],
                           "potential": [],
                           "children": [
@@ -3228,7 +3228,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "没有 格式塔意识 道德"
+            "不是 有 格式塔意识 道德"
           ],
           "children": [
             {
@@ -3240,7 +3240,7 @@
               "cost": 3000,
               "description": "跨星际贸易有了一些新的挑战需要我们来克服。如何快速、低成本地将货物从一个星系转移到另一个星系是一个十分重要的问题。",
               "feature_unlocks": [
-                "\u003cb\u003e太空基地 建筑\u003c/b\u003e: 外星贸易公司"
+                "\u003cb\u003e太空港建筑\u003c/b\u003e: 外星贸易公司"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3257,12 +3257,12 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 Technology: 稀有水晶开采\u003cbr/\u003e    •   拥有 Technology: 稀有水晶生产\u003cbr/\u003e    •   拥有 the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 稀有水晶开采\u003cbr/\u003e    •   拥有科技: 稀有水晶生产\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 繁荣传统 传统"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [
                 {
@@ -3291,11 +3291,11 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 繁荣传统 传统"
                   ],
                   "potential": [
-                    "没有 格式塔意识 道德"
+                    "不是 有 格式塔意识 道德"
                   ],
                   "children": [],
                   "is_event": false,
@@ -3329,7 +3329,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "没有 格式塔意识 道德"
+            "不是 有 格式塔意识 道德"
           ],
           "children": [
             {
@@ -3358,11 +3358,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 Technology: 异星天然气收集\u003cbr/\u003e    •   拥有 Technology: 外星气体精炼\u003cbr/\u003e    •   拥有 the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 异星天然气收集\u003cbr/\u003e    •   拥有科技: 外星气体精炼\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [],
               "is_event": false,
@@ -3383,8 +3383,8 @@
           "feature_unlocks": [
             "\u003cb\u003e建筑\u003c/b\u003e: 先祖纪念碑",
             "\u003cb\u003e建筑\u003c/b\u003e: 上行链路节点",
-            "\u003cb\u003e建筑\u003c/b\u003e: 企业文化馆",
-            "\u003cb\u003e建筑\u003c/b\u003e: 寺庙"
+            "\u003cb\u003e建筑\u003c/b\u003e: 寺庙",
+            "\u003cb\u003e建筑\u003c/b\u003e: 企业文化馆"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -3394,10 +3394,10 @@
           "tier": 0,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
           ],
           "potential": [
-            "没有 蜂巢思维 Authority"
+            "不是 拥有 蜂巢思维 权力"
           ],
           "children": [
             {
@@ -3410,8 +3410,8 @@
               "description": "对我们迄今为止走过的路的纪念。既是为了向过去的成就致敬，也为了激励我们勇敢走向未来。",
               "feature_unlocks": [
                 "\u003cb\u003e建筑\u003c/b\u003e: 遗迹",
-                "\u003cb\u003e建筑\u003c/b\u003e: 网络枢纽",
-                "\u003cb\u003e建筑\u003c/b\u003e: 商业管理枢纽"
+                "\u003cb\u003e建筑\u003c/b\u003e: 商业管理枢纽",
+                "\u003cb\u003e建筑\u003c/b\u003e: 网络枢纽"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3428,11 +3428,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 Technology: 微粒稳定化\u003cbr/\u003e    •   拥有 Technology: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 微粒稳定化\u003cbr/\u003e    •   拥有科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [
-                "没有任何一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德\n    •   拥有 政体: 失控机械侍从"
+                "全部为假\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德\n    •   拥有政体: 失控机械侍从"
               ],
               "children": [
                 {
@@ -3468,10 +3468,10 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                   ],
                   "potential": [
-                    "没有任何一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德\n    •   拥有 政体: 失控机械侍从"
+                    "全部为假\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德\n    •   拥有政体: 失控机械侍从"
                   ],
                   "children": [
                     {
@@ -3483,9 +3483,9 @@
                       "cost": 20000,
                       "description": "异类数据组的连续不同步分析可以用来构建精确的社会潮流模型。",
                       "feature_unlocks": [
+                        "\u003cb\u003e建筑\u003c/b\u003e: 阿尔法中心",
                         "\u003cb\u003e建筑\u003c/b\u003e: 自动展示保险库",
-                        "\u003cb\u003e建筑\u003c/b\u003e: 收藏宝库",
-                        "\u003cb\u003e建筑\u003c/b\u003e: 阿尔法中心"
+                        "\u003cb\u003e建筑\u003c/b\u003e: 收藏宝库"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3512,10 +3512,10 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                       ],
                       "potential": [
-                        "没有任何一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德\n    •   拥有 政体: 失控机械侍从"
+                        "全部为假\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德\n    •   拥有政体: 失控机械侍从"
                       ],
                       "children": [],
                       "is_event": false
@@ -3552,11 +3552,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 Technology: 稀有水晶开采\u003cbr/\u003e    •   拥有 Technology: 稀有水晶生产\u003cbr/\u003e    •   拥有 the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 稀有水晶开采\u003cbr/\u003e    •   拥有科技: 稀有水晶生产\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [
-                "至少有一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德"
+                "至少一个为真\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德"
               ],
               "children": [
                 {
@@ -3590,10 +3590,10 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                   ],
                   "potential": [
-                    "至少有一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德"
+                    "至少一个为真\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德"
                   ],
                   "children": [
                     {
@@ -3627,10 +3627,10 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
                       ],
                       "potential": [
-                        "至少有一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德"
+                        "至少一个为真\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德"
                       ],
                       "children": [],
                       "is_event": false
@@ -3655,7 +3655,7 @@
           "description": "感知就是对感官的输入进行微乎其微的处理过程，是可以改变的。",
           "feature_unlocks": [
             "\u003cb\u003e建筑\u003c/b\u003e: 奴隶处理设施",
-            "\u003cb\u003eArmy\u003c/b\u003e: 奴隶军团"
+            "\u003cb\u003e陆军\u003c/b\u003e: 奴隶军团"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -3665,14 +3665,14 @@
           "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 a number of pop greater than 9\u003cbr/\u003e    •   Pop is enslaved",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 a number of pop greater than 19\u003cbr/\u003e    •   Pop is enslaved",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 a number of pop greater than 29\u003cbr/\u003e    •   Pop is enslaved",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   没有任何一个\u003cbr/\u003e\t    •   拥有 policy 允许奴隶制\u003cbr/\u003e\t    •   拥有 格式塔意识 道德\u003cbr/\u003e    •   No Owned Pop\u003cbr/\u003e\t    •   Pop is enslaved"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 多于 9的Pop\u003cbr/\u003e    •   Pop 被奴役",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 多于 19的Pop\u003cbr/\u003e    •   Pop 被奴役",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 多于 29的Pop\u003cbr/\u003e    •   Pop 被奴役",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   全部为假\u003cbr/\u003e\t    •   有政策 允许奴隶制\u003cbr/\u003e\t    •   有 格式塔意识 道德\u003cbr/\u003e    •   不是 任何拥有的 Pop\u003cbr/\u003e\t    •   Pop 被奴役"
           ],
           "potential": [
-            "没有 格式塔意识 道德"
+            "不是 有 格式塔意识 道德"
           ],
           "children": [
             {
@@ -3699,13 +3699,13 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少有一个\u003cbr/\u003e    •   没有任何一个\u003cbr/\u003e\t    •   拥有 policy 允许奴隶制\u003cbr/\u003e\t    •   拥有 格式塔意识 道德\u003cbr/\u003e    •   No Owned Pop\u003cbr/\u003e\t    •   Pop is enslaved"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   全部为假\u003cbr/\u003e\t    •   有政策 允许奴隶制\u003cbr/\u003e\t    •   有 格式塔意识 道德\u003cbr/\u003e    •   不是 任何拥有的 Pop\u003cbr/\u003e\t    •   Pop 被奴役"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [],
               "is_event": false,
@@ -3734,10 +3734,10 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
           ],
           "potential": [
-            "拥有 格式塔意识 道德"
+            "有 格式塔意识 道德"
           ],
           "children": [
             {
@@ -3766,10 +3766,10 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [
-                "拥有 机械智能 Authority"
+                "拥有 机械智能 权力"
               ],
               "children": [],
               "is_event": false
@@ -3800,10 +3800,10 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [
-                "拥有 蜂巢思维 Authority"
+                "拥有 蜂巢思维 权力"
               ],
               "children": [],
               "is_event": false
@@ -3832,10 +3832,10 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
           ],
           "potential": [
-            "没有 格式塔意识 道德"
+            "不是 有 格式塔意识 道德"
           ],
           "children": [
             {
@@ -3862,12 +3862,12 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [],
               "is_event": false,
@@ -3897,12 +3897,12 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 策展人",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数少于 2"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：治国术\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 策展人",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有的星球数 少于 2"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [],
               "is_event": false,
@@ -3934,10 +3934,10 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [],
               "is_event": false,
@@ -3995,16 +3995,16 @@
           "tier": 3,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 唯心主义 道德\u003cbr/\u003e    •   拥有 极端唯心主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 极端唯心主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 狂热",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e8.0\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：灵能",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Any Owned Pop\u003cbr/\u003e    •   Pop has trait 灵能",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) No Owned Pop\u003cbr/\u003e    •   Pop has trait 灵能",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be true\u003cbr/\u003e    •   至少有一个\u003cbr/\u003e\t    •   拥有 唯物主义 道德\u003cbr/\u003e\t    •   拥有 极端唯物主义 道德\u003cbr/\u003e    •   没有任何一个\u003cbr/\u003e\t    •   科学家（社会）: \u003cbr/\u003e\t\t    •   Is 专长：灵能\u003cbr/\u003e\t    •   Any Owned Pop\u003cbr/\u003e\t\t    •   Pop has trait 灵能\u003cbr/\u003e\t    •   Any Owned Pop\u003cbr/\u003e\t\t    •   Pop has trait 潜在的灵能"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   有 唯心主义 道德\u003cbr/\u003e    •   有 极端唯心主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 有 极端唯心主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 狂热",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e8.0\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：灵能",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 任何拥有的 Pop\u003cbr/\u003e    •   Pop有特质 灵能",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 不是 任何拥有的 Pop\u003cbr/\u003e    •   Pop有特质 灵能",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为真\u003cbr/\u003e    •   至少一个为真\u003cbr/\u003e\t    •   有 唯物主义 道德\u003cbr/\u003e\t    •   有 极端唯物主义 道德\u003cbr/\u003e    •   全部为假\u003cbr/\u003e\t    •   科学家 (Society): \u003cbr/\u003e\t\t    •   Is 专长：灵能\u003cbr/\u003e\t    •   任何拥有的 Pop\u003cbr/\u003e\t\t    •   Pop有特质 灵能\u003cbr/\u003e\t    •   任何拥有的 Pop\u003cbr/\u003e\t\t    •   Pop有特质 潜在的灵能"
           ],
           "potential": [
-            "没有 格式塔意识 道德"
+            "不是 有 格式塔意识 道德"
           ],
           "children": [
             {
@@ -4016,7 +4016,7 @@
               "cost": 12000,
               "description": "一旦完全适应灵能的基本知识，能够连接到其他人，能力就会变得更大。",
               "feature_unlocks": [
-                "\u003cb\u003eArmy\u003c/b\u003e: 灵能军团"
+                "\u003cb\u003e陆军\u003c/b\u003e: 灵能军团"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -4033,17 +4033,17 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 DLC Utopia",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) NOT 科学家（社会）: \u003cbr/\u003e    •   Is 专长：灵能",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 2\u003cbr/\u003e    •   Is 专长：灵能",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 3\u003cbr/\u003e    •   Is 专长：灵能",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 4\u003cbr/\u003e    •   Is 专长：灵能",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 唯心主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) 拥有 极端唯心主义 道德",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 狂热"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 有 DLC Utopia",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 不是 科学家 (Society): \u003cbr/\u003e    •   Is 专长：灵能",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 2\u003cbr/\u003e    •   Is 专长：灵能",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 3\u003cbr/\u003e    •   Is 专长：灵能",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 4\u003cbr/\u003e    •   Is 专长：灵能",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 有 唯心主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) 有 极端唯心主义 道德",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 狂热"
               ],
               "potential": [
-                "没有 格式塔意识 道德"
+                "不是 有 格式塔意识 道德"
               ],
               "children": [
                 {
@@ -4055,11 +4055,11 @@
                   "cost": 20000,
                   "description": "在灵能能力领域的不断进步使得这样一种可能性逐渐呈现：创造一种能够读取和分析心灵感应动作发出的脉冲的作战用计算机，即可在认知处理前进行预处理。",
                   "feature_unlocks": [
-                    "\u003cb\u003e部件\u003c/b\u003e: 预知接口（战列）",
                     "\u003cb\u003e部件\u003c/b\u003e: 预知接口（平台）",
-                    "\u003cb\u003e部件\u003c/b\u003e: 预知接口（火炮）",
+                    "\u003cb\u003e部件\u003c/b\u003e: 预知接口（战列）",
+                    "\u003cb\u003e部件\u003c/b\u003e: 预知接口（哨戒）",
                     "\u003cb\u003e部件\u003c/b\u003e: 预知接口（集群）",
-                    "\u003cb\u003e部件\u003c/b\u003e: 预知接口（哨戒）"
+                    "\u003cb\u003e部件\u003c/b\u003e: 预知接口（火炮）"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -4076,17 +4076,17 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 DLC Utopia",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) NOT 科学家（社会）: \u003cbr/\u003e    •   Is 专长：灵能",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 2\u003cbr/\u003e    •   Is 专长：灵能",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 3\u003cbr/\u003e    •   Is 专长：灵能",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Skill level is greater than 4\u003cbr/\u003e    •   Is 专长：灵能",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 唯心主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) 拥有 极端唯心主义 道德",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 狂热"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 有 DLC Utopia",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 不是 科学家 (Society): \u003cbr/\u003e    •   Is 专长：灵能",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 2\u003cbr/\u003e    •   Is 专长：灵能",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 3\u003cbr/\u003e    •   Is 专长：灵能",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   技能等级 多于 4\u003cbr/\u003e    •   Is 专长：灵能",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 有 唯心主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) 有 极端唯心主义 道德",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 狂热"
                   ],
                   "potential": [
-                    "没有 格式塔意识 道德"
+                    "不是 有 格式塔意识 道德"
                   ],
                   "children": [
                     {
@@ -4099,7 +4099,7 @@
                       "description": "灵能跳跃引擎利用灵能引擎迫使舰体发出能源通过现实的阻碍，立即\"跳跃\"过超长的距离。",
                       "feature_unlocks": [
                         "\u003cb\u003e部件\u003c/b\u003e: 灵能跃迁引擎",
-                        "\u003cb\u003e特征 : \u003c/b\u003e跃迁引擎旅行"
+                        "\u003cb\u003eFeature : \u003c/b\u003e跃迁引擎旅行"
                       ],
                       "is_dangerous": true,
                       "is_rare": true,
@@ -4116,11 +4116,11 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 拥有 DLC Utopia",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   科学家（社会）: \u003cbr/\u003e\t    •   Is 专长：灵能\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 狂热"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 有 DLC Utopia",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Society): \u003cbr/\u003e\t    •   Is 专长：灵能\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 灵感迸发\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 狂热"
                       ],
                       "potential": [
-                        "没有 格式塔意识 道德"
+                        "不是 有 格式塔意识 道德"
                       ],
                       "children": [],
                       "is_event": false
@@ -4140,7 +4140,7 @@
               "cost": 10000,
               "description": "一种极其罕见的气溶胶粒子。它通过流星的传播在很多星球出现过，但它的起源是一个谜。如果被有灵能的人摄取，卓气作为非常有效的(会上瘾)药物，会增强灵能。",
               "feature_unlocks": [
-                "\u003cb\u003eReveals Ressource\u003c/b\u003e: 卓气"
+                "\u003cb\u003e揭露资源\u003c/b\u003e: 卓气"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -4162,8 +4162,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 专长：灵能\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 专长：材料科学\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 策展人",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is 专长：灵能"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 专长：灵能\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 专长：材料科学\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 策展人",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) 科学家 (Physics): \u003cbr/\u003e    •   Is 专长：灵能"
               ],
               "potential": [],
               "children": [],
@@ -4191,13 +4191,13 @@
           "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 拥有 亲外主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) 拥有 极端亲外主义 道德",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：生物学",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不拥有星球t\u003cbr/\u003e    •   拥有 deposit 发现外星宠物\u003cbr/\u003e£society£ +4"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 有 亲外主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) 有 极端亲外主义 道德",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：生物学",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 任何拥有的星球\u003cbr/\u003e    •   拥有宝藏 发现外星宠物\u003cbr/\u003e£society£ +4"
           ],
           "potential": [
-            "没有 格式塔意识 道德"
+            "不是 有 格式塔意识 道德"
           ],
           "children": [],
           "is_event": false
@@ -4221,8 +4221,8 @@
           "tier": 3,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 没有 政体: 田园牧歌",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 拥有政体: 田园牧歌",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Engineering): \u003cbr/\u003e    •   Is 专长：工业"
           ],
           "potential": [],
           "children": [],
@@ -4247,10 +4247,10 @@
           "tier": 3,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
           ],
           "potential": [
-            "拥有 企业政府 Authority"
+            "拥有 企业政府 权力"
           ],
           "children": [],
           "is_event": false,
@@ -4275,10 +4275,10 @@
           "tier": 3,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家（社会）: \u003cbr/\u003e    •   Is 专长：治国术"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (Society): \u003cbr/\u003e    •   Is 专长：治国术"
           ],
           "potential": [
-            "拥有 企业政府 Authority"
+            "拥有 企业政府 权力"
           ],
           "children": [],
           "is_event": false,
@@ -4294,7 +4294,7 @@
           "description": "我们的历史就是一个不断循环的过程。每次循环中，我们的科技、政治和文化水平都会出现飞跃式的发展。这些飞跃通常都出现在动乱之后，随后又带来相对平稳的时代。通过甄别这样的核心前提，我们也许能够大大缩短循环的时间，这样有利于缩短我们的发展周期。",
           "feature_unlocks": [
             "超凡飞升 +1",
-            "\u003cb\u003e特征 : \u003c/b\u003e凝聚理念"
+            "\u003cb\u003eFeature : \u003c/b\u003e凝聚理念"
           ],
           "is_dangerous": false,
           "is_rare": true,
@@ -4304,7 +4304,7 @@
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 没有任何一个\u003cbr/\u003e    •   拥有 the 策展人智慧 modifier\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is 专长：计算机"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   有 策展人智慧 修正\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (Physics): \u003cbr/\u003e\t    •   Is 专长：计算机"
           ],
           "potential": [],
           "children": [],
