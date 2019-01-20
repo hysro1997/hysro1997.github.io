@@ -4467,7 +4467,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 疆域内的任何星系\u003cbr/\u003e    •   任何星球\u003cbr/\u003e\t    •   拥有 £nanites£ 纳米机器人 多于 0",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 疆域内的任何星系\u003cbr/\u003e    •   any_system_planet\u003d{has_resource\u003d{type\u003dnanitesamount\u003e0}}",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：材料科学"
           ],
           "potential": [

@@ -2870,7 +2870,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：材料科学",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有 dark_matter_found 帝国标记\u003cbr/\u003e    •   疆域内的任何星系\u003cbr/\u003e\t    •   任何星球\u003cbr/\u003e\t\t    •   拥有 £sr_dark_matter£ 暗物质 多于 0\u003cbr/\u003e    •   任何帝国间关系\u003cbr/\u003e\t    •   全部为真\u003cbr/\u003e\t\t    •   有帝国类型: default\u003cbr/\u003e\t\t    •   与我们帝国有交流\u003cbr/\u003e\t\t    •   拥有科技: 收集暗物质"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有 dark_matter_found 帝国标记\u003cbr/\u003e    •   疆域内的任何星系\u003cbr/\u003e\t    •   any_system_planet\u003d{has_resource\u003d{type\u003dsr_dark_matteramount\u003e0}}\u003cbr/\u003e    •   任何帝国间关系\u003cbr/\u003e\t    •   全部为真\u003cbr/\u003e\t\t    •   有帝国类型: default\u003cbr/\u003e\t\t    •   与我们帝国有交流\u003cbr/\u003e\t\t    •   拥有科技: 收集暗物质"
                       ],
                       "potential": [],
                       "children": [],
@@ -2937,6 +2937,31 @@
           "potential": [
             "至少一个为真\n    •   拥有 机械智能 权力\n    •   至少一个为真\n\t    •   初始物种 :\n\t\t    •   Is 机械\n\t    •   拥有 synthetic_empire 帝国标记"
           ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "null_void_beam",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 3.0,
+          "category": "粒子技术",
+          "cost": 2500,
+          "description": "利用太虚的熵特性，这种光束可以真正地摧毁能量。",
+          "feature_unlocks": [
+            "\u003cb\u003e部件\u003c/b\u003e: 中型太虚光束",
+            "\u003cb\u003e部件\u003c/b\u003e: 大型太虚光束",
+            "\u003cb\u003e部件\u003c/b\u003e: 小型太虚光束"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "无效虚空光束",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
           "children": [],
           "is_event": false
         },

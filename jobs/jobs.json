@@ -630,7 +630,7 @@
     "key": "maintenance_drone",
     "name": "维护子人口",
     "building": "building_maintenance_depot",
-    "effect": "£amenities_no_happiness£ +5 ",
+    "effect": "£amenities_no_happiness£ +4 ",
     "description": "服务于机械智能的机器和设施必须时刻维护。子人口也是同样的道理。",
     "icon": "maintenance_drone",
     "category": "simple_drone"
@@ -660,6 +660,15 @@
     "effect": "£energy£ +4 ",
     "description": "负责维持发电厂运作的一众机械师、操作员、以及技术员。",
     "icon": "technician_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "underground_contact_drone",
+    "name": "job_underground_contact_drone",
+    "building": "building_holo_theatres",
+    "effect": "£amenities£ +3 ",
+    "description": "job_underground_contact_drone_desc",
+    "icon": "spawning_drone",
     "category": "simple_drone"
   },
   {

@@ -772,6 +772,7 @@
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有 found_presapients 帝国标记\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   任何 Pop\u003cbr/\u003e\t\t    •   Pop 不贤明"
               ],
               "potential": [
+                "不是 拥有政体: 狂热净化",
                 "至少一个为真\n    •   不是 拥有 机械智能 权力\n    •   拥有政体: 迫切同化者\n    •   拥有政体: 失控机械侍从"
               ],
               "children": [
