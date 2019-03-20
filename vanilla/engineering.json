@@ -58,7 +58,7 @@
               "cost": 2000,
               "description": "新的水力压裂技术可使我们深入地壳，开采过去遥不可及的地热资源。",
               "feature_unlocks": [
-                "来自£job_miner 矿工的£minerals£ 矿物  +10%"
+                "来自£job_miner 矿工的£minerals£ 矿物  +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -83,12 +83,12 @@
                   "key": "tech_mining_2",
                   "area": "engineering",
                   "base_factor": 1.0,
-                  "base_weight": 70.0,
+                  "base_weight": 85.0,
                   "category": "工业技术",
-                  "cost": 6000,
+                  "cost": 4000,
                   "description": "借助这些大型钻机，我们可以开采接近地心的深层富矿。",
                   "feature_unlocks": [
-                    "来自£job_miner 矿工的£minerals£ 矿物  +10%"
+                    "来自£job_miner 矿工的£minerals£ 矿物  +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -113,12 +113,12 @@
                       "key": "tech_mining_3",
                       "area": "engineering",
                       "base_factor": 1.0,
-                      "base_weight": 40.0,
+                      "base_weight": 65.0,
                       "category": "工业技术",
-                      "cost": 20000,
+                      "cost": 8000,
                       "description": "用先进光谱测定法配合水力压裂技术与化学冲刷，可以快速开采浅层与中层的矿脉。",
                       "feature_unlocks": [
-                        "来自£job_miner 矿工的£minerals£ 矿物  +10%"
+                        "来自£job_miner 矿工的£minerals£ 矿物  +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -127,7 +127,7 @@
                       "prerequisites": [
                         "tech_mining_2"
                       ],
-                      "tier": 4,
+                      "tier": 3,
                       "prerequisites_names": [
                         {
                           "name": "地心开采",
@@ -148,9 +148,9 @@
                   "key": "tech_mineral_purification_1",
                   "area": "engineering",
                   "base_factor": 1.0,
-                  "base_weight": 95.0,
+                  "base_weight": 90.0,
                   "category": "工业技术",
-                  "cost": 2500,
+                  "cost": 3000,
                   "description": "优化矿物开采工艺可使我们的效率达到新的水平。",
                   "feature_unlocks": [
                     "\u003cb\u003e道德\u003c/b\u003e: 生产指标",
@@ -171,7 +171,6 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 微粒稳定化\u003cbr/\u003e    •   拥有科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：工业"
                   ],
                   "potential": [],
@@ -207,7 +206,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：工业"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：工业",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 微粒稳定化\u003cbr/\u003e    •   拥有科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 has_market_access 帝国标记"
                       ],
                       "potential": [],
                       "children": [
@@ -863,7 +863,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 水晶洞穴\u003cbr/\u003e\t\t    •   拥有地块 水晶森林\u003cbr/\u003e\t\t    •   拥有地块 水晶礁石\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +1\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +2\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +3\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +4\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +5",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 水晶洞穴\u003cbr/\u003e\t\t    •   拥有地块 水晶森林\u003cbr/\u003e\t\t    •   拥有地块 水晶礁石\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +1\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +2\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +3\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +4\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +5",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：材料科学"
               ],
               "potential": [],
@@ -896,7 +896,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 冒泡的沼泽\u003cbr/\u003e\t\t    •   拥有地块 冒烟的泥潭\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +1\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +2\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +3\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +4\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +5",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 冒泡的沼泽\u003cbr/\u003e\t\t    •   拥有地块 冒烟的泥潭\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +1\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +2\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +3\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +4\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +5",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：材料科学"
               ],
               "potential": [],
@@ -1155,7 +1155,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：材料科学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 水晶洞穴\u003cbr/\u003e\t\t    •   拥有地块 水晶森林\u003cbr/\u003e\t\t    •   拥有地块 水晶礁石\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +1\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +2\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +3\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +4\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£  +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 水晶洞穴\u003cbr/\u003e\t\t    •   拥有地块 水晶森林\u003cbr/\u003e\t\t    •   拥有地块 水晶礁石\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +1\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +2\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +3\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +4\u003cbr/\u003e\t\t    •   拥有地块 £rare_crystals£ +5"
               ],
               "potential": [],
               "children": [],
@@ -1189,41 +1189,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：材料科学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 冒泡的沼泽\u003cbr/\u003e\t\t    •   拥有地块 冒烟的泥潭\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +1\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +2\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +3\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +4\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£  +5"
-              ],
-              "potential": [],
-              "children": [],
-              "is_event": false
-            },
-            {
-              "key": "tech_mine_volatile_motes",
-              "area": "engineering",
-              "base_factor": 1.0,
-              "base_weight": 170.0,
-              "category": "材料科学",
-              "cost": 4000,
-              "description": "我们需要收集的易爆微粒性质十分不稳定，采集工作也危险重重。为了不在该过程中引起连环爆炸，需要使用力场对微粒进行稳定化。",
-              "feature_unlocks": [
-                "\u003cb\u003e建筑\u003c/b\u003e: 微粒收割陷阱",
-                "\u003cb\u003e揭露资源\u003c/b\u003e: 易爆微粒"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "微粒稳定化",
-              "prerequisites": [
-                "tech_space_construction"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "外太空建设",
-                  "key": "tech_space_construction"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：材料科学",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 灰尘洞穴\u003cbr/\u003e\t\t    •   拥有地块 灰尘沙漠\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +1\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +2\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +3\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +4\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 冒泡的沼泽\u003cbr/\u003e\t\t    •   拥有地块 冒烟的泥潭\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +1\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +2\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +3\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +4\u003cbr/\u003e\t\t    •   拥有地块 £exotic_gases£ +5"
               ],
               "potential": [],
               "children": [],
@@ -3104,7 +3070,7 @@
                   "cost": 6000,
                   "description": "建造工艺的突破，使得更为坚固耐用的驱逐舰成为了可能。",
                   "feature_unlocks": [
-                    "驱逐舰舰体耐久 +200"
+                    "驱逐舰船体耐久值 +200"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3135,7 +3101,7 @@
                       "cost": 8000,
                       "description": "最新一代驱逐舰的舰体结构强度分布进行了优化，舰艏也进行了增强。",
                       "feature_unlocks": [
-                        "驱逐舰舰体耐久 +200"
+                        "驱逐舰船体耐久值 +200"
                       ],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -3288,7 +3254,7 @@
                               "cost": 40000,
                               "description": "建造工艺的突破，使得更为坚固耐用的泰坦成为了可能。",
                               "feature_unlocks": [
-                                "泰坦舰体耐久 +2000"
+                                "泰坦船体耐久值 +2000"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -3320,7 +3286,7 @@
                                   "cost": 48000,
                                   "description": "最新一代泰坦的舰体结构强度分布进行了优化，舰艏也进行了增强。",
                                   "feature_unlocks": [
-                                    "泰坦舰体耐久 +2000"
+                                    "泰坦船体耐久值 +2000"
                                   ],
                                   "is_dangerous": false,
                                   "is_rare": true,
@@ -3379,49 +3345,13 @@
                               ],
                               "children": [
                                 {
-                                  "key": "tech_pk_shielder",
-                                  "area": "physics",
-                                  "base_factor": 1.0,
-                                  "base_weight": 10.0,
-                                  "category": "太空技术",
-                                  "cost": 48000,
-                                  "description": "在星球外围布置一个防护盾，永久性的创造出一个坚不可摧的屏障（只有某些波长的光能通过该护盾）",
-                                  "feature_unlocks": [
-                                    "\u003cb\u003e部件\u003c/b\u003e: 星球平定者"
-                                  ],
-                                  "is_dangerous": false,
-                                  "is_rare": true,
-                                  "is_start_tech": false,
-                                  "name": "星球防护",
-                                  "prerequisites": [
-                                    "tech_colossus"
-                                  ],
-                                  "tier": 5,
-                                  "prerequisites_names": [
-                                    {
-                                      "name": "巨像",
-                                      "key": "tech_colossus"
-                                    }
-                                  ],
-                                  "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 专长：太空技术",
-                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 和平主义 道德\u003cbr/\u003e    •   有 极端和平主义 道德"
-                                  ],
-                                  "potential": [
-                                    "有 DLC Apocalypse",
-                                    "拥有 巨像项目 帝国标记"
-                                  ],
-                                  "children": [],
-                                  "is_event": false
-                                },
-                                {
                                   "key": "tech_pk_neutron",
                                   "area": "physics",
                                   "base_factor": 1.0,
                                   "base_weight": 10.0,
-                                  "category": "太空技术",
+                                  "category": "粒子技术",
                                   "cost": 48000,
-                                  "description": "一道加速的中子束“涂抹”星球表面，严重地降解大多数物质并直接破坏生物组织。",
+                                  "description": " $PLANET_KILLER_NEUTRON_DESC $",
                                   "feature_unlocks": [
                                     "\u003cb\u003e部件\u003c/b\u003e: 中子横扫"
                                   ],
@@ -3440,7 +3370,7 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 专长：太空技术",
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 专长：粒子学",
                                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 唯物主义 道德\u003cbr/\u003e    •   有 极端唯物主义 道德"
                                   ],
                                   "potential": [
@@ -3448,6 +3378,42 @@
                                     "拥有 巨像项目 帝国标记",
                                     "全部为假\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德",
                                     "全部为假\n    •   有 和平主义 道德\n    •   有 极端和平主义 道德"
+                                  ],
+                                  "children": [],
+                                  "is_event": false
+                                },
+                                {
+                                  "key": "tech_pk_shielder",
+                                  "area": "physics",
+                                  "base_factor": 1.0,
+                                  "base_weight": 10.0,
+                                  "category": "力场控制",
+                                  "cost": 48000,
+                                  "description": " $PLANET_KILLER_SHIELDER_DESC $",
+                                  "feature_unlocks": [
+                                    "\u003cb\u003e部件\u003c/b\u003e: 星球平定者"
+                                  ],
+                                  "is_dangerous": false,
+                                  "is_rare": true,
+                                  "is_start_tech": false,
+                                  "name": "星球防护",
+                                  "prerequisites": [
+                                    "tech_colossus"
+                                  ],
+                                  "tier": 5,
+                                  "prerequisites_names": [
+                                    {
+                                      "name": "巨像",
+                                      "key": "tech_colossus"
+                                    }
+                                  ],
+                                  "weight_modifiers": [
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 专长：力场操控",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   有 和平主义 道德\u003cbr/\u003e    •   有 极端和平主义 道德"
+                                  ],
+                                  "potential": [
+                                    "有 DLC Apocalypse",
+                                    "拥有 巨像项目 帝国标记"
                                   ],
                                   "children": [],
                                   "is_event": false
@@ -3478,7 +3444,7 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (工程学): \u003cbr/\u003e\t    •   Is 专长：灵能"
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (社会学): \u003cbr/\u003e\t    •   Is 狂热\u003cbr/\u003e    •   科学家 (社会学): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   科学家 (社会学): \u003cbr/\u003e\t    •   Is 专长：灵能"
                                   ],
                                   "potential": [
                                     "有 DLC Apocalypse",
@@ -3496,7 +3462,7 @@
                                   "base_weight": 10.0,
                                   "category": "太空技术",
                                   "cost": 48000,
-                                  "description": "一股定向热能使大气层过热并剧烈动摇地心，引发灾难性的地壳运动。最后发射一次相对来说较小的震荡波，让星球破裂开来。",
+                                  "description": " $PLANET_KILLER_CRACKER_DESC $",
                                   "feature_unlocks": [
                                     "\u003cb\u003e部件\u003c/b\u003e: 星球击碎者"
                                   ],
@@ -3532,7 +3498,7 @@
                                   "base_weight": 10.0,
                                   "category": "太空技术",
                                   "cost": 48000,
-                                  "description": "纳米机器人扩散器",
+                                  "description": " $PLANET_KILLER_NANOBOTS $",
                                   "feature_unlocks": [
                                     "\u003cb\u003e部件\u003c/b\u003e: 纳米机器人扩散器"
                                   ],
@@ -3609,7 +3575,7 @@
                           "cost": 24000,
                           "description": "建造工艺的突破，使得更为坚固耐用的战列舰成为了可能。",
                           "feature_unlocks": [
-                            "战列舰舰体耐久 +800"
+                            "战列舰船体耐久值 +800"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3640,7 +3606,7 @@
                               "cost": 32000,
                               "description": "最新一代战列舰的舰体结构强度分布进行了优化，舰艏也进行了增强。",
                               "feature_unlocks": [
-                                "战列舰舰体耐久 +800"
+                                "战列舰船体耐久值 +800"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -3759,7 +3725,7 @@
                       "cost": 12000,
                       "description": "建造工艺的突破，使得更为坚固耐用的巡洋舰成为了可能。",
                       "feature_unlocks": [
-                        "巡洋舰舰体耐久 +500"
+                        "巡洋舰船体耐久值 +500"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3790,7 +3756,7 @@
                           "cost": 16000,
                           "description": "最新一代巡洋舰的舰体结构强度分布进行了优化，舰艏也进行了增强。",
                           "feature_unlocks": [
-                            "巡洋舰舰体耐久 +500"
+                            "巡洋舰船体耐久值 +500"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -3899,7 +3865,7 @@
               "cost": 3000,
               "description": "建造工艺的突破，使得更为坚固耐用的护卫舰成为了可能。",
               "feature_unlocks": [
-                "护卫舰舰体耐久 +100"
+                "护卫舰船体耐久值 +100"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3929,7 +3895,7 @@
                   "cost": 6000,
                   "description": "最新一代护卫舰的舰体结构强度分布进行了优化，舰艏也进行了增强。",
                   "feature_unlocks": [
-                    "护卫舰舰体耐久 +100"
+                    "护卫舰船体耐久值 +100"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -4186,7 +4152,7 @@
                   "cost": 5000,
                   "description": "即使在巨大的压力下，强化构架与增强冲击吸收能力的防爆屏障也可以确保平台的结构强度。",
                   "feature_unlocks": [
-                    "防御平台耐久 +500"
+                    "防御平台船体耐久值 +500"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -4214,7 +4180,7 @@
                       "cost": 50000,
                       "description": "额外的内部装甲结构可以提高防御站的耐久。",
                       "feature_unlocks": [
-                        "防御平台耐久 +10%"
+                        "防御平台船体耐久值 +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -4244,7 +4210,7 @@
                       "cost": 50000,
                       "description": "交联武器系统发射的交错式齐射可以极大提升防御站的伤害。",
                       "feature_unlocks": [
-                        "防御站伤害 +10%"
+                        "防御平台伤害 +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -4455,7 +4421,7 @@
           "base_weight": 70.0,
           "category": "材料科学",
           "cost": 6000,
-          "description": "量产这种强大的纳米机器需要非常先进的设施。",
+          "description": "这些稀有资源的大规模生产需要极为先进的纳米材料。",
           "feature_unlocks": [
             "\u003cb\u003e建筑\u003c/b\u003e: 纳米变形器"
           ],
@@ -4468,7 +4434,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 疆域内的任何星系\u003cbr/\u003e    •   any_system_planet\u003d{has_resource\u003d{type\u003dnanitesamount\u003e0}}",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：材料科学"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：材料科学"
           ],
           "potential": [
             "有 DLC Distant Stars Story Pack"

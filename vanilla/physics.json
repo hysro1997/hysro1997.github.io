@@ -601,10 +601,7 @@
                       "feature_unlocks": [
                         "\u003cb\u003e部件\u003c/b\u003e: 中型等离子加速炮",
                         "\u003cb\u003e部件\u003c/b\u003e: 大型等离子加速炮",
-                        "\u003cb\u003e部件\u003c/b\u003e: 中型行商火炮",
-                        "\u003cb\u003e部件\u003c/b\u003e: 小型等离子加速炮",
-                        "\u003cb\u003e部件\u003c/b\u003e: 大型行商火炮",
-                        "\u003cb\u003e部件\u003c/b\u003e: 小型行商火炮"
+                        "\u003cb\u003e部件\u003c/b\u003e: 小型等离子加速炮"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -1017,7 +1014,7 @@
               "description": "重力井投射器可以创造出无法安全进入超空间的局部空间。其能源需求与体积都十分巨大，只有太空基地才能安装。",
               "feature_unlocks": [
                 "\u003cb\u003eFeature : \u003c/b\u003e星球超光速阻断器",
-                "\u003cb\u003e部件\u003c/b\u003e: 超光速拦截器"
+                "\u003cb\u003e部件\u003c/b\u003e:  $sm_ftl_inhibitor $"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1298,7 +1295,7 @@
               "cost": 2000,
               "description": "调整过的力场可以增加能源产量并提高能源输出。",
               "feature_unlocks": [
-                "来自£job_technician 技师的£energy£ 能源 +10%"
+                "来自£job_technician 技师的£energy£ 能源 +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1324,30 +1321,25 @@
                   "key": "tech_power_plant_3",
                   "area": "physics",
                   "base_factor": 1.0,
-                  "base_weight": 70.0,
+                  "base_weight": 85.0,
                   "category": "力场控制",
-                  "cost": 6000,
+                  "cost": 4000,
                   "description": "可以大幅度提高能源输出的能源生成的基本法则。",
                   "feature_unlocks": [
-                    "来自£job_technician 技师的£energy£ 能源 +10%"
+                    "来自£job_technician 技师的£energy£ 能源 +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
                   "name": "量子能状态",
                   "prerequisites": [
-                    "tech_power_plant_2",
-                    "tech_colonial_centralization"
+                    "tech_power_plant_2"
                   ],
                   "tier": 2,
                   "prerequisites_names": [
                     {
                       "name": "力场调制",
                       "key": "tech_power_plant_2"
-                    },
-                    {
-                      "name": "殖民集中",
-                      "key": "tech_colonial_centralization"
                     }
                   ],
                   "weight_modifiers": [
@@ -1360,30 +1352,25 @@
                       "key": "tech_power_plant_4",
                       "area": "physics",
                       "base_factor": 1.0,
-                      "base_weight": 40.0,
+                      "base_weight": 65.0,
                       "category": "力场控制",
-                      "cost": 20000,
+                      "cost": 8000,
                       "description": "能源线圈的量子级重叠，充能的同时耗能。",
                       "feature_unlocks": [
-                        "来自£job_technician 技师的£energy£ 能源 +10%"
+                        "来自£job_technician 技师的£energy£ 能源 +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
                       "name": "量子场调制",
                       "prerequisites": [
-                        "tech_power_plant_3",
-                        "tech_galactic_administration"
+                        "tech_power_plant_3"
                       ],
-                      "tier": 4,
+                      "tier": 3,
                       "prerequisites_names": [
                         {
                           "name": "量子能状态",
                           "key": "tech_power_plant_3"
-                        },
-                        {
-                          "name": "星系管理",
-                          "key": "tech_galactic_administration"
                         }
                       ],
                       "weight_modifiers": [
@@ -1434,9 +1421,9 @@
               "key": "tech_power_hub_1",
               "area": "physics",
               "base_factor": 1.0,
-              "base_weight": 190.0,
+              "base_weight": 180.0,
               "category": "力场控制",
-              "cost": 2500,
+              "cost": 3000,
               "description": "负载平衡设施可以巨大提升本地网络的稳定性，并将多余的能源充入集中的电容。",
               "feature_unlocks": [
                 "\u003cb\u003e建筑\u003c/b\u003e: 电力处理站",
@@ -2289,7 +2276,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 异星天然气收集\u003cbr/\u003e    •   拥有科技: 外星气体精炼\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：计算机"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：计算机"
               ],
               "potential": [],
               "children": [
@@ -2324,7 +2311,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：计算机"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：计算机"
                   ],
                   "potential": [],
                   "children": [],
@@ -2869,7 +2856,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：材料科学",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：力场操控",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有 dark_matter_found 帝国标记\u003cbr/\u003e    •   疆域内的任何星系\u003cbr/\u003e\t    •   any_system_planet\u003d{has_resource\u003d{type\u003dsr_dark_matteramount\u003e0}}\u003cbr/\u003e    •   任何帝国间关系\u003cbr/\u003e\t    •   全部为真\u003cbr/\u003e\t\t    •   有帝国类型: default\u003cbr/\u003e\t\t    •   与我们帝国有交流\u003cbr/\u003e\t\t    •   拥有科技: 收集暗物质"
                       ],
                       "potential": [],
@@ -2966,6 +2953,59 @@
           "is_event": false
         },
         {
+          "key": "tech_mine_volatile_motes",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 170.0,
+          "category": "粒子技术",
+          "cost": 4000,
+          "description": "我们需要收集的易爆微粒性质十分不稳定，采集工作也危险重重。为了不在该过程中引起连环爆炸，需要使用力场对微粒进行稳定化。",
+          "feature_unlocks": [
+            "\u003cb\u003e建筑\u003c/b\u003e: 微粒收割陷阱",
+            "\u003cb\u003e揭露资源\u003c/b\u003e: 易爆微粒"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "微粒稳定化",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：粒子学",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 灰尘洞穴\u003cbr/\u003e\t\t    •   拥有地块 灰尘沙漠\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +1\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +2\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +3\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +4\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +5"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_volatile_motes",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 170.0,
+          "category": "粒子技术",
+          "cost": 4000,
+          "description": "除了明显的安全问题之外，人造易爆微尘也是极端精密且复杂的工作，需要高度专业化的设备。",
+          "feature_unlocks": [
+            "\u003cb\u003e建筑\u003c/b\u003e: 化学厂"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "不稳定材料生产厂",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 灰尘洞穴\u003cbr/\u003e\t\t    •   拥有地块 灰尘沙漠\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +1\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +2\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +3\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +4\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£ +5",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：粒子学"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false
+        },
+        {
           "key": "tech_automated_exploration",
           "area": "physics",
           "base_factor": 1.0,
@@ -3050,32 +3090,6 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 有 策展人智慧 修正",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 策展人",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 策展人\u003cbr/\u003e    •   有 策展人智慧 修正"
-          ],
-          "potential": [],
-          "children": [],
-          "is_event": false
-        },
-        {
-          "key": "tech_volatile_motes",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 170.0,
-          "category": "材料科学",
-          "cost": 4000,
-          "description": "除了明显的安全问题之外，人造易爆微尘也是极端精密且复杂的工作，需要高度专业化的设备。",
-          "feature_unlocks": [
-            "\u003cb\u003e建筑\u003c/b\u003e: 化学厂"
-          ],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "name": "不稳定材料生产厂",
-          "prerequisites": [],
-          "tier": 2,
-          "prerequisites_names": [],
-          "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) 至少一个为真\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 灰尘洞穴\u003cbr/\u003e\t\t    •   拥有地块 灰尘沙漠\u003cbr/\u003e    •   疆域内的任何星球\u003cbr/\u003e\t    •   至少一个为真\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +1\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +2\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +3\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +4\u003cbr/\u003e\t\t    •   拥有地块 £volatile_motes£  +5",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：材料科学"
           ],
           "potential": [],
           "children": [],

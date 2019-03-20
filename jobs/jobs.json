@@ -30,7 +30,7 @@
     "key": "high_priest",
     "name": "大祭司",
     "building": "building_citadel_of_faith",
-    "effect": "£unity£ +5 £amenities£ +5 ",
+    "effect": "£unity£ +5 £society_research£ +2 £amenities£ +5 ",
     "description": "当指引百姓的人本身也迷茫需要指引时，他们该去找谁呢？当然是比他们更加优秀的指引者了。",
     "icon": "high_priest",
     "category": "ruler"
@@ -522,7 +522,7 @@
     "key": "coordinator",
     "name": "协调者",
     "building": "building_machine_capital",
-    "effect": "£unity£ +3 £society_research£ +3 ",
+    "effect": "£jobs_simple_drone_produces_mult£ +0.01 £unity£ +3 £society_research£ +1 £physics_research£ +1 £engineering_research£ +1 ",
     "description": "发至和发自智能核心的信号必须被放大、增强和清除掉静电及数据损坏。",
     "icon": "coordinator",
     "category": "complex_drone"
@@ -540,7 +540,7 @@
     "key": "fabricator",
     "name": "制造者",
     "building": "building_foundry_1",
-    "effect": "£alloys£ +3 ",
+    "effect": "£alloys£ +4 ",
     "description": "珍贵的矿物质被加工成牢固的合金以给制造者用作军事用途和高级建筑材料。",
     "icon": "fabricator",
     "category": "complex_drone"
@@ -567,7 +567,7 @@
     "key": "replicator",
     "name": "复制者",
     "building": "building_robot_assembly_plant",
-    "effect": "£pop_assembly£ +1 £amenities_no_happiness£ +5 ",
+    "effect": "£pop_assembly£ +1 £amenities_no_happiness£ +5 £engineering_research£ +1 ",
     "description": "负责生产生产机械人的机械人的机械人……",
     "icon": "replicator",
     "category": "complex_drone"
@@ -664,10 +664,10 @@
   },
   {
     "key": "underground_contact_drone",
-    "name": "job_underground_contact_drone",
+    "name": "地底交流子人口",
     "building": "building_holo_theatres",
     "effect": "£amenities£ +3 ",
-    "description": "job_underground_contact_drone_desc",
+    "description": "这些子人口居于地下，与地底文明互相交易物资。",
     "icon": "spawning_drone",
     "category": "simple_drone"
   },

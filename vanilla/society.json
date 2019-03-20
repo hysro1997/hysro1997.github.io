@@ -55,7 +55,7 @@
               "description": "通过电脑来模拟各种环境与气候条件，可以使产量预测变得更为精确。",
               "feature_unlocks": [
                 "\u003cb\u003e道德\u003c/b\u003e: 农业补贴",
-                "来自£job_farmer 农夫的£food£ 食物  +10%"
+                "来自£job_farmer 农夫的£food£ 食物  +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -105,7 +105,6 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 微粒稳定化\u003cbr/\u003e    •   拥有科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：生物学"
                   ],
@@ -127,23 +126,19 @@
                       "is_start_tech": false,
                       "name": "高级食品加工",
                       "prerequisites": [
-                        "tech_food_processing_1",
-                        "tech_colonial_centralization"
+                        "tech_food_processing_1"
                       ],
                       "tier": 3,
                       "prerequisites_names": [
                         {
                           "name": "食品加工",
                           "key": "tech_food_processing_1"
-                        },
-                        {
-                          "name": "殖民集中",
-                          "key": "tech_colonial_centralization"
                         }
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有政体: 失控机械侍从\u003cbr/\u003e    •   拥有政体: 迫切同化者\u003cbr/\u003e    •   任何拥有的星球\u003cbr/\u003e\t    •   农业区划 数量是 多于 0",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：生物学"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (工程学): \u003cbr/\u003e    •   Is 专长：生物学",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 微粒稳定化\u003cbr/\u003e    •   拥有科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 has_market_access 帝国标记"
                       ],
                       "potential": [],
                       "children": [],
@@ -156,30 +151,25 @@
                   "key": "tech_gene_crops",
                   "area": "society",
                   "base_factor": 1.0,
-                  "base_weight": 70.0,
+                  "base_weight": 85.0,
                   "category": "生物科技",
-                  "cost": 6000,
+                  "cost": 4000,
                   "description": "成熟的作物基因工程有助于进一步提高产量以及改善味道和营养价值。",
                   "feature_unlocks": [
-                    "来自£job_farmer 农夫的£food£ 食物  +10%"
+                    "来自£job_farmer 农夫的£food£ 食物  +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
                   "name": "转基因作物",
                   "prerequisites": [
-                    "tech_eco_simulation",
-                    "tech_colonial_centralization"
+                    "tech_eco_simulation"
                   ],
                   "tier": 2,
                   "prerequisites_names": [
                     {
                       "name": "生态模拟",
                       "key": "tech_eco_simulation"
-                    },
-                    {
-                      "name": "殖民集中",
-                      "key": "tech_colonial_centralization"
                     }
                   ],
                   "weight_modifiers": [
@@ -194,30 +184,25 @@
                       "key": "tech_nano_vitality_crops",
                       "area": "society",
                       "base_factor": 1.0,
-                      "base_weight": 40.0,
+                      "base_weight": 65.0,
                       "category": "生物科技",
-                      "cost": 20000,
+                      "cost": 8000,
                       "description": "在作物中注入少量的纳米机器人，在它们的帮助下创造出一种由很强恢复力的作物，定制的化学成分可改变其整个生命周期。",
                       "feature_unlocks": [
-                        "来自£job_farmer 农夫的£food£ 食物  +10%"
+                        "来自£job_farmer 农夫的£food£ 食物  +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
                       "name": "纳米活性作物",
                       "prerequisites": [
-                        "tech_gene_crops",
-                        "tech_galactic_administration"
+                        "tech_gene_crops"
                       ],
-                      "tier": 4,
+                      "tier": 3,
                       "prerequisites_names": [
                         {
                           "name": "转基因作物",
                           "key": "tech_gene_crops"
-                        },
-                        {
-                          "name": "星系管理",
-                          "key": "tech_galactic_administration"
                         }
                       ],
                       "weight_modifiers": [
@@ -1813,7 +1798,7 @@
                       "cost": 8000,
                       "description": "对经过辐射的环境进行研究后，可以在被使用核武的战争摧毁的星球上进行殖民。",
                       "feature_unlocks": [
-                        "死寂世界宜居性 +20%"
+                        "死寂星球宜居性 +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -3033,7 +3018,7 @@
                       "cost": 4000,
                       "description": "当地在行政方面做出了改进，简化了冗余的中心决策程序，对殖民事务的监管更加直接。",
                       "feature_unlocks": [
-                        "行政管理上限 +20"
+                        "行政管理能力 +20"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3139,7 +3124,7 @@
                           "cost": 8000,
                           "description": "多层级行政阶层效果显著，只有最关键的信息才会送达至帝国高层。",
                           "feature_unlocks": [
-                            "行政管理上限 +20"
+                            "行政管理能力 +20"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3173,7 +3158,7 @@
                               "cost": 50000,
                               "description": "将联系核心世界的行政网汇集中心，可以减少新帝国时常出现的行政压力和信息阻塞。",
                               "feature_unlocks": [
-                                "行政管理上限 +15"
+                                "行政管理能力 +15"
                               ],
                               "is_dangerous": false,
                               "is_rare": false,
@@ -3258,7 +3243,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 稀有水晶开采\u003cbr/\u003e    •   拥有科技: 稀有水晶生产\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (社会学): \u003cbr/\u003e    •   Is 专长：治国术",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 繁荣传统 传统"
               ],
@@ -3292,6 +3276,7 @@
                     }
                   ],
                   "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 稀有水晶开采\u003cbr/\u003e    •   拥有科技: 稀有水晶生产\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (社会学): \u003cbr/\u003e    •   Is 专长：治国术",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 拥有 繁荣传统 传统"
                   ],
@@ -3429,8 +3414,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 微粒稳定化\u003cbr/\u003e    •   拥有科技: 不稳定材料生产厂\u003cbr/\u003e    •   拥有 has_market_access 帝国标记",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (社会学): \u003cbr/\u003e    •   Is 专长：治国术"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) 科学家 (社会学): \u003cbr/\u003e    •   Is 专长：治国术",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   拥有科技: 稀有水晶开采\u003cbr/\u003e    •   拥有科技: 稀有水晶生产\u003cbr/\u003e    •   拥有 has_market_access 帝国标记"
               ],
               "potential": [
                 "全部为假\n    •   有 唯心主义 道德\n    •   有 极端唯心主义 道德\n    •   拥有政体: 失控机械侍从"
@@ -4163,8 +4148,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 专长：灵能\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 专长：材料科学\u003cbr/\u003e    •   科学家 (物理学): \u003cbr/\u003e\t    •   Is 策展人",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) 科学家 (物理学): \u003cbr/\u003e    •   Is 专长：灵能"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) 全部为假\u003cbr/\u003e    •   科学家 (社会学): \u003cbr/\u003e\t    •   Is 专长：灵能\u003cbr/\u003e    •   科学家 (社会学): \u003cbr/\u003e\t    •   Is 策展人",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) 科学家 (社会学): \u003cbr/\u003e    •   Is 专长：灵能"
               ],
               "potential": [],
               "children": [],
