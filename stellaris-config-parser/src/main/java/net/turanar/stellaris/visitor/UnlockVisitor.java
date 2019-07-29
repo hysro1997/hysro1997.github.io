@@ -2,27 +2,23 @@ package net.turanar.stellaris.visitor;
 
 import net.turanar.stellaris.domain.GameObject;
 import net.turanar.stellaris.domain.Technology;
-import net.turanar.stellaris.parser.StellarisBaseVisitor;
-import net.turanar.stellaris.parser.StellarisParser;
+import net.turanar.stellaris.antlr.StellarisParser;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import static net.turanar.stellaris.Global.*;
 
 import java.util.Map;
 
-public class UnlockVisitor extends StellarisBaseVisitor<Technology> {
+@Component
+public class UnlockVisitor {
+    @Autowired
     Map<String,Technology> technologies;
 
-    GameObject type;
-    public UnlockVisitor(GameObject type, Map<String,Technology> technologyMap) {
-        this.technologies = technologyMap;
-        this.type = type;
-    }
-
-    @Override
-    public Technology visitFile(StellarisParser.FileContext ctx) {
+    public void visitFile(GameObject type, StellarisParser.FileContext ctx) {
         for(StellarisParser.PairContext pair : ctx.pair()) {
-            this.visitPair(pair);
+            this.visitPair(type, pair);
         }
-        return null;
     }
 
     public String clean(String prop) {
@@ -30,11 +26,10 @@ public class UnlockVisitor extends StellarisBaseVisitor<Technology> {
         return retval.trim();
     }
 
-    @Override
-    public Technology visitPair(StellarisParser.PairContext pair) {
+    public Technology visitPair(GameObject type, StellarisParser.PairContext pair) {
         String key = pair.key();
         if(type == GameObject.STARBASE) {
-            System.out.println(key);
+            //System.out.println(key);
         }
         Technology tech = null;
         if(pair.value().map() == null) return null;
@@ -51,7 +46,7 @@ public class UnlockVisitor extends StellarisBaseVisitor<Technology> {
                 tech = technologies.get(gs(props.value()));
             } else if (props.key().equals("option") && type == GameObject.POLICY) {
                 key = null;
-                tech = visitPair(props);
+                tech = visitPair(type, props);
             }
         }
 

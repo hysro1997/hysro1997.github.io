@@ -1,22 +1,23 @@
 package net.turanar.stellaris.domain;
 
-import com.google.gson.Gson;
-
 import java.util.*;
 
 public class Technology implements Comparable<Technology> {
     public String key;
+    public String  name;
+    public String description;
+
     public Area area;
     public Float base_factor = 1.0f;
     public Float base_weight = 0.0f;
     public Category category;
     public Integer cost;
-    public String description;
-    public Set<String> feature_unlocks = new HashSet<String>();
+
+    public Set<String> feature_unlocks = new TreeSet<>();
     public boolean is_dangerous;
     public boolean is_rare = false;
     public boolean is_start_tech = false;
-    public String  name;
+
     public List<String> prerequisites = new ArrayList<>();
     public Integer tier;
     public Integer index;
@@ -35,8 +36,13 @@ public class Technology implements Comparable<Technology> {
     public Boolean is_drive_assimilator = null;
     public Boolean is_rogue_servitor = null;
 
-    public Technology() {
+    public String source = "vanilla";
 
+    public Technology() {
+    }
+
+    public Technology(Technology... children) {
+        this.children.addAll(Arrays.asList(children));
     }
 
     @Override

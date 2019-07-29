@@ -1,13 +1,18 @@
 package net.turanar.stellaris.domain;
 
-import net.turanar.stellaris.parser.StellarisParser.*;
+import net.turanar.stellaris.antlr.StellarisParser;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Modifier {
+    public Float factor = null;
+    public Integer add = null;
     public ModifierType type;
-    public PairContext pair;
-    public List<Modifier> children;
+    public String value;
+    public transient StellarisParser.PairContext pair;
+
+    public List<Modifier> children = new ArrayList<>();
 
     @Override
     public String toString() {

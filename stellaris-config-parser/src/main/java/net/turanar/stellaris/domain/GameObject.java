@@ -6,13 +6,17 @@ public enum GameObject {
     COMPONENT("部件","common/component_templates"),
     EDICTS("道德", "common/edicts","edict_"),
     BUILDING("建筑", "common/buildings"),
-    STRAT_RESS("揭露资源","common/strategic_resources"),
+    STRAT_RESS("揭示资源","common/strategic_resources"),
     SB_MODULE("太空港模块", "common/starbase_modules","sm_"),
     POLICY("政策","common/policies","policy_"),
+    DECISION("法令","common/decisions","","02_special_decisions.txt"),
+
     //BUILDABLE_POP("Buildable Pop","common/buildable_pops"),
     //TILE_BLOCKER("Clear Blockers", "common/tile_blockers"),
     SHIP_SIZE("舰船大小", "common/ship_sizes","","00_ship_sizes.txt"),
-    STARBASE("太空港升级", "common/ship_sizes","","00_starbases.txt");
+    STARBASE("太空港升级", "common/ship_sizes","","00_starbases.txt"),
+    MEGASTRUCTURE("巨构", "common/megastructures");
+
 
     public String folder;
     public String label;

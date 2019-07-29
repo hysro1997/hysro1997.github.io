@@ -1,5 +1,5 @@
 // Generated from D:/workspaces/stellaris\Stellaris.g4 by ANTLR 4.7
-package net.turanar.stellaris.parser;
+package net.turanar.stellaris.antlr;
 
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.ATN;
