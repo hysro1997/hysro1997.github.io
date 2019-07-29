@@ -1,0 +1,4458 @@
+{
+  "base_factor": 1.0,
+  "base_weight": 0.0,
+  "feature_unlocks": [],
+  "is_dangerous": false,
+  "is_rare": false,
+  "is_start_tech": false,
+  "prerequisites": [],
+  "prerequisites_names": [],
+  "weight_modifiers": [],
+  "potential": [],
+  "children": [
+    {
+      "name": "society",
+      "area": "society",
+      "base_factor": 1.0,
+      "base_weight": 0.0,
+      "feature_unlocks": [],
+      "is_dangerous": false,
+      "is_rare": false,
+      "is_start_tech": false,
+      "prerequisites": [],
+      "tier": 0,
+      "prerequisites_names": [],
+      "weight_modifiers": [],
+      "potential": [],
+      "children": [
+        {
+          "key": "tech_industrial_farming",
+          "name": "农业工业化",
+          "description": "通过大规模工业化农场生产富含养分的农作物，可以让一个文明的人口成倍地增长。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "生物科技",
+          "cost": 0,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_eco_simulation",
+              "name": "生态模拟",
+              "description": "通过电脑来模拟各种环境与气候条件，可以使产量预测变得更为精确。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 100.0,
+              "category": "生物科技",
+              "cost": 500,
+              "feature_unlocks": [
+                "<b>道德</b>: 农业补贴",
+                "来自£job_farmer 农夫的£food£ 食物  +20%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_industrial_farming"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "农业工业化",
+                  "key": "tech_industrial_farming"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.1</b>) 都没有<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者<br/>    •   任何拥有的星球<br/>\t    •   农业区划 的数量是  多于 0",
+                "(×<b style='color:lime'>1.25</b>) 拥有 和平主义 道德",
+                "(×<b style='color:lime'>1.5</b>) 拥有 极端和平主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_food_processing_1",
+                  "name": "食品加工",
+                  "description": "改良的食物加工技术可以让食物保存得更长久从而减少食物腐坏。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 95.0,
+                  "category": "生物科技",
+                  "cost": 750,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 食物加工厂"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_eco_simulation"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "生态模拟",
+                      "key": "tech_eco_simulation"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.01</b>) 都没有<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者<br/>    •   任何拥有的星球<br/>\t    •   农业区划 的数量是  多于 0",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_food_processing_2",
+                      "name": "高级食品加工",
+                      "description": "全新的冷冻保存和蛋白质重组技术可以进一步优化食物加工程序的效率。",
+                      "area": "society",
+                      "base_factor": 2.0,
+                      "base_weight": 130.0,
+                      "category": "生物科技",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>建筑</b>: 食物处理中心"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_food_processing_1"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "食品加工",
+                          "key": "tech_food_processing_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.01</b>) 都没有<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者<br/>    •   任何拥有的星球<br/>\t    •   农业区划 的数量是  多于 0",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学",
+                        "(×<b style='color:red'>0.0</b>) 都没有<br/>    •   拥有 科技: 微粒稳定化<br/>    •   拥有 科技: 不稳定材料生产厂<br/>    •   拥有 has_market_access 国家标记"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_gene_crops",
+                  "name": "转基因作物",
+                  "description": "成熟的作物基因工程有助于进一步提高产量以及改善味道和营养价值。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 85.0,
+                  "category": "生物科技",
+                  "cost": 1500,
+                  "feature_unlocks": [
+                    "来自£job_farmer 农夫的£food£ 食物  +20%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_eco_simulation"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "生态模拟",
+                      "key": "tech_eco_simulation"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.01</b>) 都没有<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者<br/>    •   任何拥有的星球<br/>\t    •   农业区划 的数量是  多于 0",
+                    "(×<b style='color:lime'>1.25</b>) 拥有 和平主义 道德",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 极端和平主义 道德",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_nano_vitality_crops",
+                      "name": "纳米活性作物",
+                      "description": "在作物中注入少量的纳米机器人，在它们的帮助下创造出一种由很强恢复力的作物，定制的化学成分可改变其整个生命周期。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 65.0,
+                      "category": "生物科技",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "来自£job_farmer 农夫的£food£ 食物  +20%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_gene_crops"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "转基因作物",
+                          "key": "tech_gene_crops"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.01</b>) 都没有<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者<br/>    •   任何拥有的星球<br/>\t    •   农业区划 的数量是  多于 0",
+                        "(×<b style='color:lime'>1.25</b>) 拥有 和平主义 道德",
+                        "(×<b style='color:lime'>1.5</b>) 拥有 极端和平主义 道德",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_nutrient_replication",
+                          "name": "营养复制",
+                          "description": "虽然合成作物的过程需要大量的收集废料，且产量较小，但对农业产生了重要的推动作用。",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 35.0,
+                          "category": "生物科技",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "来自£job£职业的£food£ 食物 +15%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": true,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_nano_vitality_crops"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "纳米活性作物",
+                              "key": "tech_nano_vitality_crops"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.01</b>) 都没有<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者<br/>    •   任何拥有的星球<br/>\t    •   农业区划 的数量是  多于 0",
+                            "(×<b style='color:red'>0.5</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                            "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                            "(×<b style='color:lime'>1.25</b>) 拥有 和平主义 道德",
+                            "(×<b style='color:lime'>1.5</b>) 拥有 极端和平主义 道德"
+                          ],
+                          "potential": [
+                            "不是 拥有 机械智能 权力"
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_repeatable_improved_tile_food_output",
+                      "name": "转基因作物",
+                      "description": "仅仅一盒转基因作物就能提供多种普通食物的营养元素。",
+                      "area": "society",
+                      "base_factor": 0.5,
+                      "base_weight": 12.5,
+                      "category": "生物科技",
+                      "cost": 50000,
+                      "feature_unlocks": [
+                        "来自£job£职业的£food£ 食物 +5%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_gene_crops"
+                      ],
+                      "tier": 5,
+                      "prerequisites_names": [
+                        {
+                          "name": "转基因作物",
+                          "key": "tech_gene_crops"
+                        }
+                      ],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_hydroponics",
+              "name": "生态模拟",
+              "description": "水培技术可以通过创建具有独特环境的农场进一步开发，模拟不同的生态系统。这使得产出的食品含有较高的营养。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 200.0,
+              "category": "生物科技",
+              "cost": 500,
+              "feature_unlocks": [
+                "<b>太空港建筑</b>: 水培舱",
+                "<b>建筑</b>: 水培农场"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_industrial_farming"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "农业工业化",
+                  "key": "tech_industrial_farming"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.01</b>) 都没有<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者<br/>    •   任何拥有的星球<br/>\t    •   农业区划 的数量是  多于 0",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_genome_mapping",
+          "name": "基因组定位",
+          "description": "分析个人的基因顺序开启了定制医学治疗和疗法的新纪元。",
+          "area": "society",
+          "base_factor": 1.5,
+          "base_weight": 150.0,
+          "category": "生物科技",
+          "cost": 500,
+          "feature_unlocks": [
+            "人口增长速度 +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+            "(×<b style='color:lime'>1.25</b>) 拥有 霸权传统 传统",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+          ],
+          "potential": [
+            "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+          ],
+          "children": [
+            {
+              "key": "tech_vitality_boosters",
+              "name": "活性增强剂",
+              "description": "身体的不足之处，由科学补足。",
+              "area": "society",
+              "base_factor": 1.5,
+              "base_weight": 112.5,
+              "category": "生物科技",
+              "cost": 2000,
+              "feature_unlocks": [
+                "年龄：$AGE|Y$ +10"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "基因组定位",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                "(×<b style='color:lime'>1.25</b>) 拥有 霸权传统 传统",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [
+                "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者"
+              ],
+              "children": [
+                {
+                  "key": "tech_selected_lineages",
+                  "name": "择优血脉",
+                  "description": "应该鼓励生育计划，以免浪费宝贵的基因传承。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 30.0,
+                  "category": "生物科技",
+                  "cost": 5000,
+                  "feature_unlocks": [
+                    "<b>政策</b>: 血统优先"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_vitality_boosters"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "活性增强剂",
+                      "key": "tech_vitality_boosters"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.5</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人<br/>    •   科学家 (Society): <br/>\t    •   是 灵感迸发",
+                    "(×<b style='color:red'>0.5</b>) 至少有一个<br/>    •   拥有 平等主义 道德<br/>    •   拥有 极端平等主义 道德",
+                    "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 威权主义 道德<br/>    •   拥有 极端威权主义 道德",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                  ],
+                  "potential": [
+                    "不是 拥有 机械智能 权力"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_capacity_boosters",
+                      "name": "提升能力",
+                      "description": "我们不留漏洞、不计成本，通过严格管理基因库来造就完美的未来接班人。",
+                      "area": "society",
+                      "base_factor": 0.5,
+                      "base_weight": 17.5,
+                      "category": "生物科技",
+                      "cost": 12000,
+                      "feature_unlocks": [
+                        "<b>政策</b>: 提升能力"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": true,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_selected_lineages"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "择优血脉",
+                          "key": "tech_selected_lineages"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.2</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人<br/>    •   科学家 (Society): <br/>\t    •   是 灵感迸发",
+                        "(×<b style='color:red'>0.5</b>) 至少有一个<br/>    •   拥有 平等主义 道德<br/>    •   拥有 极端平等主义 道德",
+                        "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 威权主义 道德<br/>    •   拥有 极端威权主义 道德",
+                        "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                      ],
+                      "potential": [
+                        "不是 拥有 机械智能 权力"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_repeatable_improved_leader_life_span",
+                  "name": "细胞再生",
+                  "description": "周期性细胞再生疗法能让领袖阶层保持活力，延年益寿。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 12.5,
+                  "category": "生物科技",
+                  "cost": 50000,
+                  "feature_unlocks": [
+                    "年龄：$AGE|Y$ +5"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_vitality_boosters"
+                  ],
+                  "tier": 5,
+                  "prerequisites_names": [
+                    {
+                      "name": "活性增强剂",
+                      "key": "tech_vitality_boosters"
+                    }
+                  ],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_gene_tailoring",
+              "name": "基因定制",
+              "description": "制造基因编辑工具并广泛使用肯定会对我们的发展有积极的影响。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 130.0,
+              "category": "生物科技",
+              "cost": 4000,
+              "feature_unlocks": [
+                "<b>Feature : </b>基因修正",
+                "<b>Feature : </b>自我修正",
+                "基因修正点数：+1"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "基因组定位",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                "(×<b style='color:lime'>1.25</b>) 至少有一个<br/>    •   拥有 亲外主义 道德<br/>    •   拥有 极端亲外主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [
+                "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+              ],
+              "children": [
+                {
+                  "key": "tech_glandular_acclimation",
+                  "name": "腺体适应",
+                  "description": "通过改变腺体的生物学特性，我们能按照自己的需求改变种群对环境的适应性。",
+                  "area": "society",
+                  "base_factor": 1.5,
+                  "base_weight": 75.0,
+                  "category": "生物科技",
+                  "cost": 6000,
+                  "feature_unlocks": [
+                    "<b>Feature : </b>宜居性修正"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_gene_tailoring"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "基因定制",
+                      "key": "tech_gene_tailoring"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                  ],
+                  "potential": [
+                    "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_gene_expressions",
+                  "name": "针对性基因表现",
+                  "description": "对核糖核酸和蛋白质的生产实施更严格的细胞层次控制。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 50.0,
+                  "category": "生物科技",
+                  "cost": 6000,
+                  "feature_unlocks": [
+                    "基因修正点数：+1"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_gene_tailoring"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "基因定制",
+                      "key": "tech_gene_tailoring"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                    "(×<b style='color:red'>0.5</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人<br/>    •   科学家 (Society): <br/>\t    •   是 灵感迸发",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                  ],
+                  "potential": [
+                    "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_gene_seed_purification",
+                  "name": "基因种子净化",
+                  "description": "核苷酸净化技术允许我们进行特别理想的遗传性状的隔离和细化。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 45.0,
+                  "category": "生物科技",
+                  "cost": 8000,
+                  "feature_unlocks": [
+                    "<b>陆军</b>: 基因战士军团"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_gene_tailoring"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "基因定制",
+                      "key": "tech_gene_tailoring"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) 拥有 DLC Utopia",
+                    "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                    "(×<b style='color:lime'>1.25</b>) 拥有 军国主义 道德",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 极端军国主义 道德",
+                    "(×<b style='color:red'>0.1</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 灵感迸发",
+                    "(×<b style='color:lime'>1.5</b>) 科学家 (Society): <br/>    •   技能等级 多于 4",
+                    "(×<b style='color:red'>0.75</b>) 不是 科学家 (Society): <br/>    •   技能等级 多于 3"
+                  ],
+                  "potential": [
+                    "不是 拥有 机械智能 权力"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_epigenetic_triggers",
+              "name": "表观遗传学机制",
+              "description": "先进的基因甲基化技术让我们可以显著改变任意基因组。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 75.0,
+              "category": "生物科技",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>Feature : </b>提升"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "基因组定位",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.5</b>) 拥有 极端排外主义 道德",
+                "(×<b style='color:red'>0.75</b>) 拥有 排外主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 拥有 亲外主义 道德",
+                "(×<b style='color:lime'>1.5</b>) 拥有 极端亲外主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学",
+                "(×<b style='color:red'>0.0</b>) 都没有<br/>    •   拥有 found_presapients 国家标记<br/>    •   任何疆域内的星球<br/>\t    •   任意Pop<br/>\t\t    •   Pop 不贤明"
+              ],
+              "potential": [
+                "不是 拥有 政体: 狂热净化",
+                "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+              ],
+              "children": [
+                {
+                  "key": "tech_morphogenetic_field_mastery",
+                  "name": "变形基因场精通",
+                  "description": "我们对于形态基因领域的研究本是用于药用，但随着我们愈发深入的理解，与有机体在潜意识层面的直接连接已经成为了可能。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 22.5,
+                  "category": "生物科技",
+                  "cost": 8000,
+                  "feature_unlocks": [
+                    "<b>陆军</b>: 异星人军团"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_epigenetic_triggers"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "表观遗传学机制",
+                      "key": "tech_epigenetic_triggers"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) 拥有 机械智能 权力",
+                    "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                    "(×<b style='color:lime'>1.25</b>) 拥有 军国主义 道德",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 极端军国主义 道德",
+                    "(×<b style='color:red'>0.2</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 狂热",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 灵感迸发",
+                    "(×<b style='color:lime'>1.5</b>) 科学家 (Society): <br/>    •   技能等级 多于 4",
+                    "(×<b style='color:red'>0.75</b>) 不是 科学家 (Society): <br/>    •   技能等级 多于 2"
+                  ],
+                  "potential": [
+                    "不是 拥有 机械智能 权力"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_cloning",
+              "name": "克隆",
+              "description": "摘除术的突破和人工子宫的大规模生产技术允许个人基于一个共同的遗传模板修改自己的基因。",
+              "area": "society",
+              "base_factor": 1.5,
+              "base_weight": 112.5,
+              "category": "生物科技",
+              "cost": 2000,
+              "feature_unlocks": [
+                "人口增长速度 +10%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "基因组定位",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                "(×<b style='color:lime'>1.25</b>) 拥有 霸权传统 传统",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [
+                "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者"
+              ],
+              "children": [
+                {
+                  "key": "tech_gene_banks",
+                  "name": "基因库",
+                  "description": "基因库加上可用的基因组，就可以进行克隆了。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 35.0,
+                  "category": "生物科技",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "<b>陆军</b>: 克隆军团"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_cloning"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "克隆",
+                      "key": "tech_cloning"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 拥有 蜂巢思维 权力",
+                    "(×<b style='color:red'>0.2</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人<br/>    •   科学家 (Society): <br/>\t    •   是 灵感迸发",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                    "(×<b style='color:lime'>1.5</b>) 科学家 (Society): <br/>    •   技能等级 多于 4",
+                    "(×<b style='color:red'>0.75</b>) 科学家 (Society): <br/>    •   技能等级 少于 2"
+                  ],
+                  "potential": [
+                    "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_subdermal_stimulation",
+              "name": "皮下刺激",
+              "description": "深层组织植入物是传感工程和娱乐体验两方面结合所产生的最新发明。“身之所至，无需触感！”",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 37.5,
+              "category": "生物科技",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>Feature : </b>化学极乐"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "基因组定位",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 都没有<br/>    •   拥有 平等主义 道德<br/>    •   拥有 极端平等主义 道德",
+                "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_society_1",
+          "name": "生物多样性研究",
+          "description": "研究我们星球上的各种生命形态，可以使我们更好地了解自己，以及我们周围的生命。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 100.0,
+          "category": "生物科技",
+          "cost": 500,
+          "feature_unlocks": [
+            "来自£job_researcher 研究人员的£society£ 社会学研究 +20%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>5.0</b>) 是 AI",
+            "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 5 年",
+            "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 10 年",
+            "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 15 年",
+            "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 20 年",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_society_2",
+              "name": "外星生物学",
+              "description": "研究出现在其它星球上的生命，可使我们对生物学的根本理解达到前所未及的程度。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 70.0,
+              "category": "生物科技",
+              "cost": 2500,
+              "feature_unlocks": [
+                "来自£job_researcher 研究人员的£society£ 社会学研究 +20%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_society_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "生物多样性研究",
+                  "key": "tech_society_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 5 年",
+                "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 10 年",
+                "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 15 年",
+                "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 20 年",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_society_3",
+                  "name": "生命的秘密",
+                  "description": "我们有幸研究了生命的不同维度，从而掌握了所有生物的一些共同点。也就是生命的基础。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 40.0,
+                  "category": "生物科技",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "来自£job_researcher 研究人员的£society£ 社会学研究 +20%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_society_2"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "外星生物学",
+                      "key": "tech_society_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 25 年",
+                    "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 30 年",
+                    "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 35 年",
+                    "(×<b style='color:lime'>2.0</b>) 自游戏开始过去了 多于 40 年",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_arcane_deciphering",
+                  "name": "奥术解密",
+                  "description": "各式各样的文物和科技以无法理解和复制的神秘方式运行着…至少无法用我们已知的常规科学来理解。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 35.0,
+                  "category": "治国之术",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "<b>Feature : </b>稀有文物逆向工程"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_society_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "外星生物学",
+                      "key": "tech_society_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) 不是 拥有 £minor_artifacts£ 稀有文物 多于 0",
+                    "(×<b style='color:red'>0.0</b>) 不是 拥有 DLC Ancient Relics Story Pack",
+                    "(×<b style='color:lime'>2.0</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_planetary_defenses",
+          "name": "行星防御",
+          "description": "总有一天，广博、冷静、无情的智慧生命会以嫉妒的态度看待我们的世界，并制定计划来对抗我们。我们必须提前做好准备。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "军事理论",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>建筑</b>: 要塞"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_ground_defense_planning",
+              "name": "地面防御计划",
+              "description": "有很多外星帝国希望将我们的世界据为己有。我们必须要做好万全的准备。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "军事理论",
+              "cost": 750,
+              "feature_unlocks": [
+                "士兵职业所贡献的军舰上限：+2",
+                "防御时的军团伤害 +33%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_planetary_defenses"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "行星防御",
+                  "key": "tech_planetary_defenses"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_global_defense_grid",
+                  "name": "全球防御网络",
+                  "description": "良好的防御在今天的重要程度丝毫不逊于许久之前我们的祖先所正在的时代。技术的进步不会将堡垒消除，只是改变它们的存在形式和强度。",
+                  "area": "society",
+                  "base_factor": 2.0,
+                  "base_weight": 170.0,
+                  "category": "军事理论",
+                  "cost": 1500,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 堡垒",
+                    "防守军团生命值 +25%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_ground_defense_planning"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "地面防御计划",
+                      "key": "tech_ground_defense_planning"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_doctrine_fleet_size_1",
+          "name": "学说：太空战斗",
+          "description": "逐步适应深空作战的现实使我们能够有效地协调大训练。",
+          "area": "society",
+          "base_factor": 3.0,
+          "base_weight": 255.0,
+          "category": "军事理论",
+          "cost": 1500,
+          "feature_unlocks": [
+            "舰队控制上限 +20"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_doctrine_fleet_size_2",
+              "name": "学说：灵活编队",
+              "description": "逐步适应深空作战的现实使我们能够有效地协调大训练。",
+              "area": "society",
+              "base_factor": 3.0,
+              "base_weight": 210.0,
+              "category": "军事理论",
+              "cost": 2500,
+              "feature_unlocks": [
+                "舰队控制上限 +20"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_doctrine_fleet_size_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "学说：太空战斗",
+                  "key": "tech_doctrine_fleet_size_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_doctrine_fleet_size_3",
+                  "name": "学说：星际战争",
+                  "description": "逐步适应深空作战的现实使我们能够有效地协调大训练。",
+                  "area": "society",
+                  "base_factor": 3.0,
+                  "base_weight": 180.0,
+                  "category": "军事理论",
+                  "cost": 5000,
+                  "feature_unlocks": [
+                    "舰队控制上限 +20"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_doctrine_fleet_size_2"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "学说：灵活编队",
+                      "key": "tech_doctrine_fleet_size_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_doctrine_fleet_size_4",
+                      "name": "学说：机动舰队",
+                      "description": "逐步适应深空作战的现实使我们能够有效地协调大训练。",
+                      "area": "society",
+                      "base_factor": 3.0,
+                      "base_weight": 135.0,
+                      "category": "军事理论",
+                      "cost": 8000,
+                      "feature_unlocks": [
+                        "舰队控制上限 +20"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_doctrine_fleet_size_3"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "学说：星际战争",
+                          "key": "tech_doctrine_fleet_size_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_doctrine_fleet_size_5",
+                          "name": "学说：舰队决战",
+                          "description": "逐步适应深空作战的现实使我们能够有效地协调大训练。",
+                          "area": "society",
+                          "base_factor": 3.0,
+                          "base_weight": 105.0,
+                          "category": "军事理论",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "舰队控制上限 +20"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_doctrine_fleet_size_4"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "学说：机动舰队",
+                              "key": "tech_doctrine_fleet_size_4"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_repeatable_command_limit",
+                              "name": "司令幕僚",
+                              "description": "强化司令的幕僚人员，将增加其可在一支舰队中指挥的舰船数量。",
+                              "area": "society",
+                              "base_factor": 0.5,
+                              "base_weight": 12.5,
+                              "category": "军事理论",
+                              "cost": 50000,
+                              "feature_unlocks": [
+                                "舰队控制上限 +10"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_doctrine_fleet_size_5"
+                              ],
+                              "tier": 5,
+                              "prerequisites_names": [
+                                {
+                                  "name": "学说：舰队决战",
+                                  "key": "tech_doctrine_fleet_size_5"
+                                }
+                              ],
+                              "weight_modifiers": [],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_centralized_command",
+          "name": "集中指挥",
+          "description": "创建专门的各级军团行动总部来组成一支高效的舰队，为未来的军团训练奠定了更好的基础。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 75.0,
+          "category": "军事理论",
+          "cost": 2000,
+          "feature_unlocks": [
+            "<b>建筑</b>: 军团学院",
+            "最大占领军 +2"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_combat_training",
+              "name": "战斗训练",
+              "description": "这是为新士兵准备的更完善的培训计划，包括现实的战斗场景，为他们上战场做好了准备。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 65.0,
+              "category": "军事理论",
+              "cost": 4000,
+              "feature_unlocks": [
+                "进攻时的军团伤害 +15%",
+                "进攻时的军团士气 +15%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_centralized_command"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "集中指挥",
+                  "key": "tech_centralized_command"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_repeatable_improved_army_damage",
+                  "name": "主动适应",
+                  "description": "让地面部队学习标准的环境生存法，可以让他们在正面作战时更强大。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 12.5,
+                  "category": "军事理论",
+                  "cost": 50000,
+                  "feature_unlocks": [
+                    "军团造成的伤害 +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_combat_training"
+                  ],
+                  "tier": 5,
+                  "prerequisites_names": [
+                    {
+                      "name": "战斗训练",
+                      "key": "tech_combat_training"
+                    }
+                  ],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_repeatable_improved_army_health",
+                  "name": "神经缓冲剂",
+                  "description": "小心地调整器官痛感，可以让士兵忍受更多伤痛继续战斗。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 12.5,
+                  "category": "军事理论",
+                  "cost": 50000,
+                  "feature_unlocks": [
+                    "军团生命值 +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_combat_training"
+                  ],
+                  "tier": 5,
+                  "prerequisites_names": [
+                    {
+                      "name": "战斗训练",
+                      "key": "tech_combat_training"
+                    }
+                  ],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_doctrine_navy_size_1",
+          "name": "学说：舰队支援",
+          "description": "为了让太阳系外探险变得更加普遍，重要的是提供星际边缘救援，帮他们回来。",
+          "area": "society",
+          "base_factor": 3.0,
+          "base_weight": 225.0,
+          "category": "军事理论",
+          "cost": 2000,
+          "feature_unlocks": [
+            "战舰上限 +30"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_doctrine_navy_size_2",
+              "name": "学说：支援舰船",
+              "description": "一支舰队的运行不能仅凭一腔热血，为了确保能稳定地获得重要的补给，后勤军队必须作为专门的支援舰船使用。",
+              "area": "society",
+              "base_factor": 10.0,
+              "base_weight": 600.0,
+              "category": "军事理论",
+              "cost": 5000,
+              "feature_unlocks": [
+                "战舰上限 +30"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_doctrine_navy_size_1"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "学说：舰队支援",
+                  "key": "tech_doctrine_navy_size_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_doctrine_navy_size_3",
+                  "name": "学说：星际后勤",
+                  "description": "新手谈论战术，专家研究后勤。我们可以通过确保舰队能够定期而高效地获得补给，来增加我们能够有效地支持的飞船数量。",
+                  "area": "society",
+                  "base_factor": 3.0,
+                  "base_weight": 135.0,
+                  "category": "军事理论",
+                  "cost": 8000,
+                  "feature_unlocks": [
+                    "战舰上限 +30"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_doctrine_navy_size_2"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "学说：支援舰船",
+                      "key": "tech_doctrine_navy_size_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_doctrine_navy_size_4",
+                      "name": "学说：舰队联络",
+                      "description": "通过维持一支专业的舰队联络队伍，我们可以改善指挥系统中的命令传达与通讯。",
+                      "area": "society",
+                      "base_factor": 3.0,
+                      "base_weight": 105.0,
+                      "category": "军事理论",
+                      "cost": 12000,
+                      "feature_unlocks": [
+                        "战舰上限 +30"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_doctrine_navy_size_3"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "学说：星际后勤",
+                          "key": "tech_doctrine_navy_size_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_repeatable_naval_cap",
+                          "name": "舰队管理规程",
+                          "description": "改善舰队管理规程将腾出资源，用以维持更大的舰队。",
+                          "area": "society",
+                          "base_factor": 0.5,
+                          "base_weight": 12.5,
+                          "category": "军事理论",
+                          "cost": 50000,
+                          "feature_unlocks": [
+                            "战舰上限 +20"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_doctrine_navy_size_4"
+                          ],
+                          "tier": 5,
+                          "prerequisites_names": [
+                            {
+                              "name": "学说：舰队联络",
+                              "key": "tech_doctrine_navy_size_4"
+                            }
+                          ],
+                          "weight_modifiers": [],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_interstellar_fleet_traditions",
+          "name": "星际舰队传统",
+          "description": "要是命令没有强大的约束力，多么完善的知识体系都是没用的。",
+          "area": "society",
+          "base_factor": 3.0,
+          "base_weight": 225.0,
+          "category": "军事理论",
+          "cost": 2000,
+          "feature_unlocks": [
+            "<b>太空港建筑</b>: 舰队后勤办公室",
+            "<b>太空港建筑</b>: 舰队学院"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_refit_standards",
+              "name": "学说：改装标准",
+              "description": "升级和改造船组件的标准化工作流程会导致大规模的效率提升。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 65.0,
+              "category": "军事理论",
+              "cost": 4000,
+              "feature_unlocks": [
+                "舰船维护费 -5%",
+                "飞船升级花费 -20%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_interstellar_fleet_traditions"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "星际舰队传统",
+                  "key": "tech_interstellar_fleet_traditions"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_command_matrix",
+                  "name": "指挥模型",
+                  "description": "重组指挥系统并决定人员之间的相互依赖性，使舰队的响应更加迅速高效。",
+                  "area": "society",
+                  "base_factor": 3.0,
+                  "base_weight": 150.0,
+                  "category": "军事理论",
+                  "cost": 6000,
+                  "feature_unlocks": [
+                    "<b>太空港建筑</b>: 指挥中心",
+                    "舰船射速 +5%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_refit_standards"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "学说：改装标准",
+                      "key": "tech_refit_standards"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 军国主义 道德<br/>    •   拥有 极端军国主义 道德",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_colonization_1",
+          "name": "新世界协议",
+          "description": "计算得出建立一个行星殖民地所需的资源和设备后，我们勇敢的先驱者将驾驶“方舟”外出探索，相信他们会在远方的行星上建立新的家园。",
+          "area": "society",
+          "base_factor": 1000.0,
+          "base_weight": 0.0,
+          "category": "殖民学说",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>舰船大小</b>: 殖民船",
+            "<b>舰船大小</b>: 私有殖民船"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_colonization_2",
+              "name": "大气过滤",
+              "description": "通过大气过滤，根据每个地方的基础更好地过滤掉有害的元素，殖民生活条件可能会有所改善。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "殖民学说",
+              "cost": 1000,
+              "feature_unlocks": [
+                "宜居性 +5%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.7</b>) 至少有一个<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者"
+              ],
+              "potential": [
+                "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+              ],
+              "children": [
+                {
+                  "key": "tech_colonization_3",
+                  "name": "适应恶劣环境",
+                  "description": "进一步研究其他行星上发现的危险环境有助于缓解殖民者在日常生活中遇到的困难。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "殖民学说",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "宜居性 +5%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_colonization_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "大气过滤",
+                      "key": "tech_colonization_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                    "(×<b style='color:red'>0.7</b>) 至少有一个<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者"
+                  ],
+                  "potential": [
+                    "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_colonization_4",
+                      "name": "外星土壤增肥",
+                      "description": "对多种土壤的种类及适合作物进行研究后，我们可以提升殖民者在其他星球上的生存条件。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "殖民学说",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "宜居性 +5%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonization_3"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "适应恶劣环境",
+                          "key": "tech_colonization_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                        "(×<b style='color:red'>0.7</b>) 至少有一个<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者"
+                      ],
+                      "potential": [
+                        "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                      ],
+                      "children": [
+                        {
+                          "key": "tech_colonization_5",
+                          "name": "恶劣气候研究",
+                          "description": "对不同星球的气候进行研究后，可以在环境恶劣的星球上进行殖民。",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 35.0,
+                          "category": "殖民学说",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "宜居性 +5%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_colonization_4"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "外星土壤增肥",
+                              "key": "tech_colonization_4"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                            "(×<b style='color:red'>0.7</b>) 至少有一个<br/>    •   拥有 政体: 失控机械侍从<br/>    •   拥有 政体: 迫切同化者"
+                          ],
+                          "potential": [
+                            "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_tomb_world_adaption",
+                      "name": "死寂世界适应",
+                      "description": "对经过辐射的环境进行研究后，可以在被使用核武的战争摧毁的星球上进行殖民。",
+                      "area": "society",
+                      "base_factor": 0.5,
+                      "base_weight": 32.5,
+                      "category": "殖民学说",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "死寂星球宜居性 +20%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": true,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonization_3"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "适应恶劣环境",
+                          "key": "tech_colonization_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.2</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：殖民学说<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                        "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                        "(×<b style='color:lime'>2.0</b>) 任何拥有的星球<br/>    •   是 死寂星球"
+                      ],
+                      "potential": [
+                        "至少有一个\n    •   不是 拥有 机械智能 权力\n    •   拥有 政体: 迫切同化者\n    •   拥有 政体: 失控机械侍从"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_frontier_health",
+              "name": "基因医疗",
+              "description": "外星殖民开启了一个全新的医学研究领域。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "生物科技",
+              "cost": 750,
+              "feature_unlocks": [
+                "<b>建筑</b>: 基因诊所"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1",
+                "tech_genome_mapping"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "基因组定位",
+                  "key": "tech_genome_mapping"
+                },
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 和谐传统 传统",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [
+                {
+                  "key": "tech_frontier_hospital",
+                  "name": "细胞修复",
+                  "description": "随着帝国日益强大，我们对自身的生物结构也更加了解。先进的细胞层面医疗手段可以大幅增加人们的健康。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "生物科技",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 细胞修复中心"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_frontier_health",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "基因医疗",
+                      "key": "tech_frontier_health"
+                    },
+                    {
+                      "name": "殖民集中",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) 都没有<br/>    •   拥有 科技: 异星天然气收集<br/>    •   拥有 科技: 外星气体精炼<br/>    •   拥有 has_market_access 国家标记",
+                    "(×<b style='color:lime'>1.25</b>) 拥有 和谐传统 传统",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                  ],
+                  "potential": [
+                    "不是 拥有 格式塔意识 道德"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_gestalt": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_deep_sinkhole",
+              "name": "地下殖民",
+              "description": "许多星球都有着巨大的地下空洞。地下探索、开发以及建造技术可以极大地增加某些星球的可居住空间。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "殖民学说",
+              "cost": 750,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£深坑 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_massive_glacier",
+              "name": "气候控制网络",
+              "description": "只要管理得当，轨道折射镜与遮蔽装置系统可以大幅影响星球的气候。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "殖民学说",
+              "cost": 750,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£巨型冰川 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_noxious_swamp",
+              "name": "外星水力掌控",
+              "description": "智慧种族从数千年前就已经开始开垦沼地。通过模块化引水渠、水泵站、化学修补机与自动土壤压实机之间的协调配合，我们能以前所未有的速度开垦沼地。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "殖民学说",
+              "cost": 750,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£剧毒沼泽 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_dense_jungle",
+              "name": "选择性脱叶剂",
+              "description": "通过分类、基因定序以及用计算机模拟外星植物生态体系，配合基因改造与传播机制，我们可以按自己的喜好改造外星植物群落。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "殖民学说",
+              "cost": 750,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£茂密丛林 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_quicksand_basin",
+              "name": "土壤修复",
+              "description": "土壤沉积过程通常需要数百万年的时间。应用先进的水力压裂技术、化学工程以及液压管理科技，即使最贫瘠的地层也能变成肥沃的表层土。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "殖民学说",
+              "cost": 750,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£流沙盆地 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_toxic_kelp",
+              "name": "海洋生态管理",
+              "description": "只要有足够的处理能力、传感器网络以及分站，即使洋流也能实现精确控制。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "殖民学说",
+              "cost": 750,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£有毒海藻 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_volcano",
+              "name": "地壳深部工程",
+              "description": "材料科技的发展与深井开采技术，可使我们在先前无法企及的深度与温度开展地质工程。岩浆地区现在已可以进行利用或压制，甚至转移。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 150.0,
+              "category": "殖民学说",
+              "cost": 2000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£活火山 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_terrestrial_sculpting",
+              "name": "陆地改造",
+              "description": "没有简单的可以改变星球表面宏观尺度上的构造的办法-只能用更大的铲子-或者完全安排好的钻头。",
+              "area": "society",
+              "base_factor": 1.5,
+              "base_weight": 105.0,
+              "category": "殖民学说",
+              "cost": 2500,
+              "feature_unlocks": [
+                "<b>Feature : </b>环境改造",
+                "<b>道德</b>: 环境改造气体"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_ecological_adaptation",
+                  "name": "生态适应",
+                  "description": "按照行星的环境来度身订造大型环境改造计划，那么环境改造的过程就不会造成太大的动乱。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 60.0,
+                  "category": "殖民学说",
+                  "cost": 5000,
+                  "feature_unlocks": [
+                    "<b>Feature : </b>异星整合"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_terrestrial_sculpting"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "陆地改造",
+                      "key": "tech_terrestrial_sculpting"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_climate_restoration",
+                  "name": "气候复苏",
+                  "description": "通过增强对大气层操控的理解，哪怕是环境遭到最严重毁灭的星球我们都一样能够改善。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 45.0,
+                  "category": "殖民学说",
+                  "cost": 8000,
+                  "feature_unlocks": [],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_terrestrial_sculpting"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "陆地改造",
+                      "key": "tech_terrestrial_sculpting"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_mountain_range",
+              "name": "地表重塑",
+              "description": "随着无污染核聚变、自动化以及物质压缩技术的出现，从铲除山顶发展到铲除整段山脉只是时间问题了。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 150.0,
+              "category": "殖民学说",
+              "cost": 2000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£高耸山脉 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_dangerous_wildlife",
+              "name": "清除危险野生动物",
+              "description": "破坏自然栖息地配合围剿扫荡，可以有效地在短时间内清除危险的野生动物。",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 150.0,
+              "category": "殖民学说",
+              "cost": 2000,
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_colonization_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "新世界协议",
+                  "key": "tech_colonization_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 拥有 扩张传统 传统",
+                "(×<b style='color:lime'>4.0</b>) 拥有 自然支配 飞升",
+                "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 £blocker£危险野生动物 地块资源",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_galactic_ambitions",
+          "name": "星际扩张",
+          "description": "减少战争所需的割让星球和割让边境前哨成本。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 75.0,
+          "category": "殖民学说",
+          "cost": 2000,
+          "feature_unlocks": [
+            "太空基地上限 +2"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 2",
+            "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 3",
+            "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 4",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+            "(×<b style='color:red'>0.0</b>) 可外交帝国数 少于 1"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_interstellar_campaigns",
+              "name": "星际战役",
+              "description": "有充足后援的战争机器是确保银河系支配的关键手段。我们强大的兵力可以让我们在银河系中随心所欲。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 70.0,
+              "category": "军事理论",
+              "cost": 2500,
+              "feature_unlocks": [
+                "厌战度获得 -10%",
+                "所有权影响力花费 -10%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_galactic_ambitions"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "星际扩张",
+                  "key": "tech_galactic_ambitions"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.0</b>) 至少有一个<br/>    •   拥有 政体: 狂热净化<br/>    •   拥有 政体: 吞噬蜂群<br/>    •   拥有 政体: 绝对灭绝者",
+                "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 2",
+                "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 3",
+                "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 4",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论",
+                "(×<b style='color:red'>0.0</b>) 可外交帝国数 少于 1"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_galactic_campaigns",
+                  "name": "银河战役",
+                  "description": "对政体的改进可以延伸我们对遥远星系的掌控，并加强我们的军团影响力。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 45.0,
+                  "category": "军事理论",
+                  "cost": 8000,
+                  "feature_unlocks": [
+                    "厌战度获得 -10%",
+                    "所有权影响力花费 -10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_interstellar_campaigns"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "星际战役",
+                      "key": "tech_interstellar_campaigns"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) 至少有一个<br/>    •   拥有 政体: 狂热净化<br/>    •   拥有 政体: 吞噬蜂群<br/>    •   拥有 政体: 绝对灭绝者",
+                    "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 2",
+                    "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 3",
+                    "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 4",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：军事理论",
+                    "(×<b style='color:red'>0.0</b>) 可外交帝国数 少于 1"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_manifest_destiny",
+              "name": "昭昭天命",
+              "description": "我们必须有勇气去抓住自己的命运，让现实变得有意义。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 40.0,
+              "category": "殖民学说",
+              "cost": 10000,
+              "feature_unlocks": [
+                "太空基地上限 +2"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_galactic_ambitions"
+              ],
+              "tier": 4,
+              "prerequisites_names": [
+                {
+                  "name": "星际扩张",
+                  "key": "tech_galactic_ambitions"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 2",
+                "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 3",
+                "(×<b style='color:lime'>2.0</b>) 可外交帝国数 多于 4",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说",
+                "(×<b style='color:red'>0.0</b>) 可外交帝国数 少于 1"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_repeatable_improved_starbase_capacity",
+              "name": "星际扩张",
+              "description": "太空基地要进一步提升需要巨大的物流支持网络的维护，有了物流支持网络，我们就能建造更多太空基地了。",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 12.5,
+              "category": "殖民学说",
+              "cost": 50000,
+              "feature_unlocks": [
+                "太空基地上限 +1"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_galactic_ambitions"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "星际扩张",
+                  "key": "tech_galactic_ambitions"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_hive_node",
+          "name": "突触建筑",
+          "description": "通过开发宏观突触节点来增强蜂巢意识的意志。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "治国之术",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>建筑</b>: 突触节点"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [
+            "拥有 蜂巢思维 权力"
+          ],
+          "children": [
+            {
+              "key": "tech_hive_cluster",
+              "name": "簇状突触",
+              "description": "通过集中宏观突触节点网络来最大化每表面积的超级神经元传输速度。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 75.0,
+              "category": "治国之术",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>建筑</b>: 突触群"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_hive_node"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "突触建筑",
+                  "key": "tech_hive_node"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_hive_confluence",
+                  "name": "思想集簇",
+                  "description": "蜂巢意识的意志可以通过扩充超级神经元的神经中枢的规模来获得进一步的强化。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 60.0,
+                  "category": "治国之术",
+                  "cost": 5000,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 思想集簇"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_hive_cluster",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "簇状突触",
+                      "key": "tech_hive_cluster"
+                    },
+                    {
+                      "name": "殖民集中",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "is_hive_empire": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_holo_entertainment",
+          "name": "全息影像娱乐",
+          "description": "对全息技术进行别出心裁的运用，造成了崭新的人工虚拟环境，其真实程度令人赞叹。这乃是沉浸式虚拟现实娱乐的一大进步。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "治国之术",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>建筑</b>: 全息影像剧场"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "不是 拥有 格式塔意识 道德"
+          ],
+          "children": [
+            {
+              "key": "tech_hyper_entertainment_forum",
+              "name": "极乐广场",
+              "description": "一座大型的休闲场所，犹如美梦成真。购物商场、饭店餐馆、游乐园、虚拟游戏厅，数不胜数。想要什么，就有什么！",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "治国之术",
+              "cost": 1000,
+              "feature_unlocks": [
+                "<b>建筑</b>: 极乐广场"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_holo_entertainment"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "全息影像娱乐",
+                  "key": "tech_holo_entertainment"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.0</b>) 都没有<br/>    •   拥有 科技: 异星天然气收集<br/>    •   拥有 科技: 外星气体精炼<br/>    •   拥有 has_market_access 国家标记",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "is_gestalt": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_planetary_government",
+          "name": "行星政府",
+          "description": "一旦殖民地建立完毕，开拓者变成了公民，就需要一个强大的地方政府提供生活稳定性而不是殖民地更注重的灵活性。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "治国之术",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>建筑</b>: 护卫哨所",
+            "<b>建筑</b>: 维护站",
+            "<b>建筑</b>: 蜂巢核心",
+            "<b>建筑</b>: 行政",
+            "<b>建筑</b>: 行星行政",
+            "<b>建筑</b>: 警署"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_planetary_unification",
+              "name": "行星统一",
+              "description": "远古时期的蛮族帝国，历史上的逐鹿群雄，如今团结成为一个庞大的帝国。我们绝不会，也永远不会，死亡。",
+              "area": "society",
+              "base_factor": 4.0,
+              "base_weight": 400.0,
+              "category": "治国之术",
+              "cost": 500,
+              "feature_unlocks": [
+                "<b>Feature : </b>额外法令（运动）",
+                "<b>道德</b>: 和平节日",
+                "每月凝聚力 +2"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_planetary_government"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "行星政府",
+                  "key": "tech_planetary_government"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.75</b>) 都没有<br/>    •   拥有 和平主义 道德<br/>    •   拥有 极端和平主义 道德"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_colonial_centralization",
+                  "name": "殖民集中",
+                  "description": "为每一种情况制定不同的管理策略，以满足每一个殖民地的需要。",
+                  "area": "society",
+                  "base_factor": 4.0,
+                  "base_weight": 300.0,
+                  "category": "殖民学说",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 审判堂",
+                    "<b>建筑</b>: 蜂巢枢纽",
+                    "<b>建筑</b>: 行星处理器",
+                    "<b>建筑</b>: 行星都城"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_planetary_unification"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "行星统一",
+                      "key": "tech_planetary_unification"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_autonomous_agents",
+                      "name": "自主代理",
+                      "description": "半自主的单位是大局成功的关键。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "治国之术",
+                      "cost": 2500,
+                      "feature_unlocks": [
+                        "每月影响力 +1"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "殖民集中",
+                          "key": "tech_colonial_centralization"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.5</b>) 拥有的星球数 少于 5",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 5",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 6",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 7",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                      ],
+                      "potential": [
+                        "拥有 格式塔意识 道德"
+                      ],
+                      "children": [
+                        {
+                          "key": "tech_embodied_dynamism",
+                          "name": "具现物力论",
+                          "description": "有必要向我们的自主领袖单位提倡积极主动和抱负，但同时也要确保他们不会偏离核心智能的指示。",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 50.0,
+                          "category": "治国之术",
+                          "cost": 6000,
+                          "feature_unlocks": [
+                            "领袖等级上限 +1",
+                            "领袖维持费用 -10%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_autonomous_agents"
+                          ],
+                          "tier": 3,
+                          "prerequisites_names": [
+                            {
+                              "name": "自主代理",
+                              "key": "tech_autonomous_agents"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.5</b>) 拥有的星球数 少于 7",
+                            "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 8",
+                            "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 9",
+                            "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 10",
+                            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                          ],
+                          "potential": [
+                            "拥有 格式塔意识 道德"
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_living_state",
+                      "name": "生生不息",
+                      "description": "帝国生生不息。我们构筑成为帝国的躯体，但左膀无需知道右臂在做什么。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "治国之术",
+                      "cost": 2500,
+                      "feature_unlocks": [
+                        "<b>太空港建筑</b>: 深空黑牢",
+                        "派系影响力收益 +1"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "殖民集中",
+                          "key": "tech_colonial_centralization"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.5</b>) 拥有的星球数 少于 5",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 5",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 6",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 7",
+                        "(×<b style='color:lime'>1.25</b>) 至少有一个<br/>    •   拥有 威权主义 道德<br/>    •   拥有 极端威权主义 道德",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                      ],
+                      "potential": [
+                        "不是 拥有 格式塔意识 道德"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_global_production_strategy",
+                      "name": "全球生产策略",
+                      "description": "星球很大，而生产设施之间通常也相隔着很远的距离。我们需要一个协调策略，来确保每个人都在朝着相同的方向努力。",
+                      "area": "society",
+                      "base_factor": 1.5,
+                      "base_weight": 97.5,
+                      "category": "治国之术",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>建筑</b>: 生产部",
+                        "<b>建筑</b>: 资源处理中心"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization",
+                        "tech_alloys_1",
+                        "tech_luxuries_1"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "全息影像铸模",
+                          "key": "tech_alloys_1"
+                        },
+                        {
+                          "name": "纳米电路装配",
+                          "key": "tech_luxuries_1"
+                        },
+                        {
+                          "name": "殖民集中",
+                          "key": "tech_colonial_centralization"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_galactic_administration",
+                      "name": "星系管理",
+                      "description": "星际帝国的管理需求很多也很复杂。我们会应付自如的。",
+                      "area": "society",
+                      "base_factor": 4.0,
+                      "base_weight": 200.0,
+                      "category": "治国之术",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "<b>建筑</b>: 星系首都大厦",
+                        "<b>建筑</b>: 首要枢纽",
+                        "民政槽位 +1"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "殖民集中",
+                          "key": "tech_colonial_centralization"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_collective_self",
+                      "name": "集体自我",
+                      "description": "团体内的求同存异是自然而然且不可避免的；最终，同性一定会比个性发挥更大的价值。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "治国之术",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "领袖等级上限 +1",
+                        "领袖维持费用 -10%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "殖民集中",
+                          "key": "tech_colonial_centralization"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.5</b>) 拥有的星球数 少于 7",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 8",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 9",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 10",
+                        "(×<b style='color:lime'>1.5</b>) 至少有一个<br/>    •   拥有 威权主义 道德<br/>    •   拥有 极端威权主义 道德",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                      ],
+                      "potential": [
+                        "不是 拥有 格式塔意识 道德"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_galactic_markets",
+                      "name": "银河市场",
+                      "description": "通过商品和服务的自由贸易，我们提供了一种分工更加精细的经济形式，个体可以专攻某一行业的服务，交易他们所需的东西。",
+                      "area": "society",
+                      "base_factor": 0.5,
+                      "base_weight": 22.5,
+                      "category": "治国之术",
+                      "cost": 8000,
+                      "feature_unlocks": [
+                        "<b>建筑</b>: 星际交易所"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": true,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization",
+                        "tech_interstellar_economics"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "殖民集中",
+                          "key": "tech_colonial_centralization"
+                        },
+                        {
+                          "name": "星际经济系统",
+                          "key": "tech_interstellar_economics"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.25</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：治国术<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                        "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+                        "(×<b style='color:red'>0.0</b>) 可外交帝国数 少于 2"
+                      ],
+                      "potential": [
+                        "不是 拥有 格式塔意识 道德"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "is_gestalt": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_adaptive_bureaucracy",
+                  "name": "灵活机构",
+                  "description": "我们所取得的进步需要一种更加灵活的全新政府形式，能够在我们追求事业的路上提供帮助，而不是碍手碍脚。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 95.0,
+                  "category": "治国之术",
+                  "cost": 750,
+                  "feature_unlocks": [
+                    "领袖储备 +1",
+                    "领袖花销 -20%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_planetary_unification"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "行星统一",
+                      "key": "tech_planetary_unification"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.5</b>) 拥有的星球数 少于 2",
+                    "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 2",
+                    "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 3",
+                    "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 4",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_colonial_bureaucracy",
+                      "name": "殖民官僚制",
+                      "description": "当地在行政方面做出了改进，简化了冗余的中心决策程序，对殖民事务的监管更加直接。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 85.0,
+                      "category": "殖民学说",
+                      "cost": 1500,
+                      "feature_unlocks": [
+                        "行政管理能力 +20"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_adaptive_bureaucracy"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "灵活机构",
+                          "key": "tech_adaptive_bureaucracy"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 2",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 3",
+                        "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 4",
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_adaptive_combat_algorithms",
+                          "name": "自适应作战算法",
+                          "description": "有机生命常使用毫无逻辑和规律可言的战术，我们通常难以有效应对。自适应战术和更灵活的战争形体应该可以提供决定性的优势。",
+                          "area": "society",
+                          "base_factor": 1.5,
+                          "base_weight": 112.5,
+                          "category": "生物科技",
+                          "cost": 2000,
+                          "feature_unlocks": [
+                            "<b>陆军</b>: 战甲军团"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_colonial_bureaucracy"
+                          ],
+                          "tier": 2,
+                          "prerequisites_names": [
+                            {
+                              "name": "殖民官僚制",
+                              "key": "tech_colonial_bureaucracy"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学"
+                          ],
+                          "potential": [
+                            "拥有 机械智能 权力"
+                          ],
+                          "children": [
+                            {
+                              "key": "tech_biomechanics",
+                              "name": "生物机械学",
+                              "description": "经过百万年坚持不懈的进化，有机生命有时也会进化出漂亮的解决方案，这可以应用到机械设计中。",
+                              "area": "society",
+                              "base_factor": 1.0,
+                              "base_weight": 40.0,
+                              "category": "生物科技",
+                              "cost": 10000,
+                              "feature_unlocks": [
+                                "<b>陆军</b>: 巨型战体"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": true,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_adaptive_combat_algorithms"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "自适应作战算法",
+                                  "key": "tech_adaptive_combat_algorithms"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:red'>0.1</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：生物学<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                                "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                                "(×<b style='color:lime'>1.5</b>) 科学家 (Society): <br/>    •   技能等级 多于 4",
+                                "(×<b style='color:red'>0.75</b>) 不是 科学家 (Society): <br/>    •   技能等级 多于 3"
+                              ],
+                              "potential": [
+                                "拥有 机械智能 权力"
+                              ],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        },
+                        {
+                          "key": "tech_galactic_bureaucracy",
+                          "name": "银河官僚制",
+                          "description": "多层级行政阶层效果显著，只有最关键的信息才会送达至帝国高层。",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 65.0,
+                          "category": "殖民学说",
+                          "cost": 4000,
+                          "feature_unlocks": [
+                            "行政管理能力 +20"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_colonial_bureaucracy"
+                          ],
+                          "tier": 3,
+                          "prerequisites_names": [
+                            {
+                              "name": "殖民官僚制",
+                              "key": "tech_colonial_bureaucracy"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2",
+                            "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 2",
+                            "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 3",
+                            "(×<b style='color:lime'>1.5</b>) 拥有的星球数 多于 4",
+                            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：殖民学说"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_repeatable_improved_core_system_cap",
+                              "name": "行政效率",
+                              "description": "将联系核心世界的行政网汇集中心，可以减少新帝国时常出现的行政压力和信息阻塞。",
+                              "area": "society",
+                              "base_factor": 0.5,
+                              "base_weight": 12.5,
+                              "category": "殖民学说",
+                              "cost": 50000,
+                              "feature_unlocks": [
+                                "行政管理能力 +15"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_galactic_bureaucracy"
+                              ],
+                              "tier": 5,
+                              "prerequisites_names": [
+                                {
+                                  "name": "银河官僚制",
+                                  "key": "tech_galactic_bureaucracy"
+                                }
+                              ],
+                              "weight_modifiers": [],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_interplanetary_commerce",
+          "name": "星际贸易",
+          "description": "在建立行星贸易所后，贸易的机遇也变得更为丰富。一定会大赚特赚的。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "治国之术",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>建筑</b>: 商业区"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "不是 拥有 格式塔意识 道德"
+          ],
+          "children": [
+            {
+              "key": "tech_space_trading",
+              "name": "外星贸易公司",
+              "description": "跨星际贸易有了一些新的挑战需要我们来克服。如何快速、低成本地将货物从一个星系转移到另一个星系是一个十分重要的问题。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "治国之术",
+              "cost": 1000,
+              "feature_unlocks": [
+                "<b>太空港建筑</b>: 外星贸易公司"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_interplanetary_commerce"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "星际贸易",
+                  "key": "tech_interplanetary_commerce"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+                "(×<b style='color:lime'>1.25</b>) 拥有 繁荣传统 传统"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [
+                {
+                  "key": "tech_interstellar_economics",
+                  "name": "星际经济系统",
+                  "description": "在星际旅行发展到能够安全前往母星系以外的程度后，我们的经济系统也在悄悄进行着改革发展。各种交易市场的增长速度令人大跌眼镜，就连经济学家们都有些不知所措了呢。",
+                  "area": "society",
+                  "base_factor": 2.0,
+                  "base_weight": 130.0,
+                  "category": "治国之术",
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 超豪华商业复合区"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_space_trading"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "外星贸易公司",
+                      "key": "tech_space_trading"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) 都没有<br/>    •   拥有 科技: 稀有水晶开采<br/>    •   拥有 科技: 稀有水晶生产<br/>    •   拥有 has_market_access 国家标记",
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+                    "(×<b style='color:lime'>1.25</b>) 拥有 繁荣传统 传统"
+                  ],
+                  "potential": [
+                    "不是 拥有 格式塔意识 道德"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_gestalt": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "is_gestalt": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_cultural_heritage",
+          "name": "社会文化历史",
+          "description": "前事不忘后事之师，这是我们大步迈向未来的必要条件。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "治国之术",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>建筑</b>: 上行链路节点",
+            "<b>建筑</b>: 企业文化馆",
+            "<b>建筑</b>: 先祖纪念碑",
+            "<b>建筑</b>: 寺庙"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [
+            "不是 拥有 蜂巢思维 权力"
+          ],
+          "children": [
+            {
+              "key": "tech_heritage_site",
+              "name": "传承遗迹",
+              "description": "对我们迄今为止走过的路的纪念。既是为了向过去的成就致敬，也为了激励我们勇敢走向未来。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 75.0,
+              "category": "治国之术",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>建筑</b>: 商业管理枢纽",
+                "<b>建筑</b>: 网络枢纽",
+                "<b>建筑</b>: 遗迹"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_cultural_heritage"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "社会文化历史",
+                  "key": "tech_cultural_heritage"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+                "(×<b style='color:red'>0.0</b>) 都没有<br/>    •   拥有 科技: 稀有水晶开采<br/>    •   拥有 科技: 稀有水晶生产<br/>    •   拥有 has_market_access 国家标记"
+              ],
+              "potential": [
+                "都没有\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德\n    •   拥有 政体: 失控机械侍从"
+              ],
+              "children": [
+                {
+                  "key": "tech_hypercomms_forum",
+                  "name": "本地超光速通讯",
+                  "description": "并不是所有超光速通讯渠道的研究都能得到有用的结果。但有些成果有望进一步团结我们的帝国。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 60.0,
+                  "category": "治国之术",
+                  "cost": 5000,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 协同论坛",
+                    "<b>建筑</b>: 系统汇流中心",
+                    "<b>建筑</b>: 超光速通讯设施"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_heritage_site",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "传承遗迹",
+                      "key": "tech_heritage_site"
+                    },
+                    {
+                      "name": "殖民集中",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                  ],
+                  "potential": [
+                    "都没有\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德\n    •   拥有 政体: 失控机械侍从"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_autocurating_vault",
+                      "name": "自动综合处理算法",
+                      "description": "异类数据组的连续不同步分析可以用来构建精确的社会潮流模型。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 40.0,
+                      "category": "治国之术",
+                      "cost": 10000,
+                      "feature_unlocks": [
+                        "<b>建筑</b>: 收藏宝库",
+                        "<b>建筑</b>: 自动展示保险库",
+                        "<b>建筑</b>: 阿尔法中心"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_hypercomms_forum",
+                        "tech_galactic_administration",
+                        "tech_administrative_ai"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "本地超光速通讯",
+                          "key": "tech_hypercomms_forum"
+                        },
+                        {
+                          "name": "管理型人工智能",
+                          "key": "tech_administrative_ai"
+                        },
+                        {
+                          "name": "星系管理",
+                          "key": "tech_galactic_administration"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                      ],
+                      "potential": [
+                        "都没有\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德\n    •   拥有 政体: 失控机械侍从"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_holographic_rituals",
+              "name": "全息仪式",
+              "description": "眼见为实，信念成真。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 75.0,
+              "category": "治国之术",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>建筑</b>: 全息寺庙"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_cultural_heritage"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "社会文化历史",
+                  "key": "tech_cultural_heritage"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.0</b>) 都没有<br/>    •   拥有 科技: 稀有水晶开采<br/>    •   拥有 科技: 稀有水晶生产<br/>    •   拥有 has_market_access 国家标记",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+              ],
+              "potential": [
+                "至少有一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德"
+              ],
+              "children": [
+                {
+                  "key": "tech_consecration_fields",
+                  "name": "纯净领域",
+                  "description": "通过我们对物理的理解和场的控制，人人都能感受到净土的号召。",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 60.0,
+                  "category": "治国之术",
+                  "cost": 5000,
+                  "feature_unlocks": [
+                    "<b>建筑</b>: 净土中心"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_holographic_rituals",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "全息仪式",
+                      "key": "tech_holographic_rituals"
+                    },
+                    {
+                      "name": "殖民集中",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                  ],
+                  "potential": [
+                    "至少有一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_transcendent_faith",
+                      "name": "元认知信仰",
+                      "description": "离开抚育我们的行星后，我们也对信仰、及其在更广阔的环境中的位置有了全新的理解。",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 40.0,
+                      "category": "治国之术",
+                      "cost": 10000,
+                      "feature_unlocks": [
+                        "<b>建筑</b>: 信念堡垒"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_consecration_fields",
+                        "tech_galactic_administration"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "纯净领域",
+                          "key": "tech_consecration_fields"
+                        },
+                        {
+                          "name": "星系管理",
+                          "key": "tech_galactic_administration"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+                      ],
+                      "potential": [
+                        "至少有一个\n    •   拥有 唯心主义 道德\n    •   拥有 极端唯心主义 道德"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "is_hive_empire": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_neural_implants",
+          "name": "神经植入",
+          "description": "感知就是对感官的输入进行微乎其微的处理过程，是可以改变的。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 90.0,
+          "category": "治国之术",
+          "cost": 1000,
+          "feature_unlocks": [
+            "<b>建筑</b>: 奴隶处理设施",
+            "<b>陆军</b>: 奴隶军团"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.5</b>) 拥有多于 9的Pop<br/>    •   Pop 被奴役",
+            "(×<b style='color:lime'>2.0</b>) 拥有多于 19的Pop<br/>    •   Pop 被奴役",
+            "(×<b style='color:lime'>2.0</b>) 拥有多于 29的Pop<br/>    •   Pop 被奴役",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+            "(×<b style='color:red'>0.0</b>) 至少有一个<br/>    •   都没有<br/>\t    •   拥有 政策 允许奴隶制<br/>\t    •   拥有 格式塔意识 道德<br/>    •   不是 任何所拥有的Pop<br/>\t    •   Pop 被奴役"
+          ],
+          "potential": [
+            "不是 拥有 格式塔意识 道德"
+          ],
+          "children": [
+            {
+              "key": "tech_slave_colonies",
+              "name": "奴隶世界",
+              "description": "通过创造特殊的奴隶繁殖世界，我们可以确保廉价劳工的稳定供应。",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 35.0,
+              "category": "治国之术",
+              "cost": 2500,
+              "feature_unlocks": [
+                "<b>法令</b>: 创建奴隶世界"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_neural_implants"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "神经植入",
+                  "key": "tech_neural_implants"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.25</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：治国术<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2",
+                "(×<b style='color:red'>0.0</b>) 至少有一个<br/>    •   都没有<br/>\t    •   拥有 政策 允许奴隶制<br/>\t    •   拥有 格式塔意识 道德<br/>    •   不是 任何所拥有的Pop<br/>\t    •   Pop 被奴役"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_unity_of_purpose",
+          "name": "齐心协力",
+          "description": "一个人的目标就是所有人的目标。唯有齐心协力，方可众志成城。",
+          "area": "society",
+          "base_factor": 1.5,
+          "base_weight": 105.0,
+          "category": "治国之术",
+          "cost": 2500,
+          "feature_unlocks": [
+            "反常性 -15%",
+            "舒适度 +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [
+            "拥有 格式塔意识 道德"
+          ],
+          "children": [
+            {
+              "key": "tech_resource_processing_algorithms",
+              "name": "资源处理算法",
+              "description": "所有事物都有效率。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 65.0,
+              "category": "治国之术",
+              "cost": 4000,
+              "feature_unlocks": [
+                "从£job£职业那里得到的资源 +5%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_unity_of_purpose"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "齐心协力",
+                  "key": "tech_unity_of_purpose"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+              ],
+              "potential": [
+                "拥有 机械智能 权力"
+              ],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_collective_production_methods",
+              "name": "共有生产方法",
+              "description": "我们一起构建未来。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 65.0,
+              "category": "治国之术",
+              "cost": 6000,
+              "feature_unlocks": [
+                "从£job£职业那里得到的资源 +5%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_unity_of_purpose"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "齐心协力",
+                  "key": "tech_unity_of_purpose"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+              ],
+              "potential": [
+                "拥有 蜂巢思维 权力"
+              ],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "is_gestalt": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_artificial_moral_codes",
+          "name": "人工道德规范",
+          "description": "对于道德的定义不能脱离具体情况而定，有些情况下道德就像皴裂的粘土一样易碎。",
+          "area": "society",
+          "base_factor": 1.5,
+          "base_weight": 105.0,
+          "category": "治国之术",
+          "cost": 2500,
+          "feature_unlocks": [
+            "犯罪率 -15%",
+            "舒适度 +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [
+            "不是 拥有 格式塔意识 道德"
+          ],
+          "children": [
+            {
+              "key": "tech_penal_colonies",
+              "name": "流放地",
+              "description": "开发特殊的流放世界可以让罪犯通过劳改来改过自新。不过部分罪犯或许须要进行永久性的劳改。",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 32.5,
+              "category": "治国之术",
+              "cost": 4000,
+              "feature_unlocks": [
+                "<b>法令</b>: 创建流放地"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_artificial_moral_codes"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "人工道德规范",
+                  "key": "tech_artificial_moral_codes"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.25</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：治国术<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+                "(×<b style='color:lime'>2.0</b>) 至少有一个<br/>    •   拥有 威权主义 道德<br/>    •   拥有 极端威权主义 道德",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_resort_colonies",
+              "name": "旅游世界",
+              "description": "通过仔细研究地形改造、气候控制、科学研究来创建出完全为享乐而生的世界。",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 32.5,
+              "category": "治国之术",
+              "cost": 4000,
+              "feature_unlocks": [
+                "<b>法令</b>: 创建旅游世界"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_artificial_moral_codes"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "人工道德规范",
+                  "key": "tech_artificial_moral_codes"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.25</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：治国术<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术",
+                "(×<b style='color:red'>0.0</b>) 拥有的星球数 少于 2"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_synthetic_thought_patterns",
+              "name": "综合思维模式",
+              "description": "跳出框框进行思考有时只是让你进入了一个更大的框框。",
+              "area": "society",
+              "base_factor": 1.5,
+              "base_weight": 75.0,
+              "category": "治国之术",
+              "cost": 6000,
+              "feature_unlocks": [
+                "从£job£职业那里得到的资源 +5%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_artificial_moral_codes"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "人工道德规范",
+                  "key": "tech_artificial_moral_codes"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_repeatable_improved_edict_length",
+              "name": "公告广播",
+              "description": "利用更加偏激的信息战，增加公众对法令的接受程度。",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 12.5,
+              "category": "治国之术",
+              "cost": 50000,
+              "feature_unlocks": [
+                "法令持续时间 +10%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_artificial_moral_codes"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "人工道德规范",
+                  "key": "tech_artificial_moral_codes"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_psionic_theory",
+          "name": "灵能理论",
+          "description": "人脑就是一个微观世界，里面就是这个宇宙的反射方式。不是每个种群都能意识到，但是他们的意识和其他种群相比，更像是工具。",
+          "area": "society",
+          "base_factor": 0.5,
+          "base_weight": 32.5,
+          "category": "心灵异能",
+          "cost": 4000,
+          "feature_unlocks": [
+            "每月凝聚力 +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.5</b>) 都没有<br/>    •   拥有 唯心主义 道德<br/>    •   拥有 极端唯心主义 道德",
+            "(×<b style='color:lime'>2.0</b>) 拥有 极端唯心主义 道德",
+            "(×<b style='color:lime'>2.0</b>) 科学家 (Society): <br/>    •   是 狂热",
+            "(×<b style='color:lime'>8.0</b>) 科学家 (Society): <br/>    •   是 专长：灵能",
+            "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+            "(×<b style='color:lime'>2.0</b>) 任何所拥有的Pop<br/>    •   Pop 拥有 特质 灵能",
+            "(×<b style='color:lime'>1.25</b>) 不是 任何所拥有的Pop<br/>    •   Pop 拥有 特质 灵能",
+            "(×<b style='color:red'>0.0</b>) 全都要有<br/>    •   至少有一个<br/>\t    •   拥有 唯物主义 道德<br/>\t    •   拥有 极端唯物主义 道德<br/>    •   都没有<br/>\t    •   科学家 (Society): <br/>\t\t    •   是 专长：灵能<br/>\t    •   任何所拥有的Pop<br/>\t\t    •   Pop 拥有 特质 灵能<br/>\t    •   任何所拥有的Pop<br/>\t\t    •   Pop 拥有 特质 潜在的灵能"
+          ],
+          "potential": [
+            "不是 拥有 格式塔意识 道德"
+          ],
+          "children": [
+            {
+              "key": "tech_telepathy",
+              "name": "心灵感应",
+              "description": "一旦完全适应灵能的基本知识，能够连接到其他人，能力就会变得更大。",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 25.0,
+              "category": "心灵异能",
+              "cost": 6000,
+              "feature_unlocks": [
+                "<b>陆军</b>: 灵能军团"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_psionic_theory"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "灵能理论",
+                  "key": "tech_psionic_theory"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.0</b>) 拥有 DLC Utopia",
+                "(×<b style='color:red'>0.5</b>) 不是 科学家 (Society): <br/>    •   是 专长：灵能",
+                "(×<b style='color:lime'>1.1</b>) 科学家 (Society): <br/>    •   技能等级 多于 2<br/>    •   是 专长：灵能",
+                "(×<b style='color:lime'>1.5</b>) 科学家 (Society): <br/>    •   技能等级 多于 3<br/>    •   是 专长：灵能",
+                "(×<b style='color:lime'>2.0</b>) 科学家 (Society): <br/>    •   技能等级 多于 4<br/>    •   是 专长：灵能",
+                "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                "(×<b style='color:lime'>2.0</b>) 拥有 唯心主义 道德",
+                "(×<b style='color:lime'>3.0</b>) 拥有 极端唯心主义 道德",
+                "(×<b style='color:lime'>4.0</b>) 科学家 (Society): <br/>    •   是 狂热"
+              ],
+              "potential": [
+                "不是 拥有 格式塔意识 道德"
+              ],
+              "children": [
+                {
+                  "key": "tech_precognition_interface",
+                  "name": "预知接口",
+                  "description": "在灵能能力领域的不断进步使得这样一种可能性逐渐呈现：创造一种能够读取和分析心灵感应动作发出的脉冲的作战用计算机，即可在认知处理前进行预处理。",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 20.0,
+                  "category": "心灵异能",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "<b>部件</b>: 预知接口（哨戒）",
+                    "<b>部件</b>: 预知接口（平台）",
+                    "<b>部件</b>: 预知接口（战列）",
+                    "<b>部件</b>: 预知接口（火炮）",
+                    "<b>部件</b>: 预知接口（集群）"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_telepathy"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "心灵感应",
+                      "key": "tech_telepathy"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) 拥有 DLC Utopia",
+                    "(×<b style='color:red'>0.5</b>) 不是 科学家 (Society): <br/>    •   是 专长：灵能",
+                    "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                    "(×<b style='color:lime'>2.0</b>) 拥有 唯心主义 道德",
+                    "(×<b style='color:lime'>3.0</b>) 拥有 极端唯心主义 道德",
+                    "(×<b style='color:lime'>2.0</b>) 科学家 (Society): <br/>    •   是 狂热",
+                    "(×<b style='color:lime'>4.0</b>) 科学家 (Society): <br/>    •   是 专长：灵能"
+                  ],
+                  "potential": [
+                    "不是 拥有 格式塔意识 道德"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_psi_jump_drive_1",
+                      "name": "灵能跃迁引擎",
+                      "description": "灵能跳跃引擎利用灵能引擎迫使舰体发出能源通过现实的阻碍，立即\"跳跃\"过超长的距离。",
+                      "area": "society",
+                      "base_factor": 0.1,
+                      "base_weight": 2.5,
+                      "category": "心灵异能",
+                      "cost": 17500,
+                      "feature_unlocks": [
+                        "<b>Feature : </b>跃迁引擎旅行",
+                        "<b>部件</b>: 灵能跃迁引擎"
+                      ],
+                      "is_dangerous": true,
+                      "is_rare": true,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_precognition_interface"
+                      ],
+                      "tier": 5,
+                      "prerequisites_names": [
+                        {
+                          "name": "预知接口",
+                          "key": "tech_precognition_interface"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.0</b>) 拥有 DLC Utopia",
+                        "(×<b style='color:red'>0.1</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：灵能<br/>    •   科学家 (Society): <br/>\t    •   是 策展人<br/>    •   科学家 (Society): <br/>\t    •   是 灵感迸发<br/>    •   科学家 (Society): <br/>\t    •   是 狂热",
+                        "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升"
+                      ],
+                      "potential": [
+                        "不是 拥有 格式塔意识 道德"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_mine_zro",
+              "name": "蒸馏卓气",
+              "description": "一种极其罕见的气溶胶粒子。它通过流星的传播在很多星球出现过，但它的起源是一个谜。如果被有灵能的人摄取，卓气作为非常有效的(会上瘾)药物，会增强灵能。",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 60.0,
+              "category": "心灵异能",
+              "cost": 5000,
+              "feature_unlocks": [
+                "<b>揭示资源</b>: 卓气"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_psionic_theory",
+                "tech_sensors_3"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "亚空间探测器",
+                  "key": "tech_sensors_3"
+                },
+                {
+                  "name": "灵能理论",
+                  "key": "tech_psionic_theory"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.1</b>) 都没有<br/>    •   科学家 (Society): <br/>\t    •   是 专长：灵能<br/>    •   科学家 (Society): <br/>\t    •   是 策展人",
+                "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+                "(×<b style='color:lime'>10.0</b>) 科学家 (Society): <br/>    •   是 专长：灵能"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_alien_life_studies",
+          "name": "异星生物学",
+          "description": "研究其他世界的动物群外星人的行为提供了一些见解，这使得我们可以识别和驯养温顺的个体。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 95.0,
+          "category": "生物科技",
+          "cost": 750,
+          "feature_unlocks": [
+            "<b>建筑</b>: 异形动物园"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>2.0</b>) 拥有 亲外主义 道德",
+            "(×<b style='color:lime'>3.0</b>) 拥有 极端亲外主义 道德",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：生物学",
+            "(×<b style='color:red'>0.0</b>) 不是 任何拥有的星球<br/>    •   拥有 发现外星宠物<br/>£society£ +4 地块资源"
+          ],
+          "potential": [
+            "不是 拥有 格式塔意识 道德"
+          ],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_xeno_tourism_agency",
+          "name": "外星拓展中介",
+          "description": "该企业中介提供各种星际旅游的宣传服务，同时也为希望搬至企业空间的移民者提供就业机会与签约奖励。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 65.0,
+          "category": "治国之术",
+          "cost": 4000,
+          "feature_unlocks": [
+            "<b>建筑</b>: 外星拓展中介"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [
+            "拥有 企业政府 权力"
+          ],
+          "children": [],
+          "is_event": false,
+          "is_megacorp": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_executive_retreat",
+          "name": "高管休闲计划",
+          "description": "为企业高层人员而建的豪华度假村。他们可以在这高度戒备的环境中品味当地的星球文化。",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 65.0,
+          "category": "治国之术",
+          "cost": 4000,
+          "feature_unlocks": [
+            "<b>建筑</b>: 高管度假村"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [
+            "拥有 企业政府 权力"
+          ],
+          "children": [],
+          "is_event": false,
+          "is_megacorp": true,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_housing_agrarian_idyll",
+          "name": "农业乌托邦",
+          "description": "通过建立气候控制公社，我们能够在不破坏农耕生活方式的情况下供养大量人口。",
+          "area": "society",
+          "base_factor": 1.5,
+          "base_weight": 97.5,
+          "category": "治国之术",
+          "cost": 4000,
+          "feature_unlocks": [
+            "农业区划住房：+1"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) 不是 拥有 政体: 田园牧歌",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_ascension_theory",
+          "name": "升腾理论",
+          "description": "我们的历史就是一个不断循环的过程。每次循环中，我们的科技、政治和文化水平都会出现飞跃式的发展。这些飞跃通常都出现在动乱之后，随后又带来相对平稳的时代。通过甄别这样的核心前提，我们也许能够大大缩短循环的时间，这样有利于缩短我们的发展周期。",
+          "area": "society",
+          "base_factor": 0.5,
+          "base_weight": 12.5,
+          "category": "治国之术",
+          "cost": 17500,
+          "feature_unlocks": [
+            "<b>Feature : </b>凝聚理念",
+            "超凡飞升 +1"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.2</b>) 都没有<br/>    •   拥有 策展人智慧 效果<br/>    •   科学家 (Society): <br/>\t    •   是 策展人<br/>    •   科学家 (Society): <br/>\t    •   是 专长：治国术",
+            "(×<b style='color:lime'>1.5</b>) 拥有 科技飞跃 飞升",
+            "(×<b style='color:lime'>1.25</b>) 科学家 (Society): <br/>    •   是 专长：治国术"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        }
+      ],
+      "is_event": false,
+      "source": "vanilla"
+    }
+  ],
+  "is_event": false,
+  "source": "vanilla"
+}

@@ -1,0 +1,1566 @@
+{
+  "base_factor": 1.0,
+  "base_weight": 0.0,
+  "feature_unlocks": [],
+  "is_dangerous": false,
+  "is_rare": false,
+  "is_start_tech": false,
+  "prerequisites": [],
+  "tier": 0,
+  "prerequisites_names": [],
+  "weight_modifiers": [],
+  "potential": [],
+  "children": [
+    {
+      "key": "gigastructure",
+      "name": "gigastructure",
+      "base_factor": 1.0,
+      "base_weight": 0.0,
+      "feature_unlocks": [],
+      "is_dangerous": false,
+      "is_rare": false,
+      "is_start_tech": false,
+      "prerequisites": [],
+      "prerequisites_names": [],
+      "weight_modifiers": [],
+      "potential": [],
+      "children": [
+        {
+          "key": "tech_exotic_lab_data",
+          "name": "Ancient Spacetime Manipulation Data",
+          "description": "Data from Pouchkinn's Ancient Laboratory provides us with incredible insights on the nature of spacetime.",
+          "area": "physics",
+          "base_factor": 0.0,
+          "base_weight": 0.0,
+          "category": "Particles",
+          "cost": 6500,
+          "feature_unlocks": [
+            "Jump Charge Time -10%",
+            "Megastructure Build Speed +5%",
+            "mod_country_tile_resource_physics_research_mult +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_big_star_particle_accelerator",
+          "name": "Ultra-Energetic Particle Colliders",
+          "description": "Accelerating particles against each other is an efficient way to learn about how they interact. The ability to construct huge accelerators, capable of wrapping around a star, will certainly prove to be useful.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Particles",
+          "cost": 10000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +5000",
+            "Research Speed +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_antimatter_power",
+            "tech_cruisers"
+          ],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_giga_penrose_sphere",
+          "name": "Superradiant Scattering Exploitation",
+          "description": "Spinning Black Holes have such powerful gravitational fields that they literally drag spacetime along with them while rotating. It is theoretically possible to exploit this process by firing light into a specialized mirror sphere around a Black Hole, which will be amplified by the region of space dragged by the Black Hole.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 55.0,
+          "category": "Particles",
+          "cost": 15000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_big_star_particle_accelerator",
+            "tech_zero_point_power",
+            "tech_mega_engineering"
+          ],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the blackhole_detonator_disabled global flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_ignite_browndwarf",
+          "name": "Helioforming",
+          "description": "Brown Dwarves came just short of starting fusion reactions and becoming stars. With the right technologies and some resources, it might be possible to give them the push needed for them to ignite.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 80.0,
+          "category": "Particles",
+          "cost": 20000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_big_star_particle_accelerator",
+            "tech_zero_point_power",
+            "tech_big_engineering_station",
+            "tech_mega_engineering"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_giga_penrose_stabilization",
+          "name": "Controlled Ergosphere Harvesting",
+          "description": "By using specialized stabilizers and modulators, it becomes possible to drastically increase the amount of controlled radiation a Penrose sphere can contain, drastically increasing its output.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 45.0,
+          "category": "Particles",
+          "cost": 20000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_giga_penrose_sphere",
+            "tech_zero_point_power",
+            "tech_fusion_disruption"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_kugelblitz_generator",
+          "name": "Artificial Kugelblitz Containment",
+          "description": "The ability to generate a Kugelblitz could prove useful, as such objects could be used as efficient singularity generators. Most importantly, controlled Kugelblitzes could be fed matter and energy for later recovery, effectively acting as a Black Hole storage device.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 80.0,
+          "category": "Particles",
+          "cost": 25000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +2500"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_big_star_particle_accelerator",
+            "tech_zero_point_power",
+            "tech_big_engineering_station"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the kugel_disabled global flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_disco_moon",
+          "name": "Hyperscale Refracting Apparatuses",
+          "description": "A citizen's life can be hard and exhausting. Covering a nearby moon with crystal plates and underground spotlights would create a device capable of projecting magnificient auroras and lights into a planet's sky. Such majectic effects would surely have a positive impact on our people's morale!",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Particles",
+          "cost": 25000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_autocurating_vault"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the disco_moon_disabled global flag",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_ringworld_heating_systems",
+          "name": "Superscale Pseudosunlight Application",
+          "description": "How do we sustain a vast, non-restrained ecosystem without a star to heat it? The answer is artificial light scattering through the dispersal of specific nanocompounds within the habitat's atmosphere, allowing vast heaters to easily warm up the surface of a starless habitat, through exotic heat-transmitting processes.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Particles",
+          "cost": 30000,
+          "feature_unlocks": [
+            "Megastructure Build Cost -5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_gas_giant_colony",
+          "name": "Gas Giant Atmospheric Stabilization",
+          "description": "The atmospheres of Gas Giants are full of rare resources that are sadly impossible to access due to the planets' tumultuous atmospheres. However, massive orbital gravity modulation arrays above the planet's atmosphere could stabilize the planet's upper atmosphere, potentially allowing colonization by floating cities.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "Particles",
+          "cost": 30000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_battleships",
+            "tech_mega_engineering",
+            "tech_climate_restoration",
+            "tech_big_star_particle_accelerator"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the gas_habitat_disabled global flag",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Particles Expert"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_fusion_disruption",
+          "name": "Stellar Fusion Manipulation",
+          "description": "Experimental gravity modulation devices along with special mass injectors can make it possible to alter the cataclysmic energies of a star. Such technologies could allow us to compress and destroy entire stars by strategically disrupting fusion reactions.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 45.0,
+          "category": "Particles",
+          "cost": 25000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_zero_point_power",
+            "tech_battleships",
+            "tech_mega_engineering",
+            "tech_big_star_particle_accelerator",
+            "tech_ignite_browndwarf"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_high_capacity_cells",
+          "name": "Phased Hyperenergetic Power Capacitors",
+          "description": "Storing humongous amounts of energy within a stellar-size megastructure could have incredibly useful applications.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 50.0,
+          "category": "Particles",
+          "cost": 50000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +25000"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_fusion_disruption",
+            "tech_battleships",
+            "tech_mega_engineering",
+            "tech_big_star_particle_accelerator",
+            "tech_power_hub_2",
+            "tech_power_plant_4"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the ndb_disabled global flag",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_nicoll_superlens",
+          "name": "Hyperfocusing Macroscale Crystalline Lenses",
+          "description": "Advances in crystalline technologies can lead to a variety of new and incredibly efficient lenses, capable of focusing immense amounts of energy.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 50.0,
+          "category": "Particles",
+          "cost": 70000,
+          "feature_unlocks": [
+            "Energy Weapon Damage +15%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_fusion_disruption",
+            "tech_high_capacity_cells",
+            "tech_mega_engineering",
+            "tech_big_star_particle_accelerator"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_nicoll_super_portal",
+          "name": "Artificial Interstellar Wormhole Generation",
+          "description": "The ability to generate wormholes over large distances could greatly improve our ability to transmit large amounts of energy across the stars.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 50.0,
+          "category": "Particles",
+          "cost": 85000,
+          "feature_unlocks": [
+            "mod_country_tile_resource_energy_mult +15%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_fusion_disruption",
+            "tech_nicoll_superlens",
+            "tech_mega_engineering",
+            "tech_big_star_particle_accelerator",
+            "tech_gateway_construction"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_nicoll_dyson_beam",
+          "name": "Offensive Gigascale Energy Redirection",
+          "description": "By using incredibly advanced technologies, it becomes possible to completely focus the output of an entire star into a beam of pure destruction.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 50.0,
+          "category": "Particles",
+          "cost": 150000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +35000"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_fusion_disruption",
+            "tech_nicoll_super_portal",
+            "tech_mega_engineering",
+            "tech_big_star_particle_accelerator",
+            "tech_energy_lance_2"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_mind_uploading",
+          "name": "Mass Consciousness Uploading",
+          "description": "The technological requirements to scan a mind and transfer it into a fully-simulated artificial environment along with billions of other minds are huge. But with enough a powerful enough computer, like a Matrioshka Brain, this dream can become a reality.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "Computing",
+          "cost": 10000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_big_zoo_station",
+          "name": "Orbital Ecosystems",
+          "description": "Creating a fully working complex ecosystem in orbit of a planet is quite a challenge, but such a technology permits the construction of large ecosystems orbiting a planet for research purposes.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Biology",
+          "cost": 10000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +5000",
+            "Research Speed +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_gene_tailoring",
+            "tech_cruisers"
+          ],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_pouchkinn_lifespan",
+          "name": "Ancient Lifespan Extension Data",
+          "description": "Analyzing the recovered bioimplants from the lone scientist's body will be a great boon to our longevity research.",
+          "area": "society",
+          "base_factor": 0.0,
+          "base_weight": 0.0,
+          "category": "Biology",
+          "cost": 8000,
+          "feature_unlocks": [
+            "Age: $AGE|Y$ +35",
+            "Leader Level Cap +1"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_gas_giant_plant",
+          "name": "Large-Scale Bioatmospheric Modification",
+          "description": "A Gas Giant hosting a large vegetal organism in its upper atmosphere could be a valuable asset to our food production. Through advanced gene-modding and climate manipulations technologies, such a project could be doable.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "Biology",
+          "cost": 30000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_gene_expressions",
+            "tech_battleships",
+            "tech_mega_engineering",
+            "tech_terrestrial_sculpting",
+            "tech_big_zoo_station"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the orchid_disabled global flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_fix_barren",
+          "name": "Dynamic Core Activation",
+          "description": "Re-activating a planet's magnetic field and seeding a breathable atmosphere are two very difficult tasks. However, increasingly advanced terraforming techniques can bring these feats closer to reality.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "New Worlds",
+          "cost": 25000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_climate_restoration",
+            "tech_battleships",
+            "tech_mega_engineering",
+            "tech_big_star_particle_accelerator"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_fix_toxic",
+          "name": "Hyperscale Atmospheric Cleansing",
+          "description": "Huge orbital chemical convertion plants make it theoretically possible to entirely clear a toxic world's atmosphere of toxic components, making it habitable to most species.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "New Worlds",
+          "cost": 30000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_climate_restoration",
+            "tech_battleships",
+            "tech_mega_engineering",
+            "tech_big_star_particle_accelerator",
+            "tech_fix_barren"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the purifier_disabled global flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_giga_planetary_computer",
+          "name": "Planetary Scale Computing Complexes",
+          "description": "The solution to ever-expanding needs for computing power: an entire planet transformed into a computer! Using specialized terraform techniques, this seemingly silly project can become a reality.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 50.0,
+          "category": "New Worlds",
+          "cost": 30000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_ecological_adaptation",
+            "tech_self_aware_logic",
+            "tech_power_plant_3",
+            "tech_big_star_particle_accelerator",
+            "tech_mega_engineering"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is New Worlds Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the planetary_computer_disabled global flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_shroud_energy",
+          "name": "Shroud Energy Studies",
+          "description": "Studying what exactly constitutes the Shroud can improve our capacity to connect with our psionic abilities and refine our energy distribution systems using applied Shroud knowledge.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Psionics",
+          "cost": 20000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +2500",
+            "mod_country_tile_resource_energy_mult +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_telepathy"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) Does NOT have Transcendence Ascension Perk",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Psionics Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the siphon_disabled global flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_shroud_link",
+          "name": "Deep Shroud Network",
+          "description": "Deep inside, the Shroud connects us all. If we adjust our psionic abilities to the Shroud's natural connection, we can achieve great feats of unity.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 55.0,
+          "category": "Psionics",
+          "cost": 30000,
+          "feature_unlocks": [
+            "Pop happiness is COMPARE $VALUE|Y$ +5%",
+            "Research Speed +5%",
+            "mod_country_country_resource_unity_mult +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_shroud_energy"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) Does NOT have Transcendence Ascension Perk",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Psionics Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_shroud_summon_armies",
+          "name": "Shroud Summoning Rituals",
+          "description": "If we combine psionic powers with technology, it becomes to possible to materialize entities from the Shroud's energy, which can then be controlled and serve as armies. These entities are no more than raging balls of energy howeve, and as such, they have low health and high attack.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 55.0,
+          "category": "Psionics",
+          "cost": 40000,
+          "feature_unlocks": [
+            "Army Damage +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_shroud_link"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) Does NOT have Transcendence Ascension Perk",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Psionics Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_shroud_container",
+          "name": "Shroud Energy Capacitors",
+          "description": "Energy can be forcefully extracted from the Shroud using powerful psionic abilities. However, said energy is quite volatile and can hardly form anything more complex than a ball of psionic energies. If we can manage to stabilize the energy, we could store it and redistribute it across an entire planet with a much greater efficiency than before, greatly boosting our industries.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 55.0,
+          "category": "Psionics",
+          "cost": 50000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_shroud_summon_armies"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) Does NOT have Transcendence Ascension Perk",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Psionics Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_shroud_vortex",
+          "name": "Direct Shroud Connections",
+          "description": "The Shroud is a strange realm. However, by combining several technologies and immense telepathic power, it might become possible to directly link our reality with the arcane dimension of the Shroud. Doing so might be very profitable but could end up being dangerous if we are not careful.",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "Psionics",
+          "cost": 60000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +5000"
+          ],
+          "is_dangerous": true,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_starbase_5",
+            "tech_battleships",
+            "tech_shroud_container"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) Does NOT have Transcendence Ascension Perk",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Psionics Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_ultrarapid_replication",
+          "name": "Industrial Ultrarapid Replication",
+          "description": "Advances in 3D-printing and modular construction can lead to exponentially faster construction techniques.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 80.0,
+          "category": "Industry",
+          "cost": 25000,
+          "feature_unlocks": [
+            "Planet Build Speed +15%",
+            "Robot Build Speed +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_construction_templates",
+            "tech_modular_engineering"
+          ],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_star_lifters",
+          "name": "Hyperscale Stellar Lifting",
+          "description": "Stars contain incomprehensible amounts of resources. By using specialized gravitylifts and fusion furnaces, those resources can be extracted and converted into usable minerals!",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 55.0,
+          "category": "Industry",
+          "cost": 25000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +5000",
+            "£minerals£ Minerals from £job£ Jobs +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_big_star_particle_accelerator",
+            "tech_zero_point_power",
+            "tech_big_engineering_station",
+            "tech_mega_engineering",
+            "tech_mine_rare_stellar_plasma"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the lifters_disabled global flag",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_crystal_drill",
+          "name": "Core Crystal Harvesting",
+          "description": "Rare crystals are formed when extreme pressures meet extreme temperatures within the interior of celestial bodies. It's then up to random chance to bring them up to the surface, where they can be harvested by us. However, this luck factor can be eliminated by boring straight into a world's core, and directly harvesting the precious crystals from there!",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Industry",
+          "cost": 25000,
+          "feature_unlocks": [
+            "£minerals£ Minerals from £job£ Jobs +2%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mining_3",
+            "tech_mineral_purification_2",
+            "tech_mega_engineering",
+            "tech_mine_rare_crystals"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the crystal_disabled global flag",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_big_drill",
+          "name": "Planetary Mineral Extraction",
+          "description": "Thanks to advanced orbital construction techniques, as well as new ultrareplicating industrial excavation machines, the prospect of extracting the entirety of a planet's minerals might become a reality.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 80.0,
+          "category": "Industry",
+          "cost": 30000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +10000",
+            "£minerals£ Minerals from £job£ Jobs +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mining_3",
+            "tech_mineral_purification_2",
+            "tech_ultrarapid_replication"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the drill_disabled global flag",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_molten_shipyard",
+          "name": "Molten World Shipyard Facilities",
+          "description": "Molten Worlds possess incredible potential when it comes to expanding our shipyards. We can utilize their geothermal activity to power our facilities, and harvest their resources to construct the ships themselves. Setting up a specialized harvesting ring around such a world would certainly prove to be very useful.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 50.0,
+          "category": "Industry",
+          "cost": 35000,
+          "feature_unlocks": [
+            "£alloys£ Alloys from £job£ Jobs +2%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mining_3",
+            "tech_mega_engineering",
+            "tech_alloys_2"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the shipyard_disabled global flag",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_quberine_armor",
+          "name": "Microscale Quberine Infusing",
+          "description": "Quberine's odd properties could make it an invaluable asset to our ships' armor, if we can manage to carefully infuse it into Neutronium materials.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 80.0,
+          "category": "Materials",
+          "cost": 8200,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_ship_armor_5"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have the restored_squareworld country flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_big_engineering_station",
+          "name": "Colossal Testing Facilities",
+          "description": "Constructing a testing facility in orbit of a planet can prove to be both difficult and incredibly deadly. However, the potential applications are very promising.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Voidcraft",
+          "cost": 10000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +5000",
+            "Research Speed +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_starbase_4",
+            "tech_cruisers"
+          ],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_fix_squareworld",
+          "name": "Unconventional Macroengineering Methods",
+          "description": "By analyzing the data from the odd Squareworld, we can learn a great deal about eccentric construction techniques and outside-the-box engineering.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 45.0,
+          "category": "Voidcraft",
+          "cost": 7500,
+          "feature_unlocks": [
+            "Megastructure Build Speed +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have the knows_squareworld country flag"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_planet_rings",
+          "name": "Orbital Ringworld Arcologies",
+          "description": "As planets grow and develop, they often start to run out of space for additional districts. By constructing massive ringworlds around a planet's equator, vast amounts of usable space can be created.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Voidcraft",
+          "cost": 15000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_insane_thrusters",
+          "name": "Colossal Movement Systems",
+          "description": "The larger a ship, the harder it is to make it move. Developping new and exciting types of mega movement systems could open the door to some incredible projects.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 25000,
+          "feature_unlocks": [
+            "Base Ship Speed +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_thrusters_4"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_interstellar_habitat",
+          "name": "Interstellar Habitation",
+          "description": "The vast void between stars is completely devoid of any life or activity whatsoever. However, by using extremely efficient recycling systems, and advanced engineering, we can turn these once harsh and unexplored territories into our home.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 30000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_gateway_construction"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the stellarhabitat_disabled global flag",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Voidborne Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_neutronium_gigaforge",
+          "name": "Mass Neutronium Extraction",
+          "description": "Constructing a station capable of massively extracting Neutronium to apply it to our military is quite a technical challenge, but it could prove to be very useful.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "Voidcraft",
+          "cost": 35000,
+          "feature_unlocks": [
+            "Minerals Storage Capacity +5000",
+            "Research Speed +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_starbase_5",
+            "tech_battleships",
+            "tech_ship_armor_5"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_atmo_vacuum",
+          "name": "Global Atmospheric Stripmining",
+          "description": "The atmospheres of Gas Giants are full of resources, such as Exotic Gases and Volatile Motes. Massive tractor beams, paired with fusion and refining facilities, could allow us to steadily stripmine a Gas Giant's atmosphere, harvesting all of its resources.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "Voidcraft",
+          "cost": 50000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_power_plant_4",
+            "tech_mine_exotic_gases"
+          ],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the succ_disabled global flag",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_orbital_elysium",
+          "name": "Advanced Orbital Habitation",
+          "description": "Incredibly advanced orbital construction techniques allow for the creation of very efficient planet-like habitats, offering wonderful living conditions to their inhabitants.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 20000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the elysium_disabled global flag",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Voidborne Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_military_academy_megastructure",
+          "name": "Superscale Orbital Military Bastions",
+          "description": "As our empire's fleet grows, so does its needs. One solution to the fleet's ever-growing needs is to construct massive orbital bastions, housing vast arrays of military equipments to support our fleet.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 20000,
+          "feature_unlocks": [
+            "Naval Capacity +50"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the academy_disabled global flag",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Galactic Force Projection Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_giga_penrose_ringworld",
+          "name": "Autonomous Starless Ringworld Infrastructure",
+          "description": "Theoretically, it might be possible to assemble a ringworld powered by a Penrose Sphere. Such a ringworld would be fuelled by electromagnetic radiation fed into the Black Hole's ergosphere, and could provide a safe haven for billions upon billions of years, even after the stars themselves die off.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 50.0,
+          "category": "Voidcraft",
+          "cost": 30000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_giga_penrose_stabilization",
+            "tech_ringworld_heating_systems"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_interstellar_ringworld",
+          "name": "Interstellar Ringworlds",
+          "description": "We have mastered the art of constructing ringworlds that don't require much natural heat to function. The next logical step is to take this to the extreme and upgrade our interstellar habitats with massive ringworlds!",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 30000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_interstellar_habitat",
+            "tech_ringworld_heating_systems",
+            "tech_giga_penrose_ringworld"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_titanic_ringworld",
+          "name": "Titanic Ringworld Construction",
+          "description": "One ringworld is surely an amazing feat. But new advances in hypermaterials and logistics might make it possible to construct a second, even larger ringworld around the same star, thus granting even more habitable space! To do so would require rather complicated heating and stabilization systems.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 40000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_ringworld_heating_systems"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_war_moons",
+          "name": "Celestial Body Weaponization",
+          "description": "In terms of mobile armament, the Titan was thought to be as large as it could get. The idea of moving an entire moon and using it as a weapon sounds impossibly ludicrous. But advances in mega-engineering technologies and energy configuration can make those terrifying moons a reality.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 40000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_insane_thrusters"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_ringworld_mastery",
+          "name": "Ultra-Efficient Ringworld Support Systems",
+          "description": "The main limitation with ringworlds (And, to some extent, other megastructures as well) is the sheer size of the life-support systems used to sustain a stable ecosystem on the surface, as well as the various mechanisms keeping the ringworld in one piece. Such systems include power generation, lifeform cataloguing, gravitational stabilization and so on. While they are currently stored in a dedicated ringworld segment neighboring the habitable segment, sufficiently advanced technologies might make it possible to store most of those systems within the habitable ringworld segment itself, drastically increasing the capacity of our ringworlds.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 45000,
+          "feature_unlocks": [
+            "Megastructure Build Cost -5%",
+            "Megastructure Build Speed +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the upgrade_disabled global flag",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) NOT has_galactic_wonders=yes"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_ultra_stabilizers",
+          "name": "Supratitanic Habitat Stabilization Systems",
+          "description": "When we enter the realm of habitats that dwarf ringworlds, new types of stabilization and logistical systems need to be developped. Such systems include both practical thrusters to stabilize the structure, as well as software capable of managing the structure's internal activities.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 50000,
+          "feature_unlocks": [
+            "Megastructure Build Speed +5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_titanic_ringworld",
+            "tech_ringworld_heating_systems"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Master Builders Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_gargantuan_ringworld",
+          "name": "Gargantuan Ringworld Construction",
+          "description": "Three ringworlds around the same star is literally bordering madness, but what about a fourth? Such a thing will require stupidly complicated engineering and logistics, but we've gone so far already, so why not go all the way?",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 60000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_ultra_stabilizers",
+            "tech_ringworld_heating_systems"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Master Builders Ascension Perk"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_nidavellir",
+          "name": "Spatio-Temporal Alloy Forging",
+          "description": "The pinnacle of alloy technologies. By exploiting the physics-defying nature of neutron stars alongside advanced spacetime manipulation, it becomes possible to utilize a neutron star's properties to facilitate mineral refining processes, making the mass-production of alloys trivial. Those alloys, when mixed with harvested neutronium, could then be transformed into the purest and most powerful weapons ever designed by a sapient species, capable of bending spacetime itself. This would require a colossal ring structure built around a neutron star, employing the most advanced technologies known to the galaxy.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 30.0,
+          "category": "Voidcraft",
+          "cost": 65000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_neutronium_gigaforge"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        },
+        {
+          "key": "tech_war_planets",
+          "name": "Super-Earth Planetary Body Manipulation",
+          "description": "The Attack Moon was thought to be the pinnacle of absurdly huge spacecrafts. But we can go further. If we combine several incredibly advanced technologies, from strong force manipulation to gravity stabilization, it becomes possible to upscale the Attack Moon (~3000km) to a much, much larger body (~15000km). Such an incredibly massive spaceship would be near-indestructible, and could wipe out entire Fallen Empires by itself.",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "Voidcraft",
+          "cost": 75000,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_mega_engineering",
+            "tech_war_moons"
+          ],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.0</b>) <br/>    •   Has the warplanet_disabled global flag",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert",
+            "(×<b style='color:red'>0.0</b>) Does NOT have DLC Utopia",
+            "(×<b style='color:red'>0.0</b>) Does NOT have Gigastructural Constructs Ascension Perk"
+          ],
+          "potential": [
+            "Has DLC Apocalypse"
+          ],
+          "children": [],
+          "is_event": false,
+          "source": "gigastructure"
+        }
+      ],
+      "is_event": false,
+      "source": "vanilla"
+    }
+  ],
+  "is_event": false,
+  "source": "vanilla"
+}
