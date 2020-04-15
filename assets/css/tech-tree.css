@@ -8,7 +8,7 @@ q:before,q:after { content:''; }
 abbr,acronym { border:0; }
 
 body {
-    background: #707070;
+    background: #474747;
 }
 /* optional Container STYLES */
 .chart { border: none; overflow: scroll}
@@ -123,6 +123,21 @@ body {
     margin-right: 3px;
 }
 
+.tech div.node-status {
+    border: 1px solid #333;
+    margin: 1px;
+    position: inherit;
+    float: right;
+    bottom: 0;
+    right: 0;
+    height: 21px;
+    width: 21px;
+}
+
+.tech div.node-status.active {
+    background-image: url("../icons/yes.png");
+}
+
 .tech p.description,
 .tech p.weight-modifiers,
 .tech p.feature-unlocks {
@@ -157,6 +172,40 @@ div.extra-data {
 .tooltipster-sidetip .tooltipster-content {
     padding: 0 !important;
     overflow: hidden;
+}
+
+.tooltipster-content img {
+    border-radius: 2px;
+    background-color: black;
+    border: 2px solid #000;
+    padding: 1px;
+}
+
+.tooltipster-content img.society {
+    border-color: #5ACA9C;
+}
+
+.tooltipster-content img.engineering { 
+    border-color: #E29C43;
+}
+
+.tooltipster-content img.physics {
+    border-color: #4396E2;
+}
+
+.tooltipster-content span.node-status {
+    display: inline-block;
+    background-image: url("../icons/no.png");
+    background-repeat: no-repeat;
+    background-size: 13.5px;
+    height: 13.5px;
+    padding-left: 15px;
+    vertical-align: middle;
+    background-position-y: 2px;
+}
+
+.tooltipster-content span.node-status.active {
+    background-image: url("../icons/yes.png");
 }
 
 .ui-tooltip {
@@ -297,6 +346,11 @@ div.fixed {
     cursor: pointer;
 }
 
+.anomaly div.node-status {
+    margin-right: -2px;
+    margin-top: -5px;]
+}
+
 div.fixed div {
     margin: 3px 3px 3px 4px !important;
 }
@@ -352,7 +406,7 @@ div.fixed div {
     background: #303030;
 }
 .float-Highlight{
-    background: #707070;
+    background: #474747;
 }
 
 .float-NoDisplay{
@@ -389,3 +443,67 @@ div.fixed div {
     vertical-align: middle;
     line-height: normal;
 }
+
+li.float-RightElement a {
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.research {
+    color: #fff;
+    height: 18.5px;
+}
+
+#research_selection {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #2F6458;
+    padding: 0px 2px;
+    text-align: center;
+}
+
+path.society {
+    stroke: #5ACA9C;
+    stroke-width: 2;
+}
+
+path.engineering {
+    stroke: #E29C43;
+    stroke-width: 2;
+}
+
+path.physics {
+    stroke: #4396E2;
+    stroke-width: 2;
+}
+
+.node.active.society {
+    background-color: #173327;
+}
+
+.node.active.physics {
+    background-color: #0F2233;
+}
+
+.node.active.engineering {
+    background-color: #33230F;
+}
+
+
+.node.starter.society {
+    background-color: #173327;
+}
+
+.node.starter.physics {
+    background-color: #0F2233;
+}
+
+.node.starter.engineering {
+    background-color: #33230F;
+}
+
+
+
