@@ -8,7 +8,6 @@
 
 以及要把localisation/english下的subterranean_l_english.yml（空文件）文件移除，不然会报错
 
-因为新版本，蠢驴在trigger脚本中嵌套了trigger，解析器总是报错
-解析器中使用了antlr4语言来分析文件
+因为新版本，蠢驴在trigger脚本中嵌套了trigger，解析器总是报错 解析器中使用了antlr4语言来分析文件
 
 我找不到解决办法，急需帮助。
