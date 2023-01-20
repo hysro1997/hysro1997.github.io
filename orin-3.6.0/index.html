@@ -35,7 +35,7 @@
     </p>
     <p class="node-desc">
     {{if tier > 0}}
-    Cost: <span class="{{:area}}-research">{{:cost}}, Weight: {{:base_weight}}</span>
+    花费: <span class="{{:area}}-research">{{:cost}}, 权重: {{:base_weight}}</span>
     {{/if}}
     </p>
     <p class="node-desc" style="color:yellow">
@@ -72,15 +72,15 @@
     </p>
     <div class="extra-data">
     {{if weight_modifiers.length > 0}}
-        <div class="tooltip-header">Weight Modifiers</div>
+        <div class="tooltip-header">权重修正</div>
         <div class="tooltip-content"><pre>{{:weight_modifiers.join('<br/>')}}</pre></div>
     {{/if}}
     {{if potential.length > 0}}
-        <div class="tooltip-header">Requirements</div>
+        <div class="tooltip-header">需求</div>
         <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
     {{/if}}
     {{if prerequisites.length > 1}}
-        <div class="tooltip-header">Required Technologies</div>
+        <div class="tooltip-header">需要科技</div>
         <div class="tooltip-content">
         {{for prerequisites}}
             <img class="left" height="52" width="52" src="//:0" data-src="../assets/img/{{:}}.png"">
