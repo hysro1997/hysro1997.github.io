@@ -1,0 +1,1464 @@
+[
+  {
+    "key": "null_void_beam",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "粒子物理",
+    "cost": 2500,
+    "description": "利用太虚的熵特性，这种光束可以真正地摧毁能量。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 中型太虚光束",
+      "\u003cb\u003e部件\u003c/b\u003e: 大型太虚光束",
+      "\u003cb\u003e部件\u003c/b\u003e: 小型太虚光束"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "太虚光束",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_akx_worm_1",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "力场操控",
+    "cost": 4000,
+    "description": "宇宙似乎不可避免的在向前进。这一趋势无法逆转……但只要付出的代价足够，现在这一切都可以颠覆。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "熵递归",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 总是"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_akx_worm_2",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "治国术",
+    "cost": 4000,
+    "description": "这是一整套基于自相矛盾的直觉，还有爱，之上的社会准则。当我们通晓圆环之理后，我们了解到，无论是发出指令抑或是接受指令，我们都可以对其产生影响。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "学说：奇异循环",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 总是"
+    ],
+    "potential": [],
+    "children": [
+      {
+        "key": "tech_akx_worm_3",
+        "area": "physics",
+        "base_factor": 1.0,
+        "base_weight": 60.0,
+        "category": "粒子物理",
+        "cost": 10000,
+        "description": "当时间悖论开始相互纠缠之时，一个难以形容的意识在黑暗深处渐渐苏醒，它渴望着，索求着。之前发生的一切就是这个意识——某些人口中所称的“时之螶”所引起的。如果我们能够让自己同这个意识进行同调的话，我们或许可以触摸到永生的大门。",
+        "feature_unlocks": [
+          "\u003cb\u003e建筑\u003c/b\u003e: 欧米伽同调装置"
+        ],
+        "is_dangerous": false,
+        "is_rare": true,
+        "is_start_tech": false,
+        "name": "欧米伽理论",
+        "prerequisites": [
+          "tech_akx_worm_2",
+          "tech_akx_worm_1"
+        ],
+        "tier": 3,
+        "prerequisites_names": [
+          {
+            "name": "熵递归",
+            "key": "tech_akx_worm_1"
+          },
+          {
+            "name": "学说：奇异循环",
+            "key": "tech_akx_worm_2"
+          }
+        ],
+        "weight_modifiers": [],
+        "potential": [],
+        "children": [],
+        "is_event": true
+      }
+    ],
+    "is_event": true
+  },
+  {
+    "key": "tech_akx_worm_3",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "粒子物理",
+    "cost": 10000,
+    "description": "当时间悖论开始相互纠缠之时，一个难以形容的意识在黑暗深处渐渐苏醒，它渴望着，索求着。之前发生的一切就是这个意识——某些人口中所称的“时之螶”所引起的。如果我们能够让自己同这个意识进行同调的话，我们或许可以触摸到永生的大门。",
+    "feature_unlocks": [
+      "\u003cb\u003e建筑\u003c/b\u003e: 欧米伽同调装置"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "欧米伽理论",
+    "prerequisites": [
+      "tech_akx_worm_2",
+      "tech_akx_worm_1"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "熵递归",
+        "key": "tech_akx_worm_1"
+      },
+      {
+        "name": "学说：奇异循环",
+        "key": "tech_akx_worm_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_alien_topography",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "殖民学说",
+    "cost": 6000,
+    "description": "文明通常在能够促进其成长的位置勃勃生机，通过分析前太空文明定居发展的主要地点，我们的殖民地可以学习到很多。",
+    "feature_unlocks": [
+      "最大区划数（仅限非人工星球） +1",
+      "可派遣的特使 "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "外星地形学",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_amoeba_strike_craft_1",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "生物学",
+    "cost": 6000,
+    "description": "通过圈养太空变形虫，我们可以修改基因让它们的鞭毛成为我军的有机攻击机。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 变形虫鞭毛"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "变形虫育种计划",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_atmospheric_orbital_mechanics",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "计算技术",
+    "cost": 6000,
+    "description": "得益于对围绕前超光速星球的观测站的大规模运作经验，我们发现了些许的优化空间。通过将这些优化推广到整个国家的范围，我们能够彻底降低空间站所需的维护费用。",
+    "feature_unlocks": [
+      "轨道空间站的资源 +5%",
+      "可派遣的特使 ",
+      "空间站维护费 -50%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "大气轨道力学",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_btc_1",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "宇航技术",
+    "cost": 48000,
+    "description": "一束定向的快子能量被注入到这颗恒星，引发了一次超新星爆炸。这次事件释放的巨额能量被用来产生足量的暗物质。\n\n当恒星被引爆时，恒星系内包括我方在内的所有殖民地，巨型结构和空间站都会被摧毁。只有焚天神兵能够幸免遇难。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 星爆器"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "星爆器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Nemesis DLC",
+      "拥有 化身天灾 飞升",
+      "拥有 can_build_star_eaters 国家标记"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_compact_living",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "治国术",
+    "cost": 6000,
+    "description": "尽管没有一个文明在治理管辖一个不断发展的国家时找到了解决不断扩增的挑战的完美解决方案，我们还是发现了部分的解决办法。在研究了数个物种及其政府之后，我们发现了在灵活性和功能性之间的卓越的平衡点。",
+    "feature_unlocks": [
+      "可派遣的特使 ",
+      "帝国规模效果受以下修正影响： -5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "蜗居",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_covenant_composer",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "灵能理论",
+    "cost": 50000,
+    "description": "我们已经发现如何让灵能能量自我们的舰船中流通。有了这等知识，我们就能将超主的权能灌输到我们的舰船内。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 织缕刻印"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "织缕刻印",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_covenant_eater",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "灵能理论",
+    "cost": 50000,
+    "description": "我们已经发现如何让灵能能量自我们的舰船中流通。有了这等知识，我们就能将超主的权能灌输到我们的舰船内。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 喰煞刻印"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "喰煞刻印",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_covenant_instrument",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "灵能理论",
+    "cost": 50000,
+    "description": "我们已经发现如何让灵能能量自我们的舰船中流通。有了这等知识，我们就能将超主的权能灌输到我们的舰船内。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 器具刻印"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "器具刻印",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_covenant_whisperers",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "灵能理论",
+    "cost": 50000,
+    "description": "我们已经发现如何让灵能能量自我们的舰船中流通。有了这等知识，我们就能将超主的权能灌输到我们的舰船内。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 低语刻印"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "低语刻印",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_crystal_armor_1",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "材料科学",
+    "cost": 6000,
+    "description": "灌注水晶的镀层可使船体更加耐用。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "水晶复合镀层",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(+\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e) 拥有 crystal_armor_1_weight 国家标记"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_crystal_armor_2",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "材料科学",
+    "cost": 16000,
+    "description": "锻造时加入水晶材料，则合金硬度更上一层楼。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "水晶锻造镀层",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_dragon_armor",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "材料科学",
+    "cost": 50000,
+    "description": "以太龙麟由多层独特矿物质纳米结构构成，具自我修复能力。采用非常规制造手段能够让我们精确仿制出这些能够自我修复的结构。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "人造龙鳞装甲",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_dyson_sphere",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "力场操控",
+    "cost": 48000,
+    "description": "一个 戴森球完全的包裹住一个特定的恒星，直接将恒星辐射输出转化为£energy£ 能量币。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "戴森球",
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "巨型结构工程",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Utopia DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_enigmatic_decoder",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "计算技术",
+    "cost": 50000,
+    "description": "虽然神秘解码器在标准测试中表现平平，但目标的飞行路径越不规则，该解码器预测算法的准确度似乎就越高。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 神秘解码器"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "神秘解码器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_enigmatic_encoder",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "计算技术",
+    "cost": 50000,
+    "description": "神秘编码器在将飞行路径数据返回舰队指挥中心前，会根据某种未知的法则对数据进行加密。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 神秘编码器"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "神秘编码器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_extradimensional_weapon_1",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "粒子物理",
+    "cost": 48000,
+    "description": "在低次元中使用第五维的能量操纵原理，可以造就强大的能量武器。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 小型物质分解器",
+      "\u003cb\u003e部件\u003c/b\u003e: 中型物质分解器",
+      "\u003cb\u003e部件\u003c/b\u003e: 大型物质分解器"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "高维武器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) 不是 拥有 契约：轮回之终末 效果",
+      "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) 拥有 科技至上 飞升",
+      "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) 联邦 :\u003cbr/\u003e    •   拥有 科研灵感 联邦\u003cbr/\u003e    •   任何成员\u003cbr/\u003e\t    •   有用 科技: 高维武器"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_gargantuan_evolution",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "生物学",
+    "cost": 8000,
+    "description": "虚空孳孽的卵进化出了通过吸收邻近恒星的能源来忍受严酷太空环境的能力。",
+    "feature_unlocks": [
+      "£job£ 岗位生产的 £energy£ 能量币 +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "超体进化",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_lgate_activation",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "粒子物理",
+    "cost": 12000,
+    "description": "L-星门超出了我们对亚空间原理的理解。在将其开启之前，我们必须对此进行补救。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "L-星门启动",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "不是 拥有 l_cluster_opened 全球标记"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_lost_building_methods",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "工业技术",
+    "cost": 6000,
+    "description": "任何拥有足够长历史的文明都有由已经被遗忘的古文明建立的奇观，这些奇观已经无法被复现了。幸运的是，我们拥有这些曾经在这些前超光速文明世界出现的古王国的档案。",
+    "feature_unlocks": [
+      "来自区划的帝国规模 -30%",
+      "可派遣的特使 ",
+      "区划花费 -30%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "失落建筑模式",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_matter_decompressor",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "力场操控",
+    "cost": 48000,
+    "description": "这个物质解压器将黑洞的引力聚焦于一处，形成了一个引力钻头，我们可以用这个钻头从黑洞的奇点中钻取物质，并转化为£minerals£矿物。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "物质解压器",
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "巨型结构工程",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Megacorp DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_mining_drone_weapon_1",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "粒子物理",
+    "cost": 5000,
+    "description": "使用高度聚焦透镜结合振荡发射频率来创造出足够开采小行星或击落敌人的激光。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 中型切割激光",
+      "\u003cb\u003e部件\u003c/b\u003e: 小型切割激光"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "采矿无人机激光",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_nanite_autocannon",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "推进力学",
+    "cost": 48000,
+    "description": "极度先进的自动火炮，射出的弹药可以在接近目标时引爆成一片纳米机器人云，以此过载目标的护盾并蚕食其船体区段。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 纳米机关炮"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "纳米机关炮",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_nanite_flak_batteries",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "推进力学",
+    "cost": 48000,
+    "description": "在现有的设计上，改装以纳米机器人的筒状战斗部，可以对舰载机大快朵颐，可谓是舰载机飞行员的噩梦。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 纳米高射炮"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "纳米高射炮",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_nanite_repair_system",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "宇航技术",
+    "cost": 48000,
+    "description": "在拾荒者机器人的残骸里发现了一种高效的船壳自动维修系统，由数十亿个微型纳米机器人组成，并已改造成可为我们所用。至于拾荒者是从远古残骸中夺取了这个系统，还是原本就自带该系统则不得而知。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 纳米修复系统"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "纳米修复系统",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_neuroregeneration",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "生物学",
+    "cost": 20000,
+    "description": "当适应了一个物种的基因组之后，这种经工程设计出来的组织能够表现出强烈的神经再生特性，显著加速了其受体中神经元、轴突和突触的发育。",
+    "feature_unlocks": [
+      "领袖等级上限 +1",
+      "Species Leader Exp Gain +25%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "神经组织工程",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_new_numbers",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "计算技术",
+    "cost": 6000,
+    "description": "通过研究数个前超光速文明，我们意识到还存在很多计量宇宙的方法。这甚至能够将新的数字引入到我们的数学体系中。",
+    "feature_unlocks": [
+      "可派遣的特使 ",
+      "研究速度 +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "新数字",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_orbital_trash_dispersal",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "推进力学",
+    "cost": 8000,
+    "description": "这种轨道轰炸管理系统将会向目标星球同时发射上百万高速小型投射物，用垃圾数据过载该星球的防卫系统。装有该装置的船只在进行轨道轰炸时，将会造成更多伤害。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 轨道垃圾发射器"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "轨道垃圾散布",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_ordered_retreat",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "宇航技术",
+    "cost": 6000,
+    "description": "尽管研究战斗中的胜利者可能是能从战斗中获得见解最明显的办法，但观察前超光速文明中的落败者也教会了我们如何组织更有效率的撤退。",
+    "feature_unlocks": [
+      "可派遣的特使 ",
+      "减少行动中失踪所需时间。 -15%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "有序撤退",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_predatory_tactics",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "军事理论",
+    "cost": 6000,
+    "description": "就像聪明的前超光速文明如何运动以在面对敌人的时候隐藏彼此一样，我们的飞行员可以学习到如何飞行的更快且不干扰到隐形场。",
+    "feature_unlocks": [
+      "可派遣的特使 "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "掠食策略",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_prescient_data_modeling",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "治国术",
+    "cost": 8000,
+    "description": "这到底是拜金神教的预知能力真的生效了？还是只是精密的计算方式的成果？无论如何，这个星际股市推算模型真的可以准确地推算出金融市场的走向。",
+    "feature_unlocks": [
+      "贸易额 +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "拜金教数据建模",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_psionic_barrier",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "灵能理论",
+    "cost": 8000,
+    "description": "这种屏障是由一群灵能专家用纯粹的灵能生成的。它可以阻挡一些敌方火力，就像我们的偏导护盾系统一样，不过无需耗费大量的能量。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "灵能屏障",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_psionic_shield",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "灵能理论",
+    "cost": 48000,
+    "description": "这种强大无比的护盾是由一群精英灵能专家使用纯粹的灵能之力生成的。护盾经由大型灵能发射阵列强化后，能量进一步提升。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "灵能护盾",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_regenerative_hull_tissue",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "生物学",
+    "cost": 10000,
+    "description": "转基因的硅基细菌可被操控进行非有机材料的再生。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 再生舰体组织"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "再生舰体组织",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_ring_world",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "宇航技术",
+    "cost": 48000,
+    "description": "一个环形世界容纳了数个行星大小的区块，但需要拆除星系中其他的行星天体作为材料。",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "环形世界",
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "巨型结构工程",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Utopia DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_satisfying_insults",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "治国术",
+    "cost": 6000,
+    "description": "没有什么比恰到好处的侮辱更强力的了，我们现在已经知道了如何用数种语言辱骂其他一个物种的祖先。",
+    "feature_unlocks": [
+      "可派遣的特使 ",
+      "外交羞辱效率 +50%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "令人满意的侮辱技巧",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_scourge_missile_1",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "生物学",
+    "cost": 48000,
+    "description": "通过分析虫群使用的生物武器，我们可以造出同样可怕的自航炮弹用以传播杀伤。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 大型天灾导弹"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "天灾导弹",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_secrets_baol",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "远古学",
+    "cost": 24000,
+    "description": "巴奥有机体制造工具的手段非常独特。由于该物种的行动相对迟缓，他们会在一种又像果园又像工厂的设施中直接利用有机物种出需要的工具。通过合适的基因调控，我们也可以在普通的农田边上种出许多物品和工具。",
+    "feature_unlocks": [
+      "\u003cb\u003e建筑\u003c/b\u003e: 巴奥有机工厂"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "巴奥有机工厂",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Ancient Relics Story Pack DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_secrets_cybrex",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "远古学",
+    "cost": 24000,
+    "description": "赛博勒克斯在建造环世界方面依赖一种可以调查和收获轨道资源的高效采矿无人机。赛博勒克斯制造的存储芯片和传感器可以适配到我们自己的采矿无人机中，以此我们得以高效利用他们远古的算法。",
+    "feature_unlocks": [
+      "\u003cb\u003e太空港建筑\u003c/b\u003e: 赛博勒克斯采矿核心"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "赛博勒克斯采矿核心",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Ancient Relics Story Pack DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_secrets_irassian",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "远古学",
+    "cost": 24000,
+    "description": "伊拉斯人的太空海军传统在其时代可谓无与伦比。海军舰船和商船如同流水般从其船坞中汩汩涌出，直至他们的灭亡之日。由于伊拉斯人制造了如此海量的舰船并又对其极度依赖，他们完全无力控制疫情最终毁灭了整个帝国。",
+    "feature_unlocks": [
+      "\u003cb\u003e太空港建筑\u003c/b\u003e: 伊拉斯人海军船坞"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "伊拉斯人海军船坞",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Ancient Relics Story Pack DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_secrets_league",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "远古学",
+    "cost": 24000,
+    "description": "巅峰时期的第一联盟其庞大的帝国规模让我们相形见绌，唯有无可匹敌的官僚体系才能让这台巨大的机械顺畅运转。他们所使用的并行归档阵列在归类和存储文件方面提供了前所未有的效率。",
+    "feature_unlocks": [
+      "\u003cb\u003e建筑\u003c/b\u003e: 第一联盟归档办公室"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "第一联盟归档办公室",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Ancient Relics Story Pack DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_secrets_vultaum",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "远古学",
+    "cost": 24000,
+    "description": "沃陶姆人的现实计算机是一种独特的、专用于分析“存在”本身的处理单元，其工作并不通过物理，而更多像是在对现实的源代码进行逆向工程，并寻找其中的漏洞以让沃陶姆人利用来拆解他们认为自己所生活在其中的这个“模拟过程”。",
+    "feature_unlocks": [
+      "\u003cb\u003e建筑\u003c/b\u003e: 沃陶姆现实计算机"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "沃陶姆现实计算机",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Ancient Relics Story Pack DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_secrets_yuht",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "远古学",
+    "cost": 24000,
+    "description": "尤特文明是一个充满矛盾的社会，他们一方面痴迷于寻找其他智慧物种的念头，另一方面又拒绝接受自己并不孤单的事实。他们竭尽全力证伪所有的外星生命，他们的偏见也渗入入了科技当中。然而，通过合适的调整，我们确实可以修复他们强大的探测阵列。",
+    "feature_unlocks": [
+      "\u003cb\u003e太空港建筑\u003c/b\u003e: 尤特天文干涉仪"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "尤特天文干涉仪",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Ancient Relics Story Pack DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_secrets_zroni",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "远古学",
+    "cost": 24000,
+    "description": "泽珞是一种令人惊叹的物质，倾向狂暴地释放能量。我们认为只要正确利用文物就可以生成覆盖一整个恒星系的太空风暴。",
+    "feature_unlocks": [
+      "\u003cb\u003e太空港建筑\u003c/b\u003e: 泽珞族风暴投射器"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "泽珞族风暴投射器",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "拥有 Ancient Relics Story Pack DLC"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_space_cloud_weapon_1",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "粒子物理",
+    "cost": 6000,
+    "description": "虚空之云可以通过构成其核心的大部分的密集气体所产生的电荷来释放出燃烧的等离子体电弧。按照此原理，利用相同成分的气体配合上导管即可以制造出威力强大的闪电武器。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 天云闪电"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "雷云导线",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_space_whale_weapon_1",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "生物学",
+    "cost": 3000,
+    "description": "改进缇扬奇提取气态物质的能量的方法，就有可能造出可以从敌方舰船中汲取能量的武器。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 能量虹吸器"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "频率调谐",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_subspace_drive",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "粒子物理",
+    "cost": 1000,
+    "description": "这些亚空间驱动引擎是在离开我们的家园的迫切愿望下诞生的一种方案，它的设计目的是用来进行有限的星际旅行。虽然它们只能进行小规模跃迁，但仍提供了一个千载难逢的机会来启动我们的星海探索。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 亚空间引擎",
+      "\u003cb\u003eFeature : \u003c/b\u003e跃迁航行"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "亚空间引擎",
+    "prerequisites": [],
+    "tier": 0,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_supreme_alloy",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "材料科学",
+    "cost": 6000,
+    "description": "我们曾经以为最好的合金结果远非如此。编目了数不清的前超光速文明的精炼过程，现在我们可以合成一种无可匹敌的金属。",
+    "feature_unlocks": [
+      "来自£job_foundry£ [GetAlloyProducerPlural]的 £alloys£ 合金 +50%",
+      "可派遣的特使 "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "终极合金",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_swarm_strike_craft_1",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "生物学",
+    "cost": 48000,
+    "description": "从击败的索林原虫处收集样本能使我们克隆其基因并进行重编程，从而造出我们自己的战斗武器。",
+    "feature_unlocks": [
+      "\u003cb\u003e部件\u003c/b\u003e: 虫群舰载机"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "虫群产卵池",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_temple_of_transportation",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "宇航技术",
+    "cost": 6000,
+    "description": "交通网络将人们聚集到一起：这是从我们观察到的许多文明所具有的共同情感。尽管我们已经不用蒸汽引擎了，我们的超空间中继网络能起到类似的作用。",
+    "feature_unlocks": [
+      "可派遣的特使 ",
+      "来自超空间中继器的每月£unity£凝聚力 +3"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "交通神殿",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_trinary_computing",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "计算技术",
+    "cost": 6000,
+    "description": "不同的社会发展出了不同的解答方案以适应它们的逻辑和计算机技术。这些外星人的思考方式能让我们更轻易地适应外星帝国的社会结构。",
+    "feature_unlocks": [
+      "行动速度 +10%",
+      "可派遣的特使 ",
+      "行动难度 +-1"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "三元计算技术",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_unusual_senses",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "粒子物理",
+    "cost": 6000,
+    "description": "没有什么比自然进化更有创新力的了。通过研究前超光速文明社会是如何看待它们的世界，我们设计了新的方法以探测不速之舰船。",
+    "feature_unlocks": [
+      "可派遣的特使 "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "异常传感",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_xeno_aesthetics",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "治国术",
+    "cost": 6000,
+    "description": "在分析了大量来自迥然不同的文化的艺术家之后，我们得到了一个泛用的理论。通过研究一个文明的艺术和文化，我们能够在同它们的战斗中取得优势。",
+    "feature_unlocks": [
+      "对宿敌的伤害 +10%",
+      "可派遣的特使 "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "异星美学",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "has_first_contact_dlc\u003dyes"
+    ],
+    "children": [],
+    "is_event": true
+  }
+]
