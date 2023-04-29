@@ -176,12 +176,16 @@ function findLists() {
                 event.preventDefault();
                 if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
                     saveListToIndexedDB( $('#research_selection').val() );
+                } else {
+                    saveListToIndexedDB("Default List");
                 }
             })
             $('#research_load').on('click', function(event) {
                 event.preventDefault();
                 if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
                     loadListFromIndexedDB( $('#research_selection').val() );
+                } else {
+                    loadListFromIndexedDB("Default List");
                 }
             })
             $('#research_remove').on('click', function(event) {
@@ -225,7 +229,7 @@ function loadListFromIndexedDB(name) {
 
         var result = objectStore.get(name);
         result.onsuccess = function(event) {
-            if(event.target.result.data) {
+            if(event.target.result && event.target.result.data) {
                 var data = event.target.result.data;
                 research.forEach(area => {
                     $('.' + area + ' div.node-status.active').parent().not(':contains(\\(Starting\\))').each(function() {
@@ -242,6 +246,10 @@ function loadListFromIndexedDB(name) {
                         updateResearch(item.area, item.key, true);
                     }
                 });
+            }
+            else {
+                event.target.errorCode = `Research list "${name}" does not exist.`
+                result.onerror(event);
             }
         };
         result.onerror = function(event) {
